@@ -16,6 +16,6 @@ botonIncrementar.addEventListener('click', () => {
 });
 
 reset.addEventListener("click", () => {
-  contador= 0
+  contador--;
   contadorElemento.textContent = contador 
 })
