@@ -1,0 +1,14 @@
+{
+  "overrides": [
+    {
+      "files": ["*.js", "*.html", "*.py"],
+      "options": {
+        "useTabs": true,
+        "semi": false,
+        "singleQuote": true,
+        "jsxSingleQuote": true
+      }
+    }
+  ],
+  "editor.formatOnSave": false
+}
