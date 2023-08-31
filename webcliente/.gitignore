@@ -1,0 +1,51 @@
+# Ignorar archivos y carpetas generados por el sistema operativo
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# Ignorar archivos de configuración
+*.sqlite3
+*.env
+
+# Ignorar archivos de entorno virtual
+venv/
+.vscode/
+
+# Ignorar archivos de configuración de IDEs
+.idea/
+*.code-workspace
+
+# Ignorar archivos de caché y registros
+*.log
+
+# Ignorar archivos de respaldo
+*.bak
+*.swp
+
+# Ignorar archivos de migraciones (cambiar si es necesario)
+*/migrations/
+
+# Ignorar archivos estáticos y compilados
+/static/
+/media/
+
+# Ignorar archivo de configuración local de Django
+settings_local.py
+
+# Ignorar archivos de capturas de pantalla
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Ignorar archivos temporales y respaldos
+*.tmp
+
+# Ignorar archivos de caché y configuración de editor de texto
+.vscode/
+.DS_Store
+
+# Ignorar archivos de caché de Jupyter Notebook
+.ipynb_checkpoints/
