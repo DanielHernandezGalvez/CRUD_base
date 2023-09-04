@@ -49,3 +49,7 @@ settings_local.py
 
 # Ignorar archivos de caché de Jupyter Notebook
 .ipynb_checkpoints/
+
+# ignorar estilos y javascript
+*.css
+*.js
