@@ -10,8 +10,11 @@
 		<title>{% block title %}{% endblock %} | Lic. Sonia</title>
 
 		<!-- Estilos y fuentes del template  -->
-    {% load static %}
-		<link href="{% static 'core/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet" />
+		{% load static %}
+		<link
+			href="{% static 'core/vendor/bootstrap/css/bootstrap.min.css' %}"
+			rel="stylesheet"
+		/>
 		<link
 			href="{% static 'core/vendor/font-awesome/css/font-awesome.min.css' %}"
 			rel="stylesheet"
@@ -67,22 +70,27 @@
 		</nav>
 
 		<!-- Cabecera -->
-		<header class="masthead" style="background-image: url('{% block background %}{% endblock %}')">
+		<header
+			class="masthead"
+			style="background-image: url('{% block background %}{% endblock %}')"
+		>
 			<div class="overlay"></div>
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-8 col-md-10 mx-auto">
-						<div class="site-heading">
-							{% block headers %} {% endblock %}
-							
-						</div>
+						<div class="site-heading">{% block headers %} {% endblock %}</div>
 					</div>
 				</div>
 			</div>
 		</header>
 
 		<!--Contenido-->
-		{% block content %}{% endblock %}
+		<div class="container">{% block content %}{% endblock %}</div>
+
+		{% if request.path != "/" %}
+		<hr />
+		{% endif %} {% comment %} {{request.path}} esto muestra la direccion del
+		buscador {% endcomment %}
 
 		<!-- Pié de página -->
 		<footer>
@@ -116,7 +124,8 @@
 							</li>
 						</ul>
 						<p class="copyright text-muted">
-							Copyright &copy; 2023 · Sonia Orozco (Licenciada en Administración)
+							Copyright &copy; 2023 · Sonia Orozco (Licenciada en
+							Administración)
 						</p>
 					</div>
 				</div>
