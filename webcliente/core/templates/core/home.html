@@ -1,7 +1,14 @@
 {% extends "core/base.html" %} 
- {% block title %} Portada {%endblock%}
+
+{% block title %} Portada {%endblock%}
+
+{% block background%}{% load static %}{% static 'core/img/home-bg.jpg' %}{% endblock %}                    
+
+{% block headers %}
+    <h1>Sonia Orozco</h1>
+    <span class="subheading">Licenciada en Administración</span>
+{% endblock %}                    
 
 {% block content %}
-<h2>Portada</h2>
-<p>esto es la portada</p>
+
 {% endblock %}

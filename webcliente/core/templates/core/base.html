@@ -67,14 +67,14 @@
 		</nav>
 
 		<!-- Cabecera -->
-		<header class="masthead" style="background-image: url('{% static 'core/img/home-bg.jpg' %}')">
+		<header class="masthead" style="background-image: url('{% block background %}{% endblock %}')">
 			<div class="overlay"></div>
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-8 col-md-10 mx-auto">
 						<div class="site-heading">
-							<h1>Sonia Orozco</h1>
-							<span class="subheading">Licenciada en Administración</span>
+							{% block headers %} {% endblock %}
+							
 						</div>
 					</div>
 				</div>
@@ -116,7 +116,7 @@
 							</li>
 						</ul>
 						<p class="copyright text-muted">
-							Copyright &copy; 2018 · Juan Pérez (Ingeniero Industrial)
+							Copyright &copy; 2023 · Sonia Orozco (Licenciada en Administración)
 						</p>
 					</div>
 				</div>
