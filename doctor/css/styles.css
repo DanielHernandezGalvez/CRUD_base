@@ -1,17 +1,66 @@
-.cta-btn{
-    background-color: cornflowerblue;
-    padding: 0px 0px;
-    border-radius: 5px;
-    width: 190px;
-    margin-left: 20%;
+.cta-btn {
+  background-color: cornflowerblue;
+  padding: 0px 0px;
+  border-radius: 5px;
+  width: 190px;
+  margin-left: 20%;
 }
 
 .cta-btn a {
-    color: #fff;
-    text-align: center;
-    font-weight: bold;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
 }
 
-ul li a{
-    font-weight: bold;
+ul li a {
+  font-weight: bold;
+}
+
+/* Estilo personalizado para el carrusel */
+.carousel-inner {
+  background-size: cover;
+  height: 50vh;
+}
+
+.carousel-indicators li {
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+}
+
+/* Toggle button */
+.navbar-toggler-icon{
+    color: blue !important;
+    border: 1px solid blue;
+    padding: 1px;
+    border-radius: 5px;
+}
+
+
+
+
+/* Estilo personalizado para el navbar */
+.navbar {
+  background-color: #fff; /* Cambia el color de fondo según tus preferencias */
+  height: 70px;
+}
+.navbar-dark .navbar-toggler-icon {
+  background-color: #ddd; /* Cambia el color del icono del botón del menú */
+}
+
+#resultado {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#imc-container {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
 }

@@ -3,34 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Doctor</title>
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css">
-    <style>
-        /* Estilo personalizado para el carrusel */
-        .carousel-inner {
-            background-size: cover;
-            height: 50vh;
-        }
-        
-        /* Estilo personalizado para el navbar */
-        .navbar {
-            background-color: #fff; /* Cambia el color de fondo según tus preferencias */
-            height: 70px;
-        }
-        .navbar-dark .navbar-toggler-icon {
-            background-color: #ddd; /* Cambia el color del icono del botón del menú */
-        }
-    </style>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <style></style>
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-dark">
+      <nav class="navbar navbar-expand-lg ">
         <div class="container">
-          <a class="navbar-brand text-dark"  href="#">Logo</a>
+          <a class="navbar-brand text-dark" href="#">Logo</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -40,10 +25,12 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon">
+              +
+            </span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto mx-auto ">
+            <ul class="navbar-nav ml-auto mx-auto">
               <li class="nav-item active">
                 <a class="nav-link text-dark" href="#">Inicio</a>
               </li>
@@ -59,9 +46,9 @@
               <li class="nav-item">
                 <a class="nav-link text-dark" href="#">Citas y Contacto</a>
               </li>
-              <li class="nav-item ">
+              <li class="nav-item">
                 <button class="cta-btn btn">
-                <a class="nav-link text-white" href="#">Agenda una cita</a>
+                  <a class="nav-link text-white" href="#">Agenda una cita</a>
                 </button>
               </li>
             </ul>
@@ -115,8 +102,20 @@
       </a>
     </div>
 
+    <!-- calculadora de imc -->
+    <div id="imc-container">
+      <h1>Calculadora de IMC</h1>
+      <label for="peso">Peso (kg):</label>
+      <input class="form-control" type="number" id="peso" required />
+      <label for="altura">Altura (cm):</label>
+      <input class="form-control" type="number" id="altura" required />
+      <button class=" btn btn-primary font-weight-bold" onclick="calcularIMC()">Calcular IMC</button>
+      <div id="resultado"></div>
+    </div>
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="./app.js"></script>
   </body>
 </html>
