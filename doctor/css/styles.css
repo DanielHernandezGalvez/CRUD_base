@@ -1,0 +1,17 @@
+.cta-btn{
+    background-color: cornflowerblue;
+    padding: 0px 0px;
+    border-radius: 5px;
+    width: 190px;
+    margin-left: 20%;
+}
+
+.cta-btn a {
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+
+ul li a{
+    font-weight: bold;
+}
