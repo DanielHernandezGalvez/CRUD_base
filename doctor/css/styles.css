@@ -161,3 +161,36 @@ input[type="number"] {
 .ambulance {
   width: 30px;
 }
+
+/* services */
+.services{
+    height: 50vh;
+    background-image: url('../images/services.png'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Escala la imagen para cubrir todo el contenedor */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    background-position: center center;
+}
+
+
+/* about */
+.about{
+    background-color: var(--azul-cielo);
+    border-radius: 50px;
+}
+
+.about-img{
+    width: 50%;
+    height: 50%;
+    
+}
+
+.about-text{
+    width: 45%;
+}
+
+/* team */
+.team-img{
+    width: 97%;
+    border-radius: 50px;
+    
+}
