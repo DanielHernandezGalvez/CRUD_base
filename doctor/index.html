@@ -13,9 +13,11 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg ">
+      <nav class="navbar navbar-expand-lg">
         <div class="container">
-          <a class="navbar-brand text-dark" href="#">Logo</a>
+          <a class="navbar-brand text-dark" href="#"
+            ><img class="logo" src="./images/logo.png"
+          /></a>
           <button
             class="navbar-toggler"
             type="button"
@@ -25,9 +27,7 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon">
-              +
-            </span>
+            <span class="navbar-toggler-icon"> + </span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto mx-auto">
@@ -83,23 +83,52 @@
             <img class="header-img" src="./images/header.png" alt="Imagen 5" />
           </div>
         </div>
-        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <a
+          class="carousel-control-prev"
+          href="#myCarousel"
+          role="button"
+          data-slide="prev"
+        >
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="sr-only">Anterior</span>
         </a>
-        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <a
+          class="carousel-control-next"
+          href="#myCarousel"
+          role="button"
+          data-slide="next"
+        >
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Siguiente</span>
         </a>
       </div>
       <div class="carousel-content">
         <!-- Tu contenido aquí -->
-        <h1>Bienvenido a Mi Página</h1>
+        <span class="line"></span>
+        <h1 class="dark-blue">
+          <b
+            >Encuentra una nueva <br />
+            vida con<span class="sky-blue">Buena Salud.</span></b
+          >
+        </h1>
         <p>Este es el contenido que aparecerá sobre el carrusel de fondo.</p>
       </div>
     </div>
-
-    
+    <!-- blue label -->
+    <div class="container-label">
+      <div class="blue-label">
+        <div>
+          <div class="d-flex align-items-center">
+            <img width="30px" src="./images/time.png" alt="" />
+            <h5 class="m-3">Horario</h5>
+          </div>
+          <h6>lunes a viernes</h6>
+          <h6>8:00 a 17:00</h6>
+        </div>
+        <div>contenr</div>
+        <div>holis</div>
+      </div>
+    </div>
 
     <!-- calculadora de imc -->
     <div id="imc-container">
@@ -108,7 +137,9 @@
       <input class="form-control" type="number" id="peso" required />
       <label for="altura">Altura (cm):</label>
       <input class="form-control" type="number" id="altura" required />
-      <button class=" btn btn-primary font-weight-bold" onclick="calcularIMC()">Calcular IMC</button>
+      <button class="btn btn-primary font-weight-bold" onclick="calcularIMC()">
+        Calcular IMC
+      </button>
       <div id="resultado"></div>
     </div>
 
