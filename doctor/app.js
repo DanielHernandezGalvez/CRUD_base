@@ -24,3 +24,19 @@ function calcularIMC() {
         document.getElementById("resultado").innerHTML = "Por favor, introduce valores válidos.";
     }
 }
+
+// Obtén el elemento span donde se mostrará el año actual
+const yearSpan = document.getElementById('copyright-year');
+
+// Obtiene el año actual
+const currentYear = new Date().getFullYear();
+
+// Asigna el año actual al contenido del elemento span
+yearSpan.textContent = currentYear;
+
+
+
+
+
+
+
