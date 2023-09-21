@@ -164,7 +164,7 @@ input[type="number"] {
 
 /* services */
 .services{
-    height: 60vh;
+    height: 70vh;
     background-image: url('../images/services.png'); /* Ruta de la imagen de fondo */
     background-size: cover; /* Escala la imagen para cubrir todo el contenedor */
     background-repeat: no-repeat; /* Evita la repetición de la imagen */
@@ -178,7 +178,7 @@ input[type="number"] {
   display: flex;
   justify-content: flex-start;
   padding: 12px 35px 15px 35px;
-  margin: 1rem 1rem;
+  margin: 1rem;
 }
 
 .btn-services a {
