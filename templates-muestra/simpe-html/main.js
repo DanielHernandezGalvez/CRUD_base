@@ -8,52 +8,58 @@ navbarToggle.addEventListener("click", () => {
 // NAVBAR
 
 // HEADER
-document.addEventListener("DOMContentLoaded", function () {
-    const carousel = document.querySelector(".carousel");
-    const slides = document.querySelectorAll(".slide");
-    const prevButton = document.querySelector(".prevButton");
-    const nextButton = document.querySelector(".nextButton");
-    let currentIndex = 0;
-    let interval;
-  
-    function showSlide(index) {
-      slides[currentIndex].classList.remove("active");
-      currentIndex = index;
-      slides[currentIndex].classList.add("active");
-    }
-  
-    function nextSlide() {
-      const nextIndex = (currentIndex + 1) % slides.length;
-      showSlide(nextIndex);
-    }
-  
-    function prevSlide() {
-      const prevIndex = (currentIndex - 1 + slides.length) % slides.length;
-      showSlide(prevIndex);
-    }
-  
-    function startAutoPlay() {
-      interval = setInterval(nextSlide, 5000); // Cambia de diapositiva cada 5 segundos
-    }
-  
-    function stopAutoPlay() {
-      clearInterval(interval);
-    }
-  
-    // Iniciar la reproducción automática al cargar la página
-    startAutoPlay();
-  
-    // Manejadores de eventos para los botones de control
-    nextButton.addEventListener("click", () => {
-      nextSlide();
-      stopAutoPlay();
-      startAutoPlay();
-    });
-  
-    prevButton.addEventListener("click", () => {
-      prevSlide();
-      stopAutoPlay();
-      startAutoPlay();
-    });
+// Obtiene el elemento del carousel
+const carousel = document.querySelector(".carousel");
+
+// Obtiene el índice de la diapositiva activa
+let currentIndex = 0;
+
+// Muestra la diapositiva especificada
+function showSlide(index) {
+  carousel.querySelectorAll(".slide").forEach((slide) => {
+    slide.classList.remove("active");
   });
+
+  carousel.querySelectorAll(".slide")[index].classList.add("active");
+
+  currentIndex = index;
+}
+
+// Muestra la diapositiva siguiente
+function nextSlide() {
+  showSlide((currentIndex + 1) % carousel.querySelectorAll(".slide").length);
+}
+
+// Muestra la diapositiva anterior
+function prevSlide() {
+  showSlide((currentIndex - 1 + carousel.querySelectorAll(".slide").length) % carousel.querySelectorAll(".slide").length);
+}
+
+// Muestra la diapositiva activa al cargar la página
+showSlide(currentIndex);
+
+// Agrega eventos `click` a los botones de control
+const prevButton = document.querySelector(".prevButton");
+const nextButton = document.querySelector(".nextButton");
+console.log(prevButton.disabled); // Debe devolver false
+console.log(nextButton.disabled); // Debe devolver false
+prevButton.disabled = false;
+nextButton.disabled = false;
+
+prevButton.addEventListener("click", () => {
+  // Verifica si el botón está habilitado
+  if (prevButton.disabled === false) {
+    prevSlide();
+  }
+});
+
+nextButton.addEventListener("click", () => {
+  // Verifica si el botón está habilitado
+  if (nextButton.disabled === false) {
+    nextSlide();
+  }
+});
+
+
+
 // HEADER
