@@ -38,7 +38,7 @@
         font-size: 76px;
     }
     .about_img::before {
-        height: 90%;
+        height: 100%;
     }
     .mar_top {
         margin-top: -21px;
@@ -108,7 +108,7 @@
         padding-right: 13px;
     }
     .about_img::before {
-        height: 77%;
+        height: 100%;
     }
     .service_box h3 {
         font-size: 18px;
@@ -179,6 +179,7 @@
         left: 40.5%;
     }
     .about .titlepage {
+        margin-top: -50px;
         margin-right: 0;
         padding-bottom: 30px;
     }
