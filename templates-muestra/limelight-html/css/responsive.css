@@ -110,6 +110,13 @@
     .about_img::before {
         height: 100%;
     }
+    .service_box{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .service_box h3 {
         font-size: 18px;
     }
@@ -298,6 +305,8 @@
     }
     .service_box {
         margin-bottom: 30px;
+        padding: 0 30px;
+        text-align: center;
     }
     .gallery_text {
         height: 264px;

@@ -484,11 +484,17 @@ button {
 
 .about_img {
      padding: 40px 30px 45px 30px;
-     transition: .4s ease all;
+
 }
-.about_img:hover {
+.about_image{
+     transition: .4s ease all;
+     border-radius: 7px !important;
+}
+
+.about_image:hover {
      transform: scale(1.07);
 }
+
 
 .about_img::before {
      position: absolute;
@@ -527,6 +533,10 @@ button {
      padding-bottom: 5px;
      margin-top: 15px;
      font-weight: bold;
+}
+.service_box img {
+     margin: 0 auto;
+     width: 30%;
 }
 
 .mar_top {
