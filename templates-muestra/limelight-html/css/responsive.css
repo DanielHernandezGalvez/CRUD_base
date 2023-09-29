@@ -168,6 +168,12 @@
     .banner {
         min-height: 550px;
     }
+    .banner2 {
+        min-height: 550px;
+    }
+    .banner3 {
+        min-height: 550px;
+    }
     .text-bg h1 {
         font-size: 70px;
     }
@@ -275,6 +281,14 @@
         width: 140px;
     }
     .banner {
+        min-height: 550px;
+        padding-top: 37%;
+    }
+    .banner2 {
+        min-height: 550px;
+        padding-top: 37%;
+    }
+    .banner3 {
         min-height: 550px;
         padding-top: 37%;
     }

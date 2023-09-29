@@ -305,14 +305,35 @@ button {
 .banner {
      position: relative;
      background: url(../images/banner1.png);
-     background-size: 100% 100%;
+     background-size: cover;
      background-position: center;
      background-repeat: no-repeat;
      min-height: 804px;
      padding-top: 17%;
+     transition: .4s ease ;
 }
+.banner2 {
+     position: relative;
+     background: url(../images/banner2.png);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     min-height: 804px;
+     padding-top: 17%;
+     transition: .4s ease ;
 
+}
+.banner3 {
+     position: relative;
+     background: url(../images/banner3.png);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     min-height: 804px;
+     padding-top: 17%;
+     transition: .4s ease ;
 
+}
 
 .text-bg {
      text-align: center;
@@ -328,7 +349,7 @@ button {
 }
 
 .text-bg h1 {
-     color: #000;
+     color: #FFF;
      font-size: 85px;
      line-height: 96px;
      padding-bottom: 0px;
@@ -338,7 +359,7 @@ button {
 .text-bg span {
      line-height: 25px;
      padding-bottom: 40px;
-     color: #fff;
+     color: #DDD;
      font-size: 17px;
      font-weight: bold;
      display: block;
@@ -1149,3 +1170,30 @@ ul.link_menu li a:hover {
 .in_page .header {
      border-bottom: #43ad9b solid 2px;
 }
+
+#whatsapp {
+     position: fixed;
+     bottom: 20px;
+     right:20px;
+     z-index: 10000;
+     animation: whatsappAnimation 2s alternate infinite;
+     cursor: pointer;
+  }
+  @keyframes whatsappAnimation {
+     0% {
+       transform: scale(1);
+     }
+     100% {
+       transform: scale(1.1);
+     }
+   }
+  svg {
+     width: 80px;
+     filter: drop-shadow(0 1px 4px rgba(0,0,0,.4));
+  }
+  circle {
+     fill: #25d366;
+  }
+  path {
+     fill: #fff;
+  }
