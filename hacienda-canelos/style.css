@@ -7,3 +7,14 @@
 .nav-link {
     font-weight: bold;
 }
+
+.capa{
+    width: 100vw;
+    background-image: url("./img/capa.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-hero{
+    word-wrap: 100%;
+}
