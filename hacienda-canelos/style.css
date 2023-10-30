@@ -1,0 +1,9 @@
+.golden-bar{
+    background-color: #e2b41e;
+    border-radius: 40px;
+    padding: 0 10% 0 10%;
+}
+
+.nav-link {
+    font-weight: bold;
+}
