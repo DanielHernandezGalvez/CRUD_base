@@ -1,3 +1,18 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+
+a{
+    cursor: pointer;
+}
+
 .golden-bar{
     background-color: #e2b41e;
     border-radius: 40px;
@@ -9,12 +24,49 @@
 }
 
 .capa{
-    width: 100vw;
-    background-image: url("./img/capa.png");
+    width: 99vw;
+    background-color: #000;
+    background-image: linear-gradient(
+        -225deg,
+        rgba(0,0,0,0.4) 0%,
+        rgba(0,0,0,0.6) 10%
+      ), url("./img/capa.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+    opacity: .9;
 }
 
 .img-hero{
-    word-wrap: 100%;
+    word-wrap: 99vw;
+}
+
+.hero-shadow{
+    box-shadow: -20px 0 1px #e2b41e;
+}
+
+.cta{
+    padding: 7px 35px;
+    border-radius: 20px;
+    border: solid 2px #e2b41e;
+    background-color: transparent;
+    transition:  .4s ease all;
+}
+
+.cta:hover{
+    background-color: #e2b41e;
+}
+
+.cta a{
+    text-decoration: none;
+    color: #e2b41e;
+}
+
+.cta a:hover{
+    color: #fff;
+}
+
+.hr{
+    border: 7px solid #000;
+    border-radius: 0 0 30px  30px ;
 }
