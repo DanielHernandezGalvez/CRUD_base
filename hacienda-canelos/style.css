@@ -72,3 +72,15 @@ a{
     border: 7px solid #000;
     border-radius: 0 0 30px  30px ;
 }
+
+.card{
+    border-top: solid 10px #e2b41e !important;
+}
+
+.shadow:hover{
+    box-shadow: 7px 7px 7px rgb(0,0,0);
+}
+
+.parrafo{
+    font-size: 14px;
+}
