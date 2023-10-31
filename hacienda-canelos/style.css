@@ -1,90 +1,89 @@
 html {
-    box-sizing: border-box;
-  }
-  
-  *,
-  *:before,
-  *:after {
-    box-sizing: inherit;
-  }
-
-
-a{
-    cursor: pointer;
+  box-sizing: border-box;
 }
 
-.golden-bar{
-    background-color: #e2b41e;
-    border-radius: 40px;
-    padding: 0 10% 0 10%;
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+a {
+  cursor: pointer;
+}
+
+.golden-bar {
+  background-color: #e2b41e;
+  border-radius: 40px;
+  padding: 0 10% 0 10%;
 }
 
 .nav-link {
-    font-weight: bold;
+  font-weight: bold;
 }
 
-.capa{
-    width: 99vw;
-    background-color: #000;
-    background-image: linear-gradient(
-        -225deg,
-        rgba(0,0,0,0.4) 0%,
-        rgba(0,0,0,0.6) 10%
-      ), url("./img/capa.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    opacity: .9;
+.capa {
+  width: 99vw;
+  background-color: #000;
+  background-image: linear-gradient(
+      -225deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.6) 10%
+    ),
+    url("./img/capa.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.9;
 }
 
-.img-hero{
-    word-wrap: 99vw;
+.img-hero {
+  word-wrap: 99vw;
 }
 
-.hero-shadow{
-    box-shadow: -20px 0 1px #e2b41e;
+.hero-shadow {
+  box-shadow: -20px 0 1px #e2b41e;
 }
 
-.cta{
-    padding: 7px 35px;
-    border-radius: 20px;
-    border: solid 2px #e2b41e;
-    background-color: transparent;
-    transition:  .4s ease all;
+.cta {
+  padding: 7px 35px;
+  border-radius: 20px;
+  border: solid 2px #e2b41e;
+  background-color: transparent;
+  transition: 0.4s ease all;
 }
 
-.cta:hover{
-    background-color: #e2b41e;
-    color: #fff;
-
+.cta:hover {
+  background-color: #e2b41e;
+  color: #fff;
 }
 
-.cta a{
-    text-decoration: none;
-    color: #e2b41e;
+.cta a {
+  text-decoration: none;
+  color: #e2b41e;
 }
 
-.cta a:hover{
-    color: #fff;
+.cta a:hover {
+  color: #fff;
 }
 
-.hr{
-    border: 7px solid #000;
-    border-radius: 0 0 30px  30px ;
+.hr {
+  border: 7px solid #000;
+  border-radius: 0 0 30px 30px;
 }
 
-.card{
-    border-top: solid 10px #e2b41e !important;
+.card {
+  border-top: solid 10px #e2b41e !important;
 }
 
-.card:hover{
-    box-shadow: 7px 7px 7px rgb(0,0,0);
+.card:hover {
+  box-shadow: 7px 7px 7px rgb(0, 0, 0);
 }
 
-.parrafo{
-    font-size: 14px;
+.parrafo {
+  font-size: 14px;
 }
 
-.parrafo1{
-    font-size: 11px;
+.parrafo1 {
+  font-size: 11px;
 }
