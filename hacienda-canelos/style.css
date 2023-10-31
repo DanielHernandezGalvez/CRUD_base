@@ -77,7 +77,7 @@ a{
     border-top: solid 10px #e2b41e !important;
 }
 
-.shadow:hover{
+.card:hover{
     box-shadow: 7px 7px 7px rgb(0,0,0);
 }
 
