@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -38,7 +39,7 @@ a {
 }
 
 .img-hero {
-  word-wrap: 99vw;
+  width: 100%;
 }
 
 .hero-shadow {
