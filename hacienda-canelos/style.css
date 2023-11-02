@@ -9,9 +9,14 @@ html {
   box-sizing: inherit;
 }
 
-/* .degradado{
-  color: ;
-} */
+.degradado {
+  background: rgb(162, 136, 69);
+  background: linear-gradient(
+    180deg,
+    rgba(162, 136, 69, 1) 0%,
+    rgba(192, 186, 134, 1) 100%
+  );
+}
 
 a {
   cursor: pointer;
@@ -55,6 +60,7 @@ a {
   padding: 7px 35px;
   border-radius: 20px;
   border: solid 2px #e2b41e;
+
   background-color: transparent;
   transition: 0.4s ease all;
 }
@@ -94,6 +100,6 @@ a {
   font-size: 11px;
 }
 
-.z-50{
+.z-50 {
   z-index: 50;
 }
