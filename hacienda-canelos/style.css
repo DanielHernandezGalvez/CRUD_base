@@ -88,3 +88,7 @@ a {
 .parrafo1 {
   font-size: 11px;
 }
+
+.z-50{
+  z-index: 50;
+}
