@@ -192,8 +192,18 @@ a {
     width: 50%;
     margin: 50px 0 50px 0 !important;
   }
-  #restaurant1{
+  .restaurant1{
     flex-direction: column-reverse;
+  }
+  .img2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+   .img-hero{
+    width: 50vw ;
+    height: 400px !important;
+    object-fit: cover;
   }
 }
 
@@ -201,7 +211,5 @@ a {
   .img1 {
     margin-top: 2px;
   }
-  .img2 img{
-width: 20% !important;
-  }
+ 
 }
