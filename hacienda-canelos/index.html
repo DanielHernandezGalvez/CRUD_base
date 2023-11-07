@@ -27,7 +27,7 @@
     <header
       class="d-flex justify-content-center position-fixed z-50 w-100 bg-white"
     >
-      <nav class="navbar navbar-expand-lg bg-transparent">
+      <nav id="navbar-example2" class="navbar navbar-expand-lg bg-transparent">
         <a class="navbar-brand" href="#">
           <div class="py-auto">
             <img
@@ -49,13 +49,23 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav gap-5">
-              <a class="nav-link active" aria-current="page" href="/">Inicio</a>
-              <a class="nav-link" href="#nosotros">Nosotros</a>
-              <a class="nav-link" href="#sucursales">Sucursales</a>
-              <a class="nav-link" href="#platillos">Platillos</a>
-              <a class="nav-link" href="#contacto">Contacto</a>
-            </div>
+            <ul class="navbar-nav gap-5 nav-pills">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading1">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading2">Sucursales</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading3">Platillos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading4">Contacto</a>
+              </li>
+            </ul>
           </div>
         </div>
       </nav>
@@ -63,9 +73,15 @@
 
     <div class="pt-5 pb-5"></div>
 
-    <main class="">
+    <div
+      data-bs-spy="scroll"
+      data-bs-target="#navbar-example2"
+      data-bs-offset="0"
+      class="scrollspy-example"
+      tabindex="0"
+    >
       <section
-        id="nosotros"
+        id="scrollspyHeading1"
         class="d-flex justify-content-center flex-wrap container pt-5"
       >
         <div class="container col-12 col-xl-7 px-4">
@@ -107,7 +123,7 @@
       </div>
 
       <section
-        id="sucursales"
+      id="scrollspyHeading2"
         class="d-flex justify-content-center align-items-center flex-wrap container"
       >
         <div class="container col-12 col-xl-5">
@@ -143,7 +159,7 @@
 
             <h2 class="fs-4 my-4 px-5 text-color">Nuestra Historia</h2>
             <h3 class="fs-1 my-2 px-5">HACIENDA CANELO’S TATEPOS</h3>
-<hr class="hr"/>
+            <hr class="hr" />
             <p class="my-5 px-5">
               ABRIÓ EL 22 DE JULIO DE 1999. UBICADO EN CARRETERA LIBRE A
               ZAPOTLANEJO KILÓMETRO 10 NO. 281, LE OFRECE UN RICO BUFFET CON UNA
@@ -194,10 +210,10 @@
       </section>
 
       <section
-        id="contacto"
-        class="container my-5 d-flex justify-content-evenly container"
+        id="scrollspyHeading3"
+        class="container my-5 d-flex justify-content-evenly flex-wrap container"
       >
-        <div class="card shadow" style="width: 18rem">
+        <div class="card shadow" style="width: 21rem">
           <img
             src="./img/logo-cd-sol.png"
             class="card-img-top px-5 py-4"
@@ -214,7 +230,7 @@
             </button>
           </div>
         </div>
-        <div class="card shadow" style="width: 18rem">
+        <div class="card shadow" style="width: 21rem">
           <img
             src="./img/logo-tateposo.png"
             class="card-img-top px-5 py-4"
@@ -230,7 +246,7 @@
             </button>
           </div>
         </div>
-        <div class="card shadow" style="width: 18rem">
+        <div class="card shadow" style="width: 21rem">
           <img
             src="./img/logo-tlaquepaque.png"
             class="card-img-top px-5 py-4"
@@ -272,10 +288,13 @@
           </div>
         </div>
       </div>
-    </main>
+    </div>
 
     <footer class="bg-dark m-0 p-5 text-white">
-      <div class="d-flex justify-content-evenly align-items-center flex-wrap">
+      <div
+        id="scrollspyHeading4"
+        class="d-flex justify-content-evenly align-items-center flex-wrap"
+      >
         <div><img src="./img/logo.png" alt="" /></div>
         <div>
           <h5 class="mb-5">NOSOTROS</h5>

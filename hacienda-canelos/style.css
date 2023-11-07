@@ -114,7 +114,7 @@ a {
   width: 100%;
   height: 10px;
   border: 5px solid #a28845;
- opacity: 1;
+  opacity: 1;
   border-radius: 0 0 30px 30px;
 }
 
@@ -136,4 +136,9 @@ a {
 
 .z-50 {
   z-index: 50;
+}
+
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+  background-color: transparent !important;
 }
