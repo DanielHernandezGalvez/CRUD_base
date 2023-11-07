@@ -179,46 +179,46 @@ a {
     margin: 0px 0 !important;
     text-align: center;
   }
-  #scrollspyHeading1 > div.container.col-12.col-md-7.px-4 > div > p{
+  #scrollspyHeading1 > div.container.col-12.col-md-7.px-4 > div > p {
     padding: 0 !important;
   }
-  h2{
+  h2 {
     text-align: center;
   }
-  h3{
+  h3 {
     text-align: center;
   }
-  .img1{
+  .img1 {
     width: 50%;
     margin: 50px 0 50px 0 !important;
   }
-  .restaurant1{
+  .restaurant1 {
     flex-direction: column-reverse;
     margin-top: 30px;
   }
-  .img2{
+  .img2 {
     width: 100%;
     display: flex;
     justify-content: center;
   }
-   .img-hero{
-    width: 50vw ;
+  .img-hero {
+    width: 50vw;
     height: 400px !important;
     object-fit: cover;
   }
-  .card{
+  .card {
     width: 17rem !important;
     margin: 10px 0 !important;
   }
-  .card-text{
+  .card-text {
     font-size: 0.8rem !important;
   }
 
-  .card .cta{
+  .card .cta {
     bottom: 0 !important;
   }
 
-  .margin-tateposo{
+  .margin-tateposo {
     margin-top: 300px;
   }
 }
@@ -227,20 +227,20 @@ a {
   .img1 {
     margin-top: 2px;
   }
-  .card{
+  .card {
     width: 18rem !important;
   }
 }
 
-@media screen and (max-width: 500px){
-  footer{
+@media screen and (max-width: 500px) {
+  footer {
     display: block;
     flex-direction: column;
     justify-content: center;
     text-align: center;
   }
 
-  #footer-log{
+  #footer-log {
     margin: 0 20%;
   }
 }
