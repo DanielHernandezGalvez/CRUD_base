@@ -205,11 +205,24 @@ a {
     height: 400px !important;
     object-fit: cover;
   }
+  .card{
+    width: 17rem !important;
+    margin: 10px 0 !important;
+  }
+  .card-text{
+    font-size: 0.8rem !important;
+  }
+
+  .card .cta{
+    bottom: 0 !important;
+  }
 }
 
 @media screen and (max-widht: 768px) {
   .img1 {
     margin-top: 2px;
   }
- 
+  .card{
+    width: 18rem !important;
+  }
 }
