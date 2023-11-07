@@ -138,6 +138,11 @@ a {
   z-index: 50;
 }
 
+/* .restaurant1 {
+  flex-direction: row;
+  margin-top: 30px;
+} */
+
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   background-color: transparent !important;
@@ -223,7 +228,7 @@ a {
   }
 }
 
-@media screen and (max-widht: 768px) {
+@media screen and (max-width: 768px) {
   .img1 {
     margin-top: 2px;
   }
