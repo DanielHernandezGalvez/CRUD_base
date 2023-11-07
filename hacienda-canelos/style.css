@@ -226,3 +226,17 @@ a {
     width: 18rem !important;
   }
 }
+
+@media screen and (max-width: 500px){
+  footer{
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 8rem;
+  }
+
+  #footer-log{
+    margin: 0 20%;
+  }
+}
