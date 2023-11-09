@@ -1,0 +1,26 @@
+.container {
+    width: 100%;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap ;
+  }
+  
+  .col-md-3 {
+    flex: 0 0 33.33%;
+    min-width: 200px;
+    max-width: 33.33%;
+    max-height: 100vh;
+    overflow-y: auto;
+
+  }
+
+  .col-md-3::-webkit-scrollbar {
+    width: 0;
+  }
+
+  .col-md-3::-webkit-scrollbar-thumb {
+    background-color: #888;
+  }
