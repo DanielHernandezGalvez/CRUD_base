@@ -159,7 +159,7 @@ footer {
   margin: 0;
 }
 
-@media screen and (max-width: 968px) {
+@media screen and (max-width: 1300px) {
   p {
     font-size: 0.8rem;
   }
@@ -237,6 +237,10 @@ footer {
   .margin-tateposo {
     margin-top: 300px;
   }
+  .carousel-inner {
+    max-height: 392px;
+    max-width: 246px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -256,10 +260,22 @@ footer {
   #footer-log {
     margin: 0 50%;
   }
+
+  /* .carousel-inner {
+    max-height: 700px;
+    max-width: 400px;
+  } */
+  .carousel-inner {
+    max-height: 392px;
+    max-width: 246px;
+  }
 }
 
 @media screen and (max-width: 500px) {
-
+  .carousel-inner {
+    max-height: 392px;
+    max-width: 246px;
+  }
 }
 
 /* Owl carousel  */
@@ -269,7 +285,7 @@ footer {
 }
      #carrusel .item{
          background: none;
-         height: 300px;
+         height: auto;
      }
      #carrusel .item img{
          min-width: 200px;
@@ -296,5 +312,9 @@ footer {
   font-size: 5rem;
   height: 10px !important;
   color: #bbb;
+}
+
+.carousel-inner {
+  max-height: 100%;
 }
 

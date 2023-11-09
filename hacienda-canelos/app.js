@@ -16,3 +16,13 @@ $(document).ready(function() {
       }
     });
   });
+
+  $(document).ready(function() {
+    $('#carouselExampleControls1').carousel();
+  });
+
+  $(document).ready(function() {
+    $('#carouselExampleControls2').carousel();
+  });
+
+

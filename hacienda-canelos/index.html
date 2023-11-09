@@ -131,8 +131,28 @@
           id="restaurant1"
           class="d-flex justify-content-center align-items-center flex-wrap container restaurant1"
         >
-          <div class="container col-12 col-xl-5 img2">
-            <img class="img-hero" src="./img/carne-fileteada.png" alt="" />
+            <div class="container col-12 col-xl-5 img2 overflow-y-hidden">
+              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./img/c1.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/c2.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/c3.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
           </div>
           <div class="container col-12 col-xl-7 px-5">
             <div class="mx-auto text-center container">
@@ -180,17 +200,59 @@
               </p>
             </div>
           </div>
-          <div class="container col-12 col-xl-5 img2">
-            <img class="img-hero" src="./img/pozole.png" alt="" />
+          <!-- carousel -->
+          <div class="container col-12 col-xl-5 img2 overflow-y-hidden">
+            <div id="carouselExampleControls1" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./img/c1.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./img/c2.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./img/c3.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
           </div>
         </section>
 
         <section
           class="d-flex restaurant1 justify-content-center align-items-center flex-wrap container"
         >
-          <div class="col-12 col-xl-5 container img2">
-            <img class="img-hero" src="./img/fuego.png" alt="" />
-          </div>
+             <!-- carousel -->
+             <div class="container col-12 col-xl-5 img2 overflow-y-hidden">
+              <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./img/c1.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/c2.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/c3.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
           <div class="container-fluid col-12 col-xl-7 px-5">
             <div class="mx-auto text-center container">
               <img src="./img/logo-cd-sol.png" alt="log cd sol" />
@@ -279,68 +341,28 @@
             </div>
           </section>
 
-          <!-- Carrusel -->
-          <div>
-            <img src="./img/c1.png" alt="" />
-            <p class="fs-5 text-center my-2">Nombre del platillo</p>
-          </div>
-          <div>
-            <img src="./img/c2.png" alt="" />
-            <p class="fs-5 text-center my-2">Nombre del platillo</p>
-          </div>
-          <div>
-            <img src="./img/c3.png" alt="" />
-            <p class="fs-5 text-center my-2">Nombre del platillo</p>
-          </div>
-          <div>
-            <img src="./img/c4.png" alt="" />
-            <p class="fs-5 text-center my-2">Nombre del platillo</p>
-          </div>
+         
         </div>
       </div>
     </div>
 
-<!-- bootstrap carousel -->
-<div class="container">
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="./img/c1.png" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="./img/c2.png" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="./img/c3.png" class="d-block w-100" alt="...">
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-  </div>
 
+<!-- Carrusel  -->
     <section id="carrusel">
       <div class="owl-carousel owl-theme">
-          <div class="item"><img src="https://source.unsplash.com/WLUHO9A_xik/400x400" alt=""></div>
-          <div class="item"><img src="https://source.unsplash.com/WLUHO9A_xik/400x400" alt=""></div>
-          <div class="item"><img src="https://source.unsplash.com/WLUHO9A_xik/400x400" alt=""></div>
-          <div class="item"><img src="https://source.unsplash.com/WLUHO9A_xik/400x400" alt=""></div>
-          <div class="item"><img src="https://source.unsplash.com/WLUHO9A_xik/400x400" alt=""></div>
-          <div class="item"><img src="https://source.unsplash.com/WLUHO9A_xik/400x400" alt=""></div>
-          <div class="item"><img src="https://source.unsplash.com/WLUHO9A_xik/400x400" alt=""></div>
-          <div class="item"><img src="https://source.unsplash.com/WLUHO9A_xik/400x400" alt=""></div>
-          <div class="item"><img src="https://source.unsplash.com/WLUHO9A_xik/400x400" alt=""></div>
-          <div class="item"><img src="https://source.unsplash.com/WLUHO9A_xik/400x400" alt=""></div>
-          <div class="item"><img src="https://source.unsplash.com/WLUHO9A_xik/400x400" alt=""><div class="carousel-caption">
-          <h3>TEXTO 1</h3>
-          <p>texto 2</p>
-        </div></div>    <div class="item"><h4>12</h4></div>
+          <div class="item"><img src="./img/c1.png" alt=""></div>
+          <div class="item"><img src="./img/c2.png" alt=""></div>
+          <div class="item"><img src="./img/c3.png" alt=""></div>
+          <div class="item"><img src="./img/c4.png" alt=""></div>
+          <div class="item"><img src="./img/c1.png" alt=""></div>
+          <div class="item"><img src="./img/c1.png" alt=""></div>
+          <div class="item"><img src="./img/c1.png" alt=""></div>
+          <div class="item"><img src="./img/c1.png" alt=""></div>
+          <div class="item"><img src="./img/c1.png" alt=""></div>
+          <div class="item"><img src="./img/c1.png" alt=""></div>
+          <div class="item"><img src="./img/c1.png" alt=""><div class="carousel-caption">
+        
+        </div></div>    
       </div>
       </section>
 
