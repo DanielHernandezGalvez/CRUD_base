@@ -148,6 +148,17 @@ a {
   background-color: transparent !important;
 }
 
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: none;
+}
+
+#footer-log {
+  margin: 0;
+}
+
 @media screen and (max-width: 968px) {
   p {
     font-size: 0.8rem;
@@ -235,9 +246,6 @@ a {
   .card {
     width: 18rem !important;
   }
-}
-
-@media screen and (max-width: 500px) {
   footer {
     display: block;
     flex-direction: column;
@@ -246,6 +254,10 @@ a {
   }
 
   #footer-log {
-    margin: 0 20%;
+    margin: 0 50%;
   }
+}
+
+@media screen and (max-width: 500px) {
+
 }
