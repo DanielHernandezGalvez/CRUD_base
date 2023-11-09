@@ -261,3 +261,40 @@ footer {
 @media screen and (max-width: 500px) {
 
 }
+
+/* Owl carousel  */
+
+#carrusel{
+    margin: 30px auto;
+}
+     #carrusel .item{
+         background: none;
+         height: 300px;
+     }
+     #carrusel .item img{
+         min-width: 200px;
+         height: auto;
+     } 
+
+.owl-nav{
+  text-align: center;
+  margin-top: 0px;
+}
+
+.owl-prev, .owl-next{
+  margin: 0 15px;
+}
+
+.owl-prev span{
+  font-size: 5rem;
+  padding: 0px 10px 10px 10px !important;
+  color: #bbb;
+
+}
+
+.owl-next span{
+  font-size: 5rem;
+  height: 10px !important;
+  color: #bbb;
+}
+
