@@ -1,6 +1,10 @@
 .container {
     width: 100%;
   }
+
+  .container-padding{
+    padding: 0 10px;
+  }
   
   .row {
     display: flex;
