@@ -26,3 +26,4 @@ $(document).ready(function() {
   });
 
 
+console.log("Web creada por Daniel Gálvez")
