@@ -1,3 +1,24 @@
+.text-center {
+  text-align: center;
+}
+
+.text-end{
+  text-align: end;
+}
+* {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.px {
+  padding: 0 10px 0 10px;
+}
+
+.py {
+  margin: 20px 0;
+}
+
+/* página de inicio con scroll */
 .container {
   width: 100%;
   height: 100vh;
@@ -30,5 +51,70 @@
 }
 
 .col-md-3::-webkit-scrollbar-thumb {
+  background-color: #888;
+}
+/* página de inicio con scroll */
+
+.primera {
+  background-color: #0a0a0a;
+  color: white;
+}
+
+.div-img {
+  width: 80%;
+  margin: 40px auto;
+}
+
+.div-img img {
+  width: 100%;
+  height: auto;
+}
+
+.bg-oficina {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://cdn.pixabay.com/photo/2022/07/04/05/06/thailand-7300384_640.jpg");
+}
+
+.bg-residencial {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://cdn.pixabay.com/photo/2017/06/28/21/32/the-interior-of-the-2452233_640.jpg");
+}
+
+.bg-comercial {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://cdn.pixabay.com/photo/2015/11/07/15/46/business-centre-1031997_640.jpg");
+}
+
+.oficina {
+  width: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 300px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column-reverse;
+  padding: 20px 0;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.oficina h3 {
+  color: white;
+}
+
+.oficina p {
+  color: white;
+}
+
+.div-img-mapa{
+  width: 100%;
+  margin: 0;
+}
+
+.div-img-mapa img{
+  width: 100%;
+}
+
+.contact-col{
   background-color: #888;
 }
