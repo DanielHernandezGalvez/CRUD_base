@@ -1,3 +1,19 @@
-#categoria{
-    background-color: red;
+
+.categorias-inicio {
+  display: flex;
+  
+  flex-wrap: wrap;
+}
+
+.imagen-categoria-inicio {
+  max-height: 200px;
+  object-fit: cover;
+  width: 33%;
+}
+
+
+.imagen-categoria-mitad{
+    max-height: 150px;
+    object-fit: cover;
+    width: 50%;
 }
