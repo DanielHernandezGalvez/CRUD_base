@@ -71,6 +71,7 @@ a {
 
 .img-hero {
   width: 100%;
+  margin-bottom: 8%;
 }
 
 .hero-shadow {
@@ -148,7 +149,18 @@ a {
   background-color: transparent !important;
 }
 
-@media screen and (max-width: 968px) {
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: none;
+}
+
+#footer-log {
+  margin: 0;
+}
+
+@media screen and (max-width: 1300px) {
   p {
     font-size: 0.8rem;
   }
@@ -226,6 +238,10 @@ a {
   .margin-tateposo {
     margin-top: 300px;
   }
+  .carousel-inner {
+    max-height: 392px;
+    max-width: 246px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -235,9 +251,6 @@ a {
   .card {
     width: 18rem !important;
   }
-}
-
-@media screen and (max-width: 500px) {
   footer {
     display: block;
     flex-direction: column;
@@ -246,6 +259,63 @@ a {
   }
 
   #footer-log {
-    margin: 0 20%;
+    margin: 0 50%;
+  }
+
+  /* .carousel-inner {
+    max-height: 700px;
+    max-width: 400px;
+  } */
+  .carousel-inner {
+    max-height: 392px;
+    max-width: 246px;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .carousel-inner {
+    max-height: 392px;
+    max-width: 246px;
+  }
+}
+
+/* Owl carousel  */
+
+#carrusel{
+    margin: 30px auto;
+}
+     #carrusel .item{
+         background: none;
+         height: auto;
+     }
+     #carrusel .item img{
+         min-width: 200px;
+         height: auto;
+     } 
+
+.owl-nav{
+  text-align: center;
+  margin-top: 0px;
+}
+
+.owl-prev, .owl-next{
+  margin: 0 15px;
+}
+
+.owl-prev span{
+  font-size: 5rem;
+  padding: 0px 10px 10px 10px !important;
+  color: #bbb;
+
+}
+
+.owl-next span{
+  font-size: 5rem;
+  height: 10px !important;
+  color: #bbb;
+}
+
+.carousel-inner {
+  max-height: 100%;
+}
+

@@ -21,6 +21,10 @@
 
     <!-- styles -->
     <link rel="stylesheet" href="./style.css" />
+
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css" />
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css" />
   </head>
   <body>
     <!-- Navbar -->
@@ -86,7 +90,7 @@
       >
         <div class="container col-12 col-md-7 px-4">
           <div class="mx-auto">
-            <h2 class="fs-4 fw-bold my-4 px-5 text-color">Nuestra Historia</h2>
+            <h2 class="fs-3 fw-bold my-4 px-5 text-color">Nuestra Historia</h2>
             <h3 class="fs-1 my-2 px-5">
               "SI NO CONOCES CANELO’S NO CONOCES GUADALAJARA”
             </h3>
@@ -102,9 +106,9 @@
               SOL, PARTE DE SU GRAN ÉXITO ES VIVIR LA EXPERIENCIA DE UN LUGAR
               CAMPESTRE DENTRO DE LA CIUDAD.
             </p>
-            <button class="cta my-5 ms-5">
-              <a href="#" class="px-5">LEER MÁS</a>
-            </button>
+            <!-- <button class="cta my-5 ms-5"> -->
+              <a href="#sucursales" class="px-5 cta my-5 ms-5">LEER MÁS</a>
+            <!-- </button> -->
           </div>
         </div>
         <div class="col-12 col-md-5 img1">
@@ -127,8 +131,48 @@
           id="restaurant1"
           class="d-flex justify-content-center align-items-center flex-wrap container restaurant1"
         >
-          <div class="container col-12 col-xl-5 img2">
-            <img class="img-hero" src="./img/carne-fileteada.png" alt="" />
+          <div id="sucursales" class="container col-12 col-xl-5 img2 overflow-y-hidden">
+            <div
+              id="carouselExampleControls"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner mb-4">
+                <div class="carousel-item active">
+                  <img src="./img/imgsSection/section4.png" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./img/imgsSection/section2.png" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./img/imgsSection/section3.png" class="d-block w-100" alt="..." />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
           </div>
           <div class="container col-12 col-xl-7 px-5">
             <div class="mx-auto text-center container">
@@ -158,7 +202,7 @@
             <div class="mx-auto text-center container">
               <img src="./img/logo-tateposo.png" alt="" />
 
-              <h2 class="fs-4 my-4 px-5 text-color margin-tateposo">
+              <h2 class="fs-3 my-5 px-5 text-color margin-tateposo">
                 Nuestra Historia
               </h2>
               <h3 class="fs-1 my-2 px-5">HACIENDA CANELO’S TATEPOSO</h3>
@@ -176,16 +220,98 @@
               </p>
             </div>
           </div>
-          <div class="container col-12 col-xl-5 img2">
-            <img class="img-hero" src="./img/pozole.png" alt="" />
+          <!-- carousel -->
+          <div class="container col-12 col-xl-5 img2 overflow-y-hidden">
+            <div
+              id="carouselExampleControls1"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./img/c1.png" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./img/pozole.png" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./img/carne-fileteada.png" class="d-block w-100" alt="..." />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleControls1"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleControls1"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
           </div>
         </section>
 
         <section
           class="d-flex restaurant1 justify-content-center align-items-center flex-wrap container"
         >
-          <div class="col-12 col-xl-5 container img2">
-            <img class="img-hero" src="./img/fuego.png" alt="" />
+          <!-- carousel -->
+          <div class="container col-12 col-xl-5 img2 overflow-y-hidden">
+            <div
+              id="carouselExampleControls2"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./img/imgsSection/fuego.png" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./img/imgsSection/flor.png" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./img/imgsSection/chilaquiles.png" class="d-block w-100" alt="..." />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleControls2"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleControls2"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
           </div>
           <div class="container-fluid col-12 col-xl-7 px-5">
             <div class="mx-auto text-center container">
@@ -236,9 +362,9 @@
                   ESQUINA AV. TIZOC CONTACTO. RESERVACIONES 33 31 23 07 28/29/30
                   WHATSAPP 33 1693 1582 HACIENDA_CANELOS@HOTMAIL.COM
                 </p>
-                <button class="cta">
-                  <a href="#" class="">VER MENÚ</a>
-                </button>
+                <!-- <button class="cta"> -->
+                  <a href="./menu-hacienda-canelos.pdf" target="_blank" class="fw-bold cta">VER MENÚ</a>
+                <!-- </button> -->
               </div>
             </div>
             <div class="card shadow my-5" style="width: 21rem">
@@ -252,9 +378,9 @@
                   TE ESPERAMOS DE JUEVES A DOMINGO. <br /><br />
                   RESERVACIONES 33 3690 2014 Y 33 3690 1687
                 </p>
-                <button class="cta">
-                  <a href="#" class="">VER MENÚ</a>
-                </button>
+                <!-- <button class="cta"> -->
+                  <a href="./menu-hacienda-canelos.pdf" target="_blank" class="fw-bold cta">VER MENÚ</a>
+                <!-- </button> -->
               </div>
             </div>
             <div class="card shadow my-5" style="width: 21rem">
@@ -268,33 +394,52 @@
                   APERTURA 7 DE MARZO DEL 2023 ABIERTO DE LUNES A DOMINGO DE
                   12:00 PM 12:00 AM RESERVACIONES: 33 2163 8124 y 33 2538 3193
                 </p>
-                <button class="cta">
-                  <a href="#" class="">VER MENÚ</a>
-                </button>
+                <!-- <button class="cta"> -->
+                  <a href="./menu-hacienda-canelos.pdf" target="_blank" class="fw-bold cta">VER MENÚ</a>
+                <!-- </button> -->
               </div>
             </div>
           </section>
-
-          <!-- Carrusel -->
-          <div>
-            <img src="./img/c1.png" alt="" />
-            <p class="fs-5 text-center my-2">Nombre del platillo</p>
-          </div>
-          <div>
-            <img src="./img/c2.png" alt="" />
-            <p class="fs-5 text-center my-2">Nombre del platillo</p>
-          </div>
-          <div>
-            <img src="./img/c3.png" alt="" />
-            <p class="fs-5 text-center my-2">Nombre del platillo</p>
-          </div>
-          <div>
-            <img src="./img/c4.png" alt="" />
-            <p class="fs-5 text-center my-2">Nombre del platillo</p>
-          </div>
         </div>
       </div>
     </div>
+
+    <!-- Carrusel  -->
+    <section id="carrusel">
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <img src="./img/carousel/CanelosTlaquepaque-11 (4).jpg" alt="" />
+        </div>
+        <div class="item">
+          <img src="./img/carousel/CanelosTlaquepaque-13 (1).jpg" alt="" />
+        </div>
+        <div class="item">
+          <img src="./img/carousel/CanelosTlaquepaque-20.jpg" alt="" />
+        </div>
+        <div class="item">
+          <img src="./img/carousel/CanelosTlaquepaque-29.jpg" alt="" />
+        </div>
+        <div class="item">
+          <img src="./img/carousel/CanelosTlaquepaque-3 (3).jpg" alt="" />
+        </div>
+        <div class="item">
+          <img src="./img/carousel/CanelosTlaquepaque-31 (1).jpg" alt="" />
+        </div>
+        <div class="item">
+          <img src="./img/carousel/CanelosTlaquepaque-4.jpg" alt="" />
+        </div>
+        <div class="item">
+          <img src="./img/carousel/CanelosTlaquepaque-5 (1).jpg" alt="" />
+        </div>
+        <div class="item">
+          <img src="./img/carousel/CanelosTlaquepaque-8.jpg" alt="" />
+        </div>
+        <div class="item">
+          <img src="./img/carousel/CanelosTlaquepaque-31 (1).jpg" alt="" />
+          <div class="carousel-caption"></div>
+        </div>
+      </div>
+    </section>
 
     <footer class="bg-dark m-0 p-5 text-white d-flex flex-wrap">
       <div
@@ -332,7 +477,7 @@
           </p>
         </div>
       </div>
-      <div class="text-white text-center">
+      <div class="text-white text-center flex-col my-5">
         © Desarrollado por
         <a
           class="text-white fw-bold"
@@ -342,5 +487,11 @@
         >
       </div>
     </footer>
+
+    <!-- Owl carrousel -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <!-- javascript -->
+    <script src="./app.js"></script>
   </body>
 </html>
