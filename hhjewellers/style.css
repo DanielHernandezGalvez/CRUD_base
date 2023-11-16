@@ -1,5 +1,42 @@
 body {
   background-color: rgb(14, 13, 13);
+  font-family: sans-serif;
+}
+
+:root {
+  --amarillo: #c6b03e;
+  --negro: #161616;
+  --blanco: #f0f0f0;
+}
+
+.text-white {
+  color: var(--blanco);
+}
+
+.text-black {
+  color: var(--negro);
+}
+
+.text-yellow {
+  color: var(--amarillo);
+}
+
+.button-gold {
+  background-color: transparent;
+  border: 1px solid var(--amarillo);
+  color: var(--amarillo);
+  border-radius: 20px;
+  padding: 5px 30px;
+  transition: 0.2s ease all;
+}
+
+.button-gold:hover {
+  background-color: var(--amarillo);
+  color: var(--blanco);
+}
+
+.text-center {
+  text-align: center;
 }
 
 /* section categorías */
@@ -30,7 +67,6 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100px;
-
 }
 
 .categoria-tercio-caja {
@@ -54,3 +90,95 @@ body {
 }
 
 /* section categorías */
+
+/* seccion cotiza tu diseño */
+#cotiza-tu-diseno {
+  width: 100%;
+  height: auto;
+  margin: 0 !important;
+  box-sizing: border-box;
+  background-image: url("./img/cotiza-tu-diseño.png");
+  /* https://hhjewellers.com.mx/wp-content/uploads/2023/11/cotiza-tu-diseno-300x62.png */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 2% 0;
+}
+
+#ctd-cta-1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  color: white;
+}
+
+#ctd-cta-1 h3 {
+  font-size: 2rem;
+}
+
+#ctd-cta-1 button {
+  text-align: start;
+}
+
+#ctd-cta-2 {
+  padding: 30px;
+  text-align: center;
+  width: 50%;
+  color: white;
+}
+/* seccion cotiza tu diseño */
+
+/* testimonios */
+.title {
+  text-align: center;
+  font-weight: bold;
+  color: #f0f0f0;
+}
+
+#testimonios-peso-pluma {
+  width: 100%;
+  height: auto;
+  margin: 0 !important;
+  box-sizing: border-box;
+  background-image: url("./img/peso-pluma-bg.png");
+  /* https://hhjewellers.com.mx/wp-content/uploads/2023/11/cotiza-tu-diseno-300x62.png */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 2% 0;
+}
+
+.cuadro {
+  width: 80%;
+  height: 50vh;
+  border: 1px solid #f0f0f0;
+  display: flex;
+}
+
+.cuadro-blanco {
+  position: inherit;
+  width: 50%;
+  height: 100%;
+  background-color: transparent;
+}
+
+.cuadro-texto {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+/* testimonios */
