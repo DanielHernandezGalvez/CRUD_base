@@ -147,7 +147,6 @@ body {
   margin: 0 !important;
   box-sizing: border-box;
   background-image: url("./img/peso-pluma-bg.png");
-  /* https://hhjewellers.com.mx/wp-content/uploads/2023/11/cotiza-tu-diseno-300x62.png */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -269,12 +268,11 @@ margin: 30px 20px;
   width: 90%;
   height: 90%;
   border: 1px solid #f0f0f0;
-
 }
 /* testimonios */
 
 
-@media  screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
   #nata-nodal{
     flex-direction: column;
     align-items: center;
