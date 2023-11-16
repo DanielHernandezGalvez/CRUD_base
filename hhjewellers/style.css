@@ -176,9 +176,81 @@ body {
   width: 50%;
   height: 100%;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hr {
+  width: 90%;
+  border-color: #c6b03e;
+}
+
+.cuadro-texto p {
+  padding: 0 20px;
+}
+
+.cuadro-texto a {
+  color: #c6b03e;
+  text-decoration: underline !important;
+}
+
+#nata-nodal{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.cuadro-nodal {
+  width: 40%;
+  height: 60vh;
+  background: url("./img/cristian-nodal.png");
+  background-position:right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+margin: 30px 20px;
+}
+.cuadro-nodal div{
+  width: 55%;
+  text-align: center;
+  padding: 0 25px;
+
+}
+.cuadro-nata {
+  width: 40%;
+  height: 60vh;
+  background: url("./img/natanael-cano.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 30px 20px;
+
+}
+
+.cuadro-nata div:nth-child(1){
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+
+}
+
+.cuadro-nata div:nth-child(2){
+  width: 40%;
+  text-align: center;
+  padding: 0 25px;
+  
+}
+
+.border-testimonio{
+  width: 90%;
+  height: 90%;
+  border: 1px solid #f0f0f0;
+
 }
 /* testimonios */
