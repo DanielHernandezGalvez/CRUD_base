@@ -148,20 +148,17 @@ li {
 .icon {
   margin-top: 7px;
   color: white;
-  transition: .3s ease-in-out all;
-
+  transition: 0.3s ease-in-out all;
 }
 
-.icon:hover{
+.icon:hover {
   transform: scale(1.2);
 }
 
-
-
-.footer{
+.footer {
   font-size: 12px;
   margin: 40px 0 20px 0;
-  font-weight: bold ;
+  font-weight: bold;
 }
 
 .footer a {

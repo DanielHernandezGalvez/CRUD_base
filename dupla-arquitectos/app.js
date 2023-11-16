@@ -4,5 +4,4 @@ function getYear() {
 }
 
 const yearSpan = document.getElementById("year");
-
 yearSpan.textContent = getYear();
