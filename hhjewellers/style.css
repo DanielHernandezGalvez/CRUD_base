@@ -195,43 +195,40 @@ body {
   text-decoration: underline !important;
 }
 
-#nata-nodal{
+#nata-nodal {
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-
 .cuadro-nodal {
   width: 40%;
   height: 60vh;
   background: url("./img/cristian-nodal.png");
-  background-position:right;
+  background-position: right;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.5);
-margin: 30px 20px;
+  margin: 30px 20px;
 }
 
-
-.cuadro-nodal div:nth-child(1){
+.cuadro-nodal div:nth-child(1) {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-
 }
 
-.cuadro-nodal .border-testimonio div{
+.cuadro-nodal .border-testimonio div {
   width: 40%;
   text-align: start;
-  padding:  25px;
+  padding: 25px;
 }
 
-.cuadro-nodal .border-testimonio div a{
-  color:#c6b03e;
+.cuadro-nodal .border-testimonio div a {
+  color: #c6b03e;
 }
 
 .cuadro-nata {
@@ -243,45 +240,41 @@ margin: 30px 20px;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.5);
   margin: 30px 20px;
-
 }
 
-.cuadro-nata div:nth-child(1){
+.cuadro-nata div:nth-child(1) {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
-
 }
 
-.cuadro-nata .border-testimonio div{
+.cuadro-nata .border-testimonio div {
   width: 40%;
   text-align: start;
-  padding:  25px;
+  padding: 25px;
 }
 
-.cuadro-nata .border-testimonio div a{
-  color:#c6b03e;
+.cuadro-nata .border-testimonio div a {
+  color: #c6b03e;
 }
 
-.border-testimonio{
+.border-testimonio {
   width: 90%;
   height: 90%;
   border: 1px solid #f0f0f0;
 }
 /* testimonios */
 
-
 @media screen and (max-width: 1000px) {
-  #nata-nodal{
+  #nata-nodal {
     flex-direction: column;
     align-items: center;
-
   }
-  .cuadro-nodal{
+  .cuadro-nodal {
     width: 90%;
   }
-  .cuadro-nata{
+  .cuadro-nata {
     width: 90%;
   }
 }
