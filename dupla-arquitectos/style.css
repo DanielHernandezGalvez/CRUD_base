@@ -21,6 +21,10 @@
   margin: 20px 0;
 }
 
+.logo {
+  background-color: #fff;
+}
+
 /* página de inicio con scroll */
 .container {
   width: 100%;
