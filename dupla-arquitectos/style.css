@@ -210,16 +210,3 @@ li {
   text-decoration: none;
   color: #0a0a0a;
 }
-
-
-.container-about{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  padding: 10px 10px;
-  text-align: justify;
-
-}
-
-.container-about p{
-}
