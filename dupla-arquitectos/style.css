@@ -211,30 +211,15 @@ li {
   color: #0a0a0a;
 }
 
-.wp-block-post-template.is-flex-container {
-  gap: 1.25em;
+
+.container-about{
+  display: flex;
   justify-content: center;
+  flex-direction: column;
+  padding: 10px 10px;
+  text-align: justify;
+
 }
 
-.wp-block-post {
-  border: 1px solid #000;
+.container-about p{
 }
-
-.wp-block-post h2 {
-  text-align: center;
-  padding: 3px;
-  font-weight: bold;
-}
-
-.wp-block-post > div {
-  padding: 5px;
-}
-
-#wp--skip-link--target
-  > div.wp-block-group.has-global-padding.is-layout-constrained.wp-block-group-is-layout-constrained{
-    margin-top: 60px;
-  }
-
-  #wp--skip-link--target > div.wp-block-group.has-global-padding.is-layout-constrained.wp-block-group-is-layout-constrained > figure > img{
-    max-height: 30vh;
-  }
