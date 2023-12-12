@@ -27,6 +27,14 @@ body {
   /* transform: translateX(-50%); */
 }
 
+.navbar a {
+  text-decoration: none;
+  color: #b3b2b2;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+
 .texto {
   position: absolute;
   width: 100%;
@@ -56,14 +64,14 @@ body {
 
 .puntos {
   position: absolute;
-  top: 93%;
+  top: 95%;
   width: 100%;
   text-align: center;
 }
 .punto {
   display: inline-block;
-  width: 16px;
-  height: 16px;
+  width: 10px;
+  height: 10px;
   background-color: white;
   border-radius: 50%;
   margin-right: 5px;
@@ -87,7 +95,7 @@ body {
 
 /* owl */
 .carousel-wrap {
-  margin: 90px 0;
+  margin: 0px 0;
   padding: 0;
   width: 100%;
   position: relative;
@@ -123,7 +131,7 @@ body {
 .seccion1 {
   width: 100%;
   height: 100vh;
-  background: url("https://cdn.pixabay.com/photo/2016/06/24/10/47/house-1477041_640.jpg");
+  background: url("./img/IMAGENES\ SKALA-seccion.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -225,10 +233,10 @@ body {
 }
 
 .seccion-mision {
-  height: 80vh;
+  height: 100vh;
   width: 100%;
   background: linear-gradient(rgb(255 255 255 / 0.74), rgb(255 255 255 / 0.75)),
-    url("https://cdn.pixabay.com/photo/2015/11/17/18/59/architecture-1048092_640.jpg");
+    url("./img/IMAGENES\ SKALA-03.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -240,7 +248,7 @@ body {
   text-align: center;
 }
 
-.seccion-mision h2{
+.seccion-mision h2 {
   font-size: 40px;
 }
 
@@ -250,71 +258,161 @@ body {
 }
 
 .seccion4 {
-background: linear-gradient(rgb(0 0 0 / .75), rgb(0 0 0 / .75)), url("https://cdn.pixabay.com/photo/2017/04/24/13/37/architecture-2256489_640.jpg");
-background-position: center;
-background-size:  cover;
-background-repeat: no-repeat;
-background-attachment: fixed;
+  background: linear-gradient(rgb(0 0 0 / 0.75), rgb(0 0 0 / 0.75)),
+    url("./img/IMAGENES\ SKALA-04.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-.ul-img{
+.ul-img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 50px 0 50px 10px;
-
+  padding: 10px 0 10px 10px;
 }
 
-.ul-img div:nth-child(1){
+.ul-img div:nth-child(1) {
   width: auto;
   color: #fff;
   padding: 7%;
 }
 
-.ul-img div h4:nth-child(1){
+.ul-img div h4:nth-child(1) {
   font-size: 20px;
   width: auto;
   color: #fff;
   padding: 0 7%;
 }
 
-.ul-img div:nth-child(2){
+.ul-img div:nth-child(2) {
   width: 50%;
 }
 
-.ul-img img{
+.ul-img img {
   width: 100%;
 }
 
-
-
-.ul-img2{
+.ul-img2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 50px 10px 50px 0px;
-
+  padding: 10px 10px 10px 0px;
 }
 
-.ul-img2 div:nth-child(1){
+.ul-img2 div:nth-child(1) {
   width: 50%;
 }
 
-.ul-img2 div:nth-child(2){
+.ul-img2 div:nth-child(2) {
   width: auto;
   color: #fff;
-  padding: 7%;
+  /* padding: 4%; */
 }
 
-.ul-img2 div h4{
+.ul-img2 div h4 {
   font-size: 20px;
   width: auto;
   color: #fff;
-  padding: 0 7%;
+  /* padding: 0 4%; */
+}
+
+.ul-img2 img {
+  width: 100%;
+}
+
+footer {
+  margin-top: 4rem;
+  width: 100%;
+  height: 100%;
+}
+
+footer img {
+  width: 100%;
 }
 
 
+.ul li{
+  margin: 10px 0;
+}
 
-.ul-img2 img{
+.section-cards div{
+  background-color: #b3b2b2;
+  width: 260px;
+  height: 260px;
+}
+
+.section-cards{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 5%;
+}
+
+.section-cards div{
+  padding: 5px 0;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+}
+
+.section-cards div img {
+  width: 80%;
+  height: auto;
+  margin: 0;
+  text-align: center;
+}
+
+.section-cards div p {
+  font-size: 11px;
+  margin: 0;
+  text-align: center;
+  padding: 0 15px;
+}
+
+.contacto{
+  display: flex;
+  flex-wrap: wrap;
   width: 100%;
+  height: 70vh;
+}
+
+.contacto div:nth-child(1) {
+  width: 30%;
+  background-color: #494949;
+}
+
+.contacto div:nth-child(2) {
+  width: 70%;
+  background: url("./img/IMAGENES\ SKALA-03.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  display: none;
+}
+
+#formulario form  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: auto;
+}
+
+#formulario form div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
 }
