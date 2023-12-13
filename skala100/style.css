@@ -470,6 +470,11 @@ footer img {
   background-attachment: fixed;
 }
 
+#caja-gris {
+  padding: 7% 0;
+  align-items: center;
+}
+
 #caja-gris p,
 #caja-gris h2,
 #caja-gris h3,
