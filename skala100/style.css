@@ -470,6 +470,13 @@ footer img {
   background-attachment: fixed;
 }
 
+#caja-gris p,
+#caja-gris h2,
+#caja-gris h3,
+#caja-gris img{
+  padding: 3px 0 0 30px;
+}
+
 @media screen and (max-width: 768px){
   .contacto{
     height: 100%;
