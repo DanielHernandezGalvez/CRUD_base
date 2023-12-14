@@ -51,3 +51,10 @@ function playpause() {
     boton.src = "http://www.reciclay.com.ve/gio/play.png";
   }
 }
+
+document.addEventListener('DOMContentLoaded', function () {
+  var overlay = document.getElementById('overlay');
+
+  // Oculta el overlay cuando la página está completamente cargada
+  overlay.style.display = 'none';
+});
