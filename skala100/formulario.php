@@ -1,7 +1,7 @@
 function send_email($to, $subject, $body) {
     $headers = array(
-        'From: [Tu dirección de correo electrónico]',
-        'Reply-To: [Tu dirección de correo electrónico]',
+        'From: hernandezgalvezalejandro@gmail.com',
+        'Reply-To: hernandezgalvezalejandro@gmail.com'',
     );
 
     return mail($to, $subject, $body, $headers);
