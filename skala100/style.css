@@ -39,15 +39,6 @@ body {
   color: white;
 }
 
-.texto {
-  position: absolute;
-  width: 100%;
-  text-align: center;
-  top: 85%;
-  color: white;
-  font-weight: bold;
-}
-
 .contenedor a {
   position: absolute;
   text-decoration: none;
@@ -92,7 +83,7 @@ body {
 .actual {
   visibility: visible;
   opacity: 1;
-  transition: visibility .1s, opacity 1s;
+  transition: visibility 0.1s, opacity 1s;
 }
 
 .activo {
@@ -166,7 +157,7 @@ body {
 }
 
 @media screen and (max-width: 1200px) {
-  .seccion1{
+  .seccion1 {
     flex-direction: column;
     height: 100%;
     top: 0;
@@ -192,7 +183,6 @@ body {
   /* .img-seccion1{
     width: 60%;
   } */
- 
 }
 
 .seccion2 {
@@ -219,13 +209,12 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  
-  .seccion2{
+  .seccion2 {
     height: auto;
     margin-top: 40px;
   }
   .seccion2 div {
-    margin:  2%;
+    margin: 2%;
   }
 }
 
@@ -306,7 +295,7 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  .seccion-mision{
+  .seccion-mision {
     height: 100%;
     padding: 40px 0;
   }
@@ -314,7 +303,7 @@ body {
     font-size: 20px;
     margin: 0;
   }
-  
+
   .seccion-mision p {
     font-size: 14px;
     padding: 0 15%;
@@ -355,8 +344,6 @@ body {
   width: 50%;
 }
 
-
-
 .ul-img img {
   width: 100%;
 }
@@ -390,14 +377,12 @@ body {
   width: 100%;
 }
 
-
 @media screen and (max-width: 768px) {
   .ul-img div:nth-child(2) {
     width: 100%;
     margin: auto;
-    
   }
-  .ul-img div:nth-child(1){
+  .ul-img div:nth-child(1) {
     order: 1;
     margin-top: 0px;
     padding: 0;
@@ -417,12 +402,11 @@ body {
     margin-top: 30px;
   }
 
-
   .ul-img2 div:nth-child(1) {
     width: 100%;
     order: 0;
   }
-  
+
   /* .ul-img2 div:nth-child(2) {
 
   } */
@@ -446,13 +430,11 @@ footer img {
   width: 100%;
 }
 
-
-.ul li{
+.ul li {
   margin: 10px 0;
 }
 
-
-.section-cards{
+.section-cards {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -460,20 +442,19 @@ footer img {
   padding-top: 5%;
 }
 
-.section-cards div{
+.section-cards div {
   background-color: #b3b2b2;
   width: 260px;
   height: 260px;
 }
 
 @media screen and (max-width: 1000px) {
-  .section-cards div{
+  .section-cards div {
     margin: 10px;
   }
 }
 
-
-.section-cards div{
+.section-cards div {
   padding: 5px 0;
   position: relative;
   overflow: hidden;
@@ -498,7 +479,7 @@ footer img {
   padding: 0 15px;
 }
 
-.contacto{
+.contacto {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -511,8 +492,6 @@ footer img {
   background-color: #494949;
   padding: 0px;
 }
-
-
 
 .contacto div:nth-child(2) {
   width: 70%;
@@ -531,21 +510,21 @@ footer img {
 #caja-gris p,
 #caja-gris h2,
 #caja-gris h3,
-#caja-gris img{
+#caja-gris img {
   padding: 3px 0 0 30px;
 }
 
-@media screen and (max-width: 768px){
-  .contacto{
+@media screen and (max-width: 768px) {
+  .contacto {
     height: 100%;
   }
-  
-  .contacto div:nth-child(1){
+
+  .contacto div:nth-child(1) {
     width: 100%;
     height: auto;
   }
 
-  .contacto div:nth-child(2){
+  .contacto div:nth-child(2) {
     width: 100%;
     height: auto;
   }
@@ -561,17 +540,15 @@ input[type="number"]::-webkit-outer-spin-button {
   display: none;
 }
 
-
-#formulario form  {
+#formulario form {
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding:  10%;
-  
+  padding: 10%;
 }
 
-#formulario form h3{
+#formulario form h3 {
   text-align: start;
   color: #fff;
   font-size: 1.8rem;
@@ -589,14 +566,13 @@ input[type="number"]::-webkit-outer-spin-button {
   margin: 1rem 0;
 }
 
-#formulario form div input{
+#formulario form div input {
   width: 50%;
   padding: 13px 25px;
   border: none;
   border-radius: 25px;
   background-color: rgb(255 255 255 / 0.74);
   font-weight: bold;
- 
 }
 
 @media screen and (max-width: 500px) {
@@ -604,14 +580,14 @@ input[type="number"]::-webkit-outer-spin-button {
     flex-direction: column;
   }
 
-  #formulario form div input{
+  #formulario form div input {
     width: 100%;
-
   }
 }
 
 #formulario form div textarea {
-  width: 100%;padding: 8px 25px;
+  width: 100%;
+  padding: 8px 25px;
   border: none;
   border-radius: 25px;
   background-color: rgb(255 255 255 / 0.54);
@@ -619,7 +595,7 @@ input[type="number"]::-webkit-outer-spin-button {
   font-weight: bold;
 }
 
-.btn{
+.btn {
   padding: 11px 14px;
   border: none;
   border-radius: 25px;
@@ -628,35 +604,32 @@ input[type="number"]::-webkit-outer-spin-button {
   font-size: 1.2rem;
   color: #fff;
   cursor: pointer;
-  transition:  .3s ease all;
+  transition: 0.3s ease all;
 }
 
-.btn:hover{
+.btn:hover {
   background-color: rgb(0 0 0 / 0.54);
 }
 
 @media screen and (max-width: 768px) {
-
-  .navbar{
+  .navbar {
     justify-content: space-around;
   }
-  .navbar a{
+  .navbar a {
     font-size: 13px;
     text-align: center;
     margin: 0;
     padding: 0;
     width: 20%;
   }
-  .navbar a:first-child{
-  
+  .navbar a:first-child {
     margin-left: -15px;
     padding: 0;
-  
   }
 }
 
 @media screen and (max-width: 380px) {
-  .navbar a{
+  .navbar a {
     font-size: 10px;
   }
 }
@@ -686,6 +659,114 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Carrusel contain */
+
+.texto {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 20%;
+  color: white;
+  font-weight: bold;
+}
+
+.texto p {
+  /* margin-top: 42vh; */
+  padding: 0 5%;
+}
+
+.carrusel2 {
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  padding: 0 5%;
+}
+
+.p1{
+  margin-top: 42vh ;
+}
+
+.p2{
+  margin-top: 16vh ;
+}
+
+.p3{
+  margin-top: 1vh;
+}
+
+
+.carrusel2 img {
+  width: 12%;
+}
+
+.carrusel2 h1 {
+  font-size: 3.4rem;
+  margin-top: 0;
+  padding-top: 0 !important;
+
+}
+
+.subtitulo {
+  font-size: 20px;
+}
+
+
+
+
+/* 
+.carrusel2 ul li{
+  font-size: 10px;
+} */
+
+.ul-hero li  {
+  font-size: 25px;
+  list-style: none;
+  padding: 5px 0;
+}
+
+.textp .p1 {
+margin-top: 34vh;
+}
+
+.ul-hero2 li  {
+  font-size: 15px;
+  list-style: none;
+  padding: 5px 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .carrusel2 h1 {
+    font-size: 2rem;
+  }
+  .carrusel2 h1 span{
+    font-size: 1rem;
+  }
+
+  .ul-hero li  {
+    font-size: 18px; 
+  }
+  .ul-hero2 li  {
+    font-size: 14px;
+  }
+
+  .p1{
+    margin-top: 47vh ;
+  }
+  
+  .p2{
+    margin-top: 24vh ;
+  }
+  
+  .p3{
+    margin-top: 8vh;
+  }
+  
 }

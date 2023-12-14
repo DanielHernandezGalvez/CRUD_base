@@ -24,7 +24,7 @@ function mostrar(n) {
 // aqui agregar en el 2 si se quieren más imágenes
 function siguiente() {
   actual++;
-  if (actual > 2) {
+  if (actual > 3) {
     actual = 0;
   }
   mostrar(actual);
@@ -32,12 +32,12 @@ function siguiente() {
 function anterior() {
   actual--;
   if (actual < 0) {
-    actual = 2;
+    actual = 3;
   }
   mostrar(actual);
 }
 
-var velocidad = 5000;
+var velocidad = 9005000;
 var play = setInterval("siguiente()", velocidad);
 
 function playpause() {
