@@ -7,6 +7,8 @@ body {
 .contenedor {
   width: 100%;
   height: 100vh;
+  background-color: black;
+
 }
 
 .imagen {
@@ -83,7 +85,7 @@ body {
 .actual {
   visibility: visible;
   opacity: 1;
-  transition: visibility 0.1s, opacity 1s;
+  transition: visibility 0.5s, opacity 1s;
 }
 
 .activo {
@@ -129,7 +131,7 @@ body {
 .seccion1 {
   width: 100%;
   height: 100vh;
-  background: url("./img/IMAGENES\ SKALA-seccion.png");
+  background: url("https://657b89a4c5e0df3b0dedc50e--lively-tarsier-e08ffd.netlify.app/img/IMAGENES%20SKALA-seccion.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -276,7 +278,7 @@ body {
   height: 100vh;
   width: 100%;
   background: linear-gradient(rgb(255 255 255 / 0.74), rgb(255 255 255 / 0.75)),
-    url("./img/IMAGENES\ SKALA-03.png");
+    url("https://657b89a4c5e0df3b0dedc50e--lively-tarsier-e08ffd.netlify.app/img/IMAGENES%20SKALA-03.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -315,7 +317,7 @@ body {
 
 .seccion4 {
   background: linear-gradient(rgb(0 0 0 / 0.75), rgb(0 0 0 / 0.75)),
-    url("./img/IMAGENES\ SKALA-04.png");
+    url("https://657b89a4c5e0df3b0dedc50e--lively-tarsier-e08ffd.netlify.app/img/IMAGENES%20SKALA-04.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -498,7 +500,7 @@ footer img {
 
 .contacto div:nth-child(2) {
   width: 70%;
-  background: url("./img/IMAGENES\ SKALA-03.png");
+  background: url("https://657b89a4c5e0df3b0dedc50e--lively-tarsier-e08ffd.netlify.app/img/IMAGENES%20SKALA-03.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
