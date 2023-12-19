@@ -233,3 +233,19 @@ li {
   height: 50vh;
   object-fit: cover;
 }
+
+.pb{
+  padding-bottom: 10px;
+}
+
+.contacto-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.wp-site-blocks {
+  padding-top: 0;
+  padding-bottom: 0;
+}

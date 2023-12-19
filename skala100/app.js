@@ -9,6 +9,7 @@ function puntos(n) {
   }
   ptn[n].className += " activo";
 }
+
 function mostrar(n) {
   var imagenes = document.getElementsByClassName("imagen");
   for (i = 0; i < imagenes.length; i++) {
@@ -17,10 +18,12 @@ function mostrar(n) {
       break;
     }
   }
+  
   actual = n;
   imagenes[n].className += " actual";
   puntos(n);
 }
+
 // aqui agregar en el 2 si se quieren más imágenes
 function siguiente() {
   actual++;
@@ -29,6 +32,7 @@ function siguiente() {
   }
   mostrar(actual);
 }
+
 function anterior() {
   actual--;
   if (actual < 0) {
@@ -42,12 +46,15 @@ var play = setInterval("siguiente()", velocidad);
 
 function playpause() {
   var boton = document.getElementById("btn");
+
   if (play == null) {
     boton.src = "http://www.reciclay.com.ve/gio/pause.png";
     play = setInterval("siguiente()", velocidad);
   } else {
+
     clearInterval(play);
     play = null;
     boton.src = "http://www.reciclay.com.ve/gio/play.png";
   }
+
 }
