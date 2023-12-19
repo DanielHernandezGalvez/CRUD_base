@@ -1,8 +1,30 @@
+/* @font-face {
+  font-family: "Poppins-Bold";
+  src: url('./fonts/Poppins-Bold.otf');
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url('./fonts/Poppins-Medium.otf');
+  font-style: normal;
+  font-weight: 500;
+} */
+
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
 }
+
+/* h1, h2, h3, h4, h5, h6{
+  font-family: "Poppins-Bold";
+}
+
+p, span, a {
+  font-family:"Poppins-Medium";
+} */
 
 .contenedor {
   width: 100%;
@@ -61,7 +83,7 @@ body {
 
 .puntos {
   position: absolute;
-  top: 95%;
+  top: 97%; /* estaba en 95 */
   width: 100%;
   text-align: center;
 }
@@ -122,10 +144,13 @@ body {
 
 .owl-nav .owl-prev {
   left: -30px;
+  display: none;
 }
 
 .owl-nav .owl-next {
   right: -30px;
+  display: none;
+
 }
 
 .seccion1 {
@@ -783,10 +808,45 @@ input[type="number"]::-webkit-outer-spin-button {
 
   .p2 {
     margin-top: 24vh;
+
   }
 
   .p3 {
     margin-top: 8vh;
+
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .carrusel2 h1 {
+    font-size: 1.5rem;
+  }
+  .carrusel2 h1 span {
+    font-size: 0.8rem;
+  }
+
+  .ul-hero li {
+    font-size: 18px;
+  }
+  .ul-hero2 li {
+    font-size: 14px;
+  }
+
+  .p1 {
+    margin-top: 53vh;
+    font-size: 12px;
+  }
+
+  .p2 {
+    margin-top: 24vh;
+    font-size: 12px;
+
+  }
+
+  .p3 {
+    margin-top: 8vh;
+    font-size: 12px;
+
   }
 }
 
@@ -798,4 +858,91 @@ input[type="number"]::-webkit-outer-spin-button {
 ::-webkit-scrollbar-thumb {
   background-color: rgb(0 0 0 / 0.89);
   border-radius: 20px;
+}
+
+/* whatsapp */
+.float{
+	position:fixed;
+	width:48px;
+	height:48px;
+	bottom:15px;
+	right:35px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	/* box-shadow: 2px 2px 3px #999; */
+  z-index:100;
+  transition: .2s ease all;
+
+}
+
+.my-float{
+	margin-top:10px;
+}
+
+.float:hover{
+  transform: scale(1.04)
+}
+
+.float2{
+	position:absolute;
+	width:152px;
+	height:55px;
+	bottom:0px;
+	left:0px;
+	background-color:#494949;
+	color:#FFF;
+	text-align:center;
+  /* font-size:30px; */
+	/* box-shadow: 2px 2px 3px #999; */
+  z-index:100;
+  transition: .2s ease all;
+  text-align: start;
+  padding: 0 0 0 4px;
+}
+
+.float2 span{
+  font-size: 12px;
+}
+
+.float2 a {
+  text-decoration: none;
+  color: rgb(0, 162, 255);
+  margin: 0 0;
+  padding: 0;
+  font-size: 12px;
+
+}
+
+.my-float2{
+	margin-top:10px;
+  padding-right:  10px ;
+
+}
+
+.float:hover{
+  transform: scale(1.04)
+}
+
+@media screen and (max-width: 400px) {
+  .float2{
+    width: 130px;
+    height:45px;
+    
+  }
+  .float2 span{
+    font-size: 10px;
+  }
+  
+  .float2 a {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .float2{
+    display: none;
+  }
 }
