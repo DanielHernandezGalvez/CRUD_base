@@ -43,6 +43,10 @@ a {
   font-family: "Oswald", sans-serif;
 }
 
+.fa{
+  cursor: pointer;
+}
+
 button {
   font-family: "Oswald", sans-serif !important;
 }
