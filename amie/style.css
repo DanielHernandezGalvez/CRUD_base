@@ -63,6 +63,8 @@ button {
   text-transform: uppercase;
 }
 
+
+
 .button {
   width: 200px;
   padding: 9px 5px 12px 5px;
@@ -131,11 +133,7 @@ button {
   background-size: cover;
   padding: auto;
 }
-@media (max-width: 768px) {
-  .section-2 {
-    background-position: right;
-  }
-}
+
 
 .section-2 div {
   display: flex;
@@ -229,4 +227,46 @@ footer {
 #footer p {
   font-size: small;
   width: 60%;
+}
+
+
+.overlay-text {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  transform: translate(-30%, -30%);
+}
+
+.overlay-text-right {
+  position: absolute;
+  top: 20%;
+  right: 10%;
+  transform: translate(-20%, -30%);
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 1.5em;
+  }
+
+  p, b, a{
+    font-size: .6rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-2 {
+    background-position: center;
+    text-align: end;
+  }
+  .section-2 div {
+   margin: 0;
+   width: 100%;
+
+  }
+  .px-section {
+    padding: 0 10%;
+    font-size: .6rem;
+  }
+
 }
