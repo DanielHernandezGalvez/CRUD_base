@@ -23,4 +23,3 @@
 
     // Redireccionar a una página de agradecimiento
     header("Location: index.html"); // Cambia "gracias.html" por la página que deseas mostrar
-?>
