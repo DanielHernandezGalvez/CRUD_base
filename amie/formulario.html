@@ -98,20 +98,55 @@
 
     <main class="container py-5 bg-white h-screen">
       <h1 class="title text-center m-5">datos personales</h1>
-      <form action="" class="col-6 mx-auto">
-        <div class="d-flex justify-content-evenly">
-          <label class="form-label" for="nombre">Nombre (s):</label>
-          <input class="form-control my-4 mx-4" type="text" id="nombre" name="nombre" />
-          <label for="apellido"></label>
-          <input class="form-control my-4 mx-4" id="apellido" name="apellido" type="text" />
+      <form action="contacto.php" class="col-8 mx-auto mb-5 pb-5">
+        <div class="d-flex justify-content-evenly flex-wrap">
+          <input
+            class="form-control my-4 mx-4"
+            type="text"
+            id="nombre"
+            name="nombre"
+            placeholder="NOMBRE (S):"
+          />
+
+          <input
+            class="form-control my-4 mx-4"
+            id="apellido"
+            name="apellido"
+            type="text"
+            placeholder="PRIMER APELLIDO:"
+          />
         </div>
-        <div class="d-flex justify-content-evenly">
-          <input class="form-control my-4 mx-4" type="text" />
-          <input class="form-control my-4 mx-4" type="text" />
+        <div class="d-flex justify-content-evenly flex-wrap">
+          <input
+            class="form-control my-4 mx-4"
+            type="text"
+            name="casada"
+            id="casada"
+            placeholder="SEGUNDO APELLIDO Y/O CASADA:"
+          />
+          <input
+            class="form-control my-4 mx-4"
+            type="text"
+            name="telefono"
+            id="telefono"
+            placeholder="TELÉFONO CELULAR:"
+          />
         </div>
-        <div class="d-flex justify-content-evenly">
-          <input class="form-control my-4 mx-4" type="text" />
-          <input class="form-control my-4 mx-4" type="text" />
+        <div class="d-flex justify-content-evenly flex-wrap">
+          <input
+            class="form-control my-4 mx-4"
+            type="text"
+            name="email"
+            id="email"
+            placeholder="CORREO ELECTRÓNICO:"
+          />
+          <input
+            class="form-control my-4 mx-4"
+            type="text"
+            name="fecha"
+            id="fecha"
+            placeholder="FECHA DE NACIMIENTO (DD/MM/YYYY):"
+          />
         </div>
         <div class="form-check">
           <input

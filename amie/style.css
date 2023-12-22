@@ -248,7 +248,8 @@ footer {
 
   p,
   b,
-  a {
+  a,
+  label {
     font-size: 0.6rem;
   }
 }
@@ -270,6 +271,28 @@ footer {
 
 .w-50 {
   width: 50%;
+}
+
+
+
+.form-bg{
+  background-color: var(--bg-form);
+}
+
+.h-screen{
+  height: 100vh;
+  background-color: var(--bg-form);
+  background-attachment: fixed !important;
+}
+
+.form-control {
+  background-color: var(--bg-form) !important;
+  border: 1px solid #0a0a0a !important;
+}
+
+input[type="text"],
+input[type="email"]{
+  width: 300px !important;
 }
 
 @media (max-width: 768px) {
@@ -307,17 +330,9 @@ footer {
   .button a {
     font-size: 1rem;
   }
-}
 
-.form-bg{
-  background-color: var(--bg-form);
-}
+  .h-screen{
+    overflow: scroll;
 
-.h-screen{
-  height: 100vh;
-}
-
-.form-control {
-  background-color: var(--bg-form) !important;
-  border: 1px solid #0a0a0a !important;
+  }
 }
