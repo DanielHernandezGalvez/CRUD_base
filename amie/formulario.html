@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario AMIE</title>
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- flaticon -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body class="form-bg">
+    <!-- navigation -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark fixed d-flex bg-color cormorant justify-content-evenly"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">
+          <img width="70px" src="./img/logo-blanco.svg" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-5">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">INICIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#catalogo">CATÁLOGO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#about">¿QUIÉNES SOMOS?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#quierosersocia"
+                >QUIERO SER SOCIA</a
+              >
+            </li>
+            <!-- dropdown -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-white"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                CONTACTO
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="/formulario.html">Whatsapp</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">contacto@amie.com.mx</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Otro</a></li>
+                <!-- <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li> -->
+              </ul>
+            </li>
+          </ul>
+
+          <button class="btn btn-outline-light" type="submit">
+            <p class="font-400" style="margin: 0">Wish list</p>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <main class="container py-5 bg-white h-screen">
+      <h1 class="title text-center m-5">datos personales</h1>
+      <form action="" class="col-6 mx-auto">
+        <div class="d-flex justify-content-evenly">
+          <label class="form-label" for="nombre">Nombre (s):</label>
+          <input class="form-control my-4 mx-4" type="text" id="nombre" name="nombre" />
+          <label for="apellido"></label>
+          <input class="form-control my-4 mx-4" id="apellido" name="apellido" type="text" />
+        </div>
+        <div class="d-flex justify-content-evenly">
+          <input class="form-control my-4 mx-4" type="text" />
+          <input class="form-control my-4 mx-4" type="text" />
+        </div>
+        <div class="d-flex justify-content-evenly">
+          <input class="form-control my-4 mx-4" type="text" />
+          <input class="form-control my-4 mx-4" type="text" />
+        </div>
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="flexCheckDefault"
+          />
+          <label class="form-check-label" for="flexCheckDefault">
+            ACEPTO LOS TÉRMINOS, CONDICIONES Y POLÍTICAS DE USO DE ESTA WEB Y
+            PROTECCIÓN DE DATOS PERSONALES
+          </label>
+        </div>
+        <div class="text-center">
+          <input
+            class="text-white text-center font-400 button my-4 cormorant"
+            type="submit"
+          />
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

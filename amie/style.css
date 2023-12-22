@@ -5,6 +5,7 @@
   --text-light: 200;
   --text-medium: 300;
   --text-bold: 400;
+  --bg-form: rgb(249, 241, 233);
 }
 
 * {
@@ -306,4 +307,17 @@ footer {
   .button a {
     font-size: 1rem;
   }
+}
+
+.form-bg{
+  background-color: var(--bg-form);
+}
+
+.h-screen{
+  height: 100vh;
+}
+
+.form-control {
+  background-color: var(--bg-form) !important;
+  border: 1px solid #0a0a0a !important;
 }
