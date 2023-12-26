@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualización de Imágenes</title>
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+        crossorigin="anonymous"
+    />
+</head>
+<body>
+    <h1>Imágenes Seleccionadas</h1>
+
+    <div class="container">
+        <div id="selected-images" class="row">
+            <!-- Las imágenes seleccionadas se agregarán aquí dinámicamente -->
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Obtener la información de las imágenes seleccionadas desde el Local Storage
+            var selectedImages = JSON.parse(localStorage.getItem('selectedImage'));
+
+            // Verificar si hay imágenes seleccionadas
+            if (selectedImages) {
+                // Contenedor de imágenes seleccionadas
+                var selectedImagesContainer = document.getElementById('selected-images');
+
+                // Crear elementos de imagen para cada imagen seleccionada
+                selectedImages.forEach(function (image) {
+                    var imgElement = document.createElement('img');
+                    imgElement.src = image.path;
+                    imgElement.className = 'd-block w-100';
+                    imgElement.alt = 'Imagen ' + image.number;
+
+                    // Crear un contenedor para cada imagen
+                    var imageContainer = document.createElement('div');
+                    imageContainer.className = 'col-md-4 mb-3';
+
+                    // Agregar la imagen al contenedor
+                    imageContainer.appendChild(imgElement);
+
+                    // Agregar el contenedor al contenedor de imágenes seleccionadas
+                    selectedImagesContainer.appendChild(imageContainer);
+                });
+            } else {
+                // Mensaje si no hay imágenes seleccionadas
+                var noImagesMessage = document.createElement('p');
+                noImagesMessage.textContent = 'No hay imágenes seleccionadas.';
+                document.body.appendChild(noImagesMessage);
+            }
+        });
+    </script>
+
+</body>
+</html>

@@ -273,13 +273,11 @@ footer {
   width: 50%;
 }
 
-
-
-.form-bg{
+.form-bg {
   background-color: var(--bg-form);
 }
 
-.h-screen{
+.h-screen {
   height: 100vh;
   background-color: var(--bg-form);
   background-attachment: fixed !important;
@@ -291,7 +289,7 @@ footer {
 }
 
 input[type="text"],
-input[type="email"]{
+input[type="email"] {
   width: 300px !important;
 }
 
@@ -331,8 +329,22 @@ input[type="email"]{
     font-size: 1rem;
   }
 
-  .h-screen{
+  .h-screen {
     overflow: scroll;
-
   }
+}
+
+.favorito {
+  background-color: var(--primary) !important;
+  border-radius: 20px !important;
+  border: none !important;
+  position: relative;
+  z-index: 100;
+  margin: 10px 10px;
+  transition: 0.3s ease all;
+  text-transform: uppercase;
+}
+
+.favorito:hover {
+  background-color: #258f8a !important;
 }
