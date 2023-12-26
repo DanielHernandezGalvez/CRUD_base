@@ -69,6 +69,8 @@ document.addEventListener('DOMContentLoaded', function () {
             // Agregar el contenedor al modal
             selectedImagesContainer.appendChild(selectedImageElement);
         });
+        //    // Activar medium-zoom en las imágenes
+        //    mediumZoom('.zoomable');
     }
 
     // Iterar desde 1 hasta 28

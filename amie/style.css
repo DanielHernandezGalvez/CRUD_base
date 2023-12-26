@@ -348,3 +348,8 @@ input[type="email"] {
 .favorito:hover {
   background-color: #258f8a !important;
 }
+
+.modal-dialog {
+  width: 90% !important;
+  max-width: 1200px !important;
+}
