@@ -364,3 +364,45 @@ input[type="email"] {
   background-color: #77beb0;
   border-radius: 20px;
 }
+
+
+#carousel-inner {
+  position: relative !important;
+  overflow: scrollX !important;
+}
+
+#zoom-out {
+    position: absolute;
+  cursor: pointer;
+  font-size: 18px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 0 5px;
+  top: 13vh;
+  left: 48%;
+  margin: 10px; 
+  z-index: 1000;
+}
+
+#zoom-in {
+  position: absolute;
+  cursor: pointer;
+  font-size: 18px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 0 5px;
+  top: 13vh;
+  left: 52%;
+  margin: 10px;
+  z-index: 1000;
+
+}
+::-webkit-scrollbar {
+width: 10px;
+background-color: #258f8a;
+}
+
+::-webkit-scrollbar-thumb {
+background-color: #77beb0;
+border-radius: 20px;
+}

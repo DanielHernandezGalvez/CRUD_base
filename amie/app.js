@@ -6,6 +6,8 @@ developer();
 
 
 document.addEventListener('DOMContentLoaded', function () {
+
+
     // Ruta de la carpeta del catálogo
     var catalogoPath = './catalogo/';
 
@@ -49,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             var imgElement = document.createElement('img');
             imgElement.src = imageInfo.path;
-            imgElement.className = 'd-block w-100';
+            imgElement.className = 'd-block w-100 zoom-image';
             imgElement.alt = 'Imagen ' + imageInfo.number;
 
             // Agregar la imagen al contenedor de imágenes seleccionadas en el modal
@@ -85,8 +87,35 @@ document.addEventListener('DOMContentLoaded', function () {
         // Crear la imagen dentro del elemento del carousel
         var imgElement = document.createElement('img');
         imgElement.src = rutaImagen;
-        imgElement.className = 'd-block w-100';
+        imgElement.className = 'd-block w-100 zoom-image';
         imgElement.alt = 'Imagen ' + i;
+
+        // Agregar un identificador único a cada imagen
+        imgElement.id = "zoomable-image-" + i;
+        
+        var zoomImage = document.querySelector('.carousel-item.active');
+
+        // Aplicar el zoom a la imagen
+        if (zoomImage) {
+            // Resto del código para el zoom...
+            var zoomInButton = document.getElementById("zoom-in");
+            var zoomOutButton = document.getElementById("zoom-out");
+
+            var currentZoom = 100;
+
+            zoomInButton.addEventListener("click", function () {
+                currentZoom += 10;
+                zoomImage.style.width = currentZoom + "%";
+                console.log("mas");
+            });
+
+            zoomOutButton.addEventListener("click", function () {
+                currentZoom -= 10;
+                zoomImage.style.width = currentZoom + "%";
+                console.log("menos");
+            });
+        }
+
 
         // Agregar la imagen al elemento del carousel
         carouselItem.appendChild(imgElement);
@@ -106,13 +135,15 @@ document.addEventListener('DOMContentLoaded', function () {
             // Obtener la ruta de la imagen correspondiente
             var imagePath = catalogoPath + imageIndex + '.png';
 
+             // Seleccionar la imagen específica por su identificador único
+            
             // Crear el elemento de la imagen en el modal
             var selectedImageElement = document.createElement('div');
             selectedImageElement.className = 'selected-image';
 
             var imgElement = document.createElement('img');
             imgElement.src = imagePath;
-            imgElement.className = 'd-block w-100';
+            imgElement.className = 'd-block w-100 zoom-image';
             imgElement.alt = 'Imagen ' + imageIndex;
 
             // Agregar la imagen al contenedor de imágenes seleccionadas en el modal
@@ -138,6 +169,8 @@ document.addEventListener('DOMContentLoaded', function () {
                 path: imagePath
             });
 
+            
+
             // Actualizar el Local Storage
             updateLocalStorage();
         });
@@ -147,7 +180,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // Agregar el elemento del carousel al contenedor
         carouselInner.appendChild(carouselItem);
+
+       
     }
+
+
+    
 
     // Cargar las imágenes desde el Local Storage al abrir la página
     var storedImages = localStorage.getItem('selectedImages');

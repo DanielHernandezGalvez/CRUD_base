@@ -76,14 +76,14 @@
 <body>
 
   <div id="image-container">
-    <img id="zoom-image" src="./catalogo/1.png" alt="Imagen" style="width:100vw;">
+    <img class="zoom-image" src="./catalogo/1.png" alt="Imagen" style="width:100vw;">
     <div class="btn" id="zoom-in">+</div>
     <div id="zoom-out">-</div>
   </div>
 
   <script>
     document.addEventListener('DOMContentLoaded', function () {
-      var zoomImage = document.getElementById('zoom-image');
+      var zoomImage = document.querySelector('.zoom-image');
       var zoomInButton = document.getElementById('zoom-in');
       var zoomOutButton = document.getElementById('zoom-out');
 

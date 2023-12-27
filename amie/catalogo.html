@@ -30,7 +30,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js"></script>
-
   </head>
   <body>
     <!-- navigation -->
@@ -112,13 +111,17 @@
     <!-- navigation -->
 
     <h1 class="title text-center my-5">Catálogo</h1>
+    <div  id="zoom-in">+</div>
+    <div  id="zoom-out">-</div>
     <div
       id="carouselExampleControls"
       class="carousel slide"
       data-bs-ride="carousel"
     >
+
       <div class="carousel-inner" id="carousel-inner">
         <!-- Las imágenes del catálogo se agregarán aquí dinámicamente -->
+      
       </div>
       <button
         class="carousel-control-prev"
@@ -142,7 +145,7 @@
       <!-- Botón para abrir el modal -->
       <div class="w-100 text-center">
         <button
-          class="button text-white py-auto  text-center my-5"
+          class="button text-white py-auto text-center my-5"
           type="button"
           data-bs-toggle="modal"
           data-bs-target="#exampleModal"
@@ -163,9 +166,7 @@
       <div class="modal-dialog w-100">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal" id="exampleModalLabel">
-              Imágenes Seleccionadas
-            </h5>
+            <h5 class="modal" id="exampleModalLabel">Imágenes Seleccionadas</h5>
             <button
               type="button"
               class="btn-close"
@@ -183,50 +184,8 @@
     </div>
 
     <script src="./app.js"></script>
-    <!-- <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            // ... (resto del código del carousel)
+    
 
-            // Manejar el evento click del botón del modal
-            var modalButton = document.getElementById('exampleModal');
-            modalButton.addEventListener('click', function () {
-                // Obtener la información de las imágenes seleccionadas desde el Local Storage
-                var selectedImages = JSON.parse(localStorage.getItem('selectedImage'));
-
-                // Verificar si hay imágenes seleccionadas
-                if (selectedImages) {
-                    // Contenedor de imágenes seleccionadas
-                    var selectedImagesContainer = document.getElementById('selected-images');
-
-                    // Limpiar el contenido actual del modal
-                    selectedImagesContainer.innerHTML = '';
-
-                    // Crear elementos de imagen para cada imagen seleccionada
-                    selectedImages.forEach(function (image) {
-                        var imgElement = document.createElement('img');
-                        imgElement.src = image.path;
-                        imgElement.className = 'd-block w-100';
-                        imgElement.alt = 'Imagen ' + image.number;
-
-                        // Crear un contenedor para cada imagen
-                        var imageContainer = document.createElement('div');
-                        imageContainer.className = 'col-md-4 mb-3';
-
-                        // Agregar la imagen al contenedor
-                        imageContainer.appendChild(imgElement);
-
-                        // Agregar el contenedor al contenedor de imágenes seleccionadas en el modal
-                        selectedImagesContainer.appendChild(imageContainer);
-                    });
-                } else {
-                    // Mensaje si no hay imágenes seleccionadas
-                    var noImagesMessage = document.createElement('p');
-                    noImagesMessage.textContent = 'No hay imágenes seleccionadas.';
-                    selectedImagesContainer.appendChild(noImagesMessage);
-                }
-            });
-        });
-    </script> -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
