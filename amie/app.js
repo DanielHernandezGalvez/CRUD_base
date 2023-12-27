@@ -57,8 +57,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
             // Crear el botón de eliminar
             var deleteButton = document.createElement('button');
-            deleteButton.innerHTML = '<i class="fas fa-trash-alt"></i>';
-            deleteButton.className = 'btn btn-danger delete-button';
+            deleteButton.innerHTML = 'BORRAR';
+            deleteButton.className = 'btn btn-danger delete-button my-2';
             deleteButton.addEventListener('click', function () {
                 deleteImage(imageInfo.number);
             });

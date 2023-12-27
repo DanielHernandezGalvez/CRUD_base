@@ -353,3 +353,14 @@ input[type="email"] {
   width: 90% !important;
   max-width: 1200px !important;
 }
+
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #258f8a;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #77beb0;
+  border-radius: 20px;
+}
