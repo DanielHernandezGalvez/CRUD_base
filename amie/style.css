@@ -334,26 +334,10 @@ input[type="email"] {
   }
 }
 
-.favorito {
-  background-color: var(--primary) !important;
-  border-radius: 20px !important;
-  border: none !important;
-  position: relative;
-  z-index: 100;
-  margin: 10px 10px;
-  transition: 0.3s ease all;
-  text-transform: uppercase;
-}
-
-.favorito:hover {
-  background-color: #258f8a !important;
-}
-
 .modal-dialog {
   width: 90% !important;
   max-width: 1200px !important;
 }
-
 
 ::-webkit-scrollbar {
   width: 10px;
@@ -365,14 +349,13 @@ input[type="email"] {
   border-radius: 20px;
 }
 
-
 #carousel-inner {
   position: relative !important;
   overflow: scrollX !important;
 }
 
 #zoom-out {
-    position: absolute;
+  position: absolute;
   cursor: pointer;
   font-size: 18px;
   background-color: #fff;
@@ -380,7 +363,7 @@ input[type="email"] {
   padding: 0 5px;
   top: 13vh;
   left: 48%;
-  margin: 10px; 
+  margin: 10px;
   z-index: 1000;
 }
 
@@ -395,14 +378,58 @@ input[type="email"] {
   left: 52%;
   margin: 10px;
   z-index: 1000;
-
 }
 ::-webkit-scrollbar {
-width: 10px;
-background-color: #258f8a;
+  width: 10px;
+  background-color: #258f8a;
 }
 
 ::-webkit-scrollbar-thumb {
-background-color: #77beb0;
-border-radius: 20px;
+  background-color: #77beb0;
+  border-radius: 20px;
+}
+
+
+
+.favorito {
+  background-color: var(--primary) !important;
+  border-radius: 20px !important;
+  border: none !important;
+  position: relative;
+  z-index: 100;
+  top: -1vh;
+  margin: 10px 10px;
+  transition: 0.3s ease all;
+  text-transform: uppercase;
+}
+
+
+
+.favorito:hover {
+  background-color: #258f8a !important;
+}
+
+.open-modal {
+  border: 1px solid var(--primary);
+  border-radius: 4px;
+  background-color: transparent;
+  color: var(--primary) !important;
+  position: relative;
+  font-size: 1.3rem;
+  transition: .4s ease all;
+  text-transform: uppercase;
+}
+
+.open-modal:hover{
+  background-color: var(--primary);
+  color: #fff !important;
+}
+
+@media (max-width: 768px) {
+  .favorito {
+    font-size: 0.8rem !important;
+  }
+  .open-modal{
+    font-size: .8rem;
+  }
 }

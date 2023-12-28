@@ -23,6 +23,7 @@
       integrity="sha512-fvBPI9F1i6NoJ2HYQxTz3JNwtiZK4Za4EZ4l+e4rP+qlEnlE2+8EZt3lR4ZEsHfjBtxXT6A4g5rZnU/6Z3rjZA=="
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
@@ -30,8 +31,18 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js"></script>
+    <style>
+      .carousel-item img {
+  overflow: scroll;
+  transition: 0.4s ease all;
+}
+
+.carousel-item img:hover {
+  transform: scale(1.2);
+}
+    </style>
   </head>
-  <body>
+  <body class="mb-5 pb-5">
     <!-- navigation -->
     <nav
       class="navbar navbar-expand-lg navbar-dark d-flex bg-color cormorant justify-content-evenly"
@@ -57,9 +68,9 @@
               <a class="nav-link active" aria-current="page" href="/">INICIO</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="./catalogo.html">CATÁLOGO</a>
+              <a class="nav-link text-white" href="./formulario.html">CONTÁCTO</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link text-white" href="#about">¿QUIÉNES SOMOS?</a>
             </li>
             <li class="nav-item">
@@ -67,7 +78,6 @@
                 >QUIERO SER SOCIA</a
               >
             </li>
-            <!-- dropdown -->
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle text-white"
@@ -80,46 +90,48 @@
                 CONTACTO
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li>
-                  <a class="dropdown-item" href="/formulario.html"
-                    >Formulario</a
-                  >
-                </li>
+                <li><a class="dropdown-item" href="/formulario.html">Formulario</a></li>
                 <li>
                   <a class="dropdown-item" href="#">contacto@amie.com.mx</a>
                 </li>
                 <li><a class="dropdown-item" href="#">Otro</a></li>
-                <!-- <li><hr class="dropdown-divider" /></li>
+                 <li><hr class="dropdown-divider" /></li>
                 <li>
                   <a class="dropdown-item" href="#">Something else here</a>
-                </li> -->
+                </li> 
               </ul>
             </li>
           </ul>
 
-          <button
-            class="btn btn-outline-light"
-            type="button"
-            data-bs-toggle="modal"
-            data-bs-target="#exampleModal"
-          >
+          <button class="btn btn-outline-light" type="submit">
             <p class="font-400" style="margin: 0">Wish list</p>
-          </button>
+          </button> -->
         </div>
       </div>
     </nav>
     <!-- navigation -->
-
+     <!-- Botón para abrir el modal -->
+     <div class="w-100 text-end m-0 ">
+      <button
+        class=" py-auto text-center my-1 mx-1 open-modal"
+        type="button"
+        data-bs-toggle="modal"
+        data-bs-target="#exampleModal"
+      >
+        Ver mis favoritos
+      </button>
+    </div>
+  </div>
     <h1 class="title text-center my-5">Catálogo</h1>
-    <div  id="zoom-in">+</div>
-    <div  id="zoom-out">-</div>
+    <!-- <div  id="zoom-in">+</div>
+    <div  id="zoom-out">-</div> -->
     <div
       id="carouselExampleControls"
-      class="carousel slide"
+      class="carousel slide "
       data-bs-ride="carousel"
     >
 
-      <div class="carousel-inner" id="carousel-inner">
+      <div class="carousel-inner " id="carousel-inner">
         <!-- Las imágenes del catálogo se agregarán aquí dinámicamente -->
       
       </div>
@@ -142,18 +154,7 @@
         <span class="visually-hidden">Next</span>
       </button>
 
-      <!-- Botón para abrir el modal -->
-      <div class="w-100 text-center">
-        <button
-          class="button text-white py-auto text-center my-5"
-          type="button"
-          data-bs-toggle="modal"
-          data-bs-target="#exampleModal"
-        >
-          Ver mis favoritos
-        </button>
-      </div>
-    </div>
+ 
 
     <!-- Modal -->
     <div
@@ -166,7 +167,7 @@
       <div class="modal-dialog w-100">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal" id="exampleModalLabel">Imágenes Seleccionadas</h5>
+            <h5 class="modal-title">Mis favoritos</h5>
             <button
               type="button"
               class="btn-close"
@@ -185,11 +186,11 @@
 
     <script src="./app.js"></script>
     
-
+<!-- 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
-    ></script>
+    ></script> -->
   </body>
 </html>
