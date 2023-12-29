@@ -229,14 +229,14 @@ footer {
 
 .overlay-text {
   position: absolute;
-  top: 20%;
+  top: 15%;
   left: 20%;
   transform: translate(-30%, -30%);
 }
 
 .overlay-text-right {
   position: absolute;
-  top: 20%;
+  top: 15%;
   right: 10%;
   transform: translate(-20%, -30%);
 }
