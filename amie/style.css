@@ -349,10 +349,17 @@ input[type="email"] {
   border-radius: 20px;
 }
 
+
+
 #carousel-inner {
   position: relative !important;
   overflow: scrollX !important;
+
+  box-sizing: border-box;
 }
+
+
+
 
 #zoom-out {
   position: absolute;
@@ -397,7 +404,7 @@ input[type="email"] {
   border: none !important;
   position: relative;
   z-index: 100;
-  top: -1vh;
+  /* top: -1vh; */
   margin: 10px 10px;
   transition: 0.3s ease all;
   text-transform: uppercase;
@@ -433,3 +440,5 @@ input[type="email"] {
     font-size: .8rem;
   }
 }
+
+

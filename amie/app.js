@@ -72,8 +72,8 @@ document.addEventListener("DOMContentLoaded", function () {
     //    mediumZoom('.zoomable');
   }
 
-  // Iterar desde 1 hasta 28
-  for (var i = 1; i <= 28; i++) {
+  // Iterar desde 1 hasta 29
+  for (var i = 1; i <= 29; i++) {
     // Construir la ruta de la imagen
     var rutaImagen = catalogoPath + i + ".png";
 
@@ -84,7 +84,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Crear la imagen dentro del elemento del carousel
     var imgElement = document.createElement("img");
     imgElement.src = rutaImagen;
-    imgElement.className = "d-block w-100 zoom-image";
+    imgElement.className = "d-block w-100 clickable-image";
     imgElement.alt = "Imagen " + i;
 
     /****************************** */

@@ -8,7 +8,7 @@
     $fecha = $_POST['fecha'];
 
     // Configurar la información del correo electrónico
-    $correoDestinatario = "correo@correo.com"; // Tu correo electrónico
+    $correoDestinatario = "contacto@amie.com.mx"; // Tu correo electrónico
     $asunto = "Formulario de contacto";
     $mensaje = "Datos del formulario:\n\n";
     $mensaje .= "Nombre: $nombre\n";
