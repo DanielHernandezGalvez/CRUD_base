@@ -1,24 +1,55 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Navbar from '../components/Navbar.astro';
+import Layout from "../layouts/Layout.astro";
+import Navbar from "../components/Navbar.astro";
 ---
 
 <Layout title="Aceituna">
-	<Navbar />
-	<main>
-	
-	</main>
+  <Navbar />
+  <main>
+    <section class="hero">
+      <div
+        class="w-50 bg-beige-1 text-center pt-16 pb-8 px-16 relative top-60 max-w-[70vw] mx-auto"
+      >
+        <span class="bg-[--beige] px-16 py-2 text-3xl text-[--gray] monserrat "
+          >ACEITUNA</span
+        >
+        <p class="text-[--brown] mt-10">
+          Somos una plataforma dedicada a elevar la experiencia de los adultos
+          con base a actividades de diferentes intereses y así empoderar su vida
+          y hacer una comunidad de personas afines a sus intereses.
+        </p>
+		<br>
+        <p class="text-[--gray] pb-5">
+          “Nunca es tarde para salir de su rutina, se puede vivir una segunda
+          juventud, los hijos se van y estamos libres de ataduras lo cual nos
+          permite vivir de nuevo experiencias enriquecedoras.” <br
+          />Jean-Christophe Jaunait
+        </p>
+      </div>
+    </section>
+  </main>
 </Layout>
 
 <style>
-	main {
-		margin: auto;
-		padding: 1rem;
-		/* width: 800px;
+  main {
+    margin: auto;
+
+    /* width: 800px;
 		max-width: calc(100% - 2rem); */
-		color: white;
-		font-size: 20px;
-		line-height: 1.6;
-	}
-	
+    color: white;
+    font-size: 20px;
+    line-height: 1.4;
+  }
+
+  .hero {
+    background-image: url("/images/imagenes-07.png");
+    height: 60vh;
+    background-size: cover;
+    background-position: top;
+  }
+  .bg-beige-1 {
+    background-image: url("/images/bg-beige-1.png");
+    background-size: cover;
+    background-position: center;
+  }
 </style>
