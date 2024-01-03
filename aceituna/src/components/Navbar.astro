@@ -2,69 +2,88 @@
 
 ---
 
-<nav
-  class="flex flex-wrap
-          items-center
-          justify-evenly
-          w-full
-          py-4
-          md:py-0
-          px-4
-          text-lg text-gray-700
-          bg-orange-200"
->
+<nav class="flex justify-center w-100 bg-[--yellow] py-10 monserrat">
   <div>
-    <a href="#"> Aceituna</a>
+    <a href="#"> <img class="w-[80%] mt-10" src="/logo.png" alt="" /></a>
   </div>
-
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    id="menu-button"
-    class="h-6 w-6 cursor-pointer md:hidden block"
-    fill="none"
-    viewBox="0 0 24 24"
-    stroke="currentColor"
+  <div
+    class="flex flex-wrap
+        items-center
+        justify-evenly
+        py-4
+        md:py-0
+        px-2
+        text-lg text-gray-700"
   >
-    <path
-      stroke-linecap="round"
-      stroke-linejoin="round"
-      stroke-width="2"
-      d="M4 6h16M4 12h16M4 18h16"></path>
-  </svg>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      id="menu-button"
+      class="h-6 w-6 cursor-pointer lg:hidden block"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M4 6h16M4 12h16M4 18h16"></path>
+    </svg>
 
-  <div class="hidden w-full md:flex md:items-center md:w-auto" id="menu">
-    <ul
-      class="pt-4
-              text-xs text-gray-700
+    <div
+      class="hidden w-full lg:flex lg:flex-col lg:items-center lg:w-auto"
+      id="menu"
+    >
+      <ul
+        class="py-4
+              text-xl text-[--brown]
+              
               md:flex
               md:justify-between
-              md:pt-0"
-    >
-      <li>
-        <a class="md:p-4 py-2 block hover:text-purple-400" href="#">ACEITUNA</a>
-      </li>
-      <li>
-        <a class="md:p-4 py-2 block hover:text-purple-400" href="#">TALLERES</a>
-      </li>
-      <li>
-        <a class="md:p-4 py-2 block hover:text-purple-400" href="#"
-          >SUSCRIPCIONES</a
-        >
-      </li>
-      <li>
-        <a class="md:p-4 py-2 block hover:text-purple-400" href="#">GALERÍA</a>
-      </li>
-      <li>
-        <a class="md:p-4 py-2 block hover:text-purple-400" href="#"
-          >CALENDARIO</a
-        >
-      </li>
-      <li>
-        <a class="md:p-4 py-2 block hover:text-purple-400" href="#">CONTACTO</a>
-      </li>
-    </ul>
-  </div>
+              md:pt-0
+              font-bold"
+      >
+        <li>
+          <a class="md:p-4 py-2 block hover:text-gray-500" href="#"
+            >ACEITUNA</a
+          >
+        </li>
+        <li>
+          <a class="md:p-4 py-2 block hover:text-gray-500" href="#"
+            >TALLERES</a
+          >
+        </li>
+        <li>
+          <a class="md:p-4 py-2 block hover:text-gray-500" href="#"
+            >SUSCRIPCIONES</a
+          >
+        </li>
+        <li>
+          <a class="md:p-4 py-2 block hover:text-gray-500" href="#">GALERÍA</a
+          >
+        </li>
+        <li>
+          <a class="md:p-4 py-2 block hover:text-gray-500" href="#"
+            >CALENDARIO</a
+          >
+        </li>
+        <li>
+          <a class="md:p-4 py-2 block hover:text-gray-500" href="#"
+            >CONTACTO</a
+          >
+        </li>
+      </ul>
 
+      <ul
+        class="flex w-full lg:justify-end items-center gap-10 border-t-4 pt-7
+        md:justify-center border-[--brown]"
+      >
+        <li class="transition hover:scale-110"><a href="https://www.instagram.com/aceitunaexperience?fbclid=IwAR3c9t6cBUB4XIWyC-kTT8xa3Vo81tv8nbt2JJdmpz1qmFz34UizYX6eIeE" target="_blank"><img src="/icons/instagram.png" alt="" /></a></li>
+        <li class="transition hover:scale-110"><a href=""><img src="/icons/youtube.png" alt="" /></a></li>
+        <li class="transition hover:scale-110"><a href="https://www.facebook.com/profile.php?id=61554323523242" target="_blank"><img src="/icons/facebook.png" alt="" /></a></li>
+      </ul>
+    </div>
+  </div>
 </nav>
 
 <script>
