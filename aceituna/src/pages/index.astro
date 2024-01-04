@@ -1,6 +1,8 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Navbar from "../components/Navbar.astro";
+import Taller from "../components/Taller.tsx"
+import TallerLeft from "../components/TallerLeft.tsx"
 ---
 
 <Layout title="Aceituna">
@@ -52,12 +54,17 @@ import Navbar from "../components/Navbar.astro";
 
     <section class="flex justify-between bg-[--beige-clear]">
       <div class="py-20 ps-10">
-        <span class="bg-[--beige] text-[--brown] monserrat font-medium text-4xl p-4">¿Cómo funciona?</span>
-		<p class="mt-10 mb-10 text-[--brown] text-xl">
-          Tenemos varías formas por las cuales pueden contactarnos y te <br>
-          apoyaremos desde la que sea de tu elección, conócelas <br> más adelante...
+        <span
+          class="bg-[--beige] text-[--brown] monserrat font-medium text-4xl p-4"
+          >¿Cómo funciona?</span
+        >
+        <p class="mt-10 mb-10 text-[--brown] text-xl">
+          Tenemos varías formas por las cuales pueden contactarnos y te <br />
+          apoyaremos desde la que sea de tu elección, conócelas <br /> más adelante...
         </p>
-        <a class="mt-10" href=""><img class="w-[15vw]" src="/images/leer-mas.png" alt="" /></a>
+        <a class="mt-10" href=""
+          ><img class="w-[15vw]" src="/images/leer-mas.png" alt="" /></a
+        >
       </div>
       <div class="">
         <img
@@ -66,6 +73,61 @@ import Navbar from "../components/Navbar.astro";
           alt=""
         />
       </div>
+    </section>
+
+    <section id="talleres" class="bg-[--beige]">
+      <h2 class="text-[--brown] text-5xl text-center pt-16">
+        TALLERES QUE OFRECEMOS
+      </h2>
+      <p
+        class="text-[--brown] text-2xl text-center text-medium mb-10 monserrat"
+      >
+        Consulta el calendario de actividades
+      </p>
+
+      <!-- cuadros -->
+
+      <Taller
+      imageSrc="/images/imagenes-09.png"
+      title="Ver"
+      textItems={[
+        "Club de cine",
+        
+      ]}
+    />
+    <TallerLeft
+        title="Sentir"
+        imageSrc="/images/imagenes-10.png"
+        textItems={[
+          "Pilates & barre baja intensidad",
+          "Power",
+          "Ejercicios Funcionales",
+          "Defensa personal",
+          "Yoga",
+          ]}
+    />
+      <Taller
+      imageSrc="/images/imagenes-11.png"
+      title="Conocer"
+      textItems={[
+        "Tertulias de filosofia",
+        "Desarrollo & bien estar personal"
+      ]}
+    />
+    <TallerLeft
+        title="Aprender"
+        imageSrc="/images/imagenes-12.png"
+        textItems={[
+          "Pintura",
+          "Catas de vino",
+          "Estilo personal para damas & caballeros",
+          "Feng shui",
+          "Defensa personal",
+          "Finanzas personales",
+          "Historia",
+          "Historia del arte",
+          ]}
+    />
     </section>
   </main>
 </Layout>
