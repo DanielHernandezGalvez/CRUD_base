@@ -5,12 +5,12 @@ import Navbar from "../components/Navbar.astro";
 
 <Layout title="Aceituna">
   <Navbar />
-  <main>
+  <main class="bg-[--yellow]">
     <section class="hero">
       <div
         class="w-50 bg-beige-1 text-center pt-16 pb-8 px-16 relative top-60 max-w-[70vw] mx-auto"
       >
-        <span class="bg-[--beige] px-16 py-2 text-3xl text-[--gray] monserrat "
+        <span class="bg-[--beige] px-16 py-2 text-3xl text-[--gray] monserrat"
           >ACEITUNA</span
         >
         <p class="text-[--brown] mt-10">
@@ -18,13 +18,53 @@ import Navbar from "../components/Navbar.astro";
           con base a actividades de diferentes intereses y así empoderar su vida
           y hacer una comunidad de personas afines a sus intereses.
         </p>
-		<br>
+        <br />
         <p class="text-[--gray] pb-5">
           “Nunca es tarde para salir de su rutina, se puede vivir una segunda
           juventud, los hijos se van y estamos libres de ataduras lo cual nos
           permite vivir de nuevo experiencias enriquecedoras.” <br
           />Jean-Christophe Jaunait
         </p>
+      </div>
+    </section>
+    <section class="hero1"></section>
+
+    <section class="w-full bg-[--beige-clear] p-10">
+      <div class="mx-auto pb-5">
+        <h2 class="text-[--brown] text-4xl text-center">
+          BENEFICIOS DE ESTA R EN ACEITUNA
+        </h2>
+        <div class="flex justify-center gap-10 flex-wrap mt-10" id="boxes">
+          <div class="flex justify-center items-center text-3xl">
+            Conocimiento
+          </div>
+          <div class="flex justify-center items-center text-3xl">Comunidad</div>
+          <div class="flex justify-center items-center text-3xl">Bienestar</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="flex justify-center py-20">
+      <a href="">
+        <img class="w-[500px]" src="/images/inscription.png" alt="" />
+      </a>
+    </section>
+
+    <section class="flex justify-between bg-[--beige-clear]">
+      <div class="py-20 ps-10">
+        <span class="bg-[--beige] text-[--brown] monserrat font-medium text-4xl p-4">¿Cómo funciona?</span>
+		<p class="mt-10 mb-10 text-[--brown] text-xl">
+          Tenemos varías formas por las cuales pueden contactarnos y te <br>
+          apoyaremos desde la que sea de tu elección, conócelas <br> más adelante...
+        </p>
+        <a class="mt-10" href=""><img class="w-[15vw]" src="/images/leer-mas.png" alt="" /></a>
+      </div>
+      <div class="">
+        <img
+          class="w-[40vw] h-[60vh] object-cover"
+          src="/images/imagenes-08.png"
+          alt=""
+        />
       </div>
     </section>
   </main>
@@ -47,8 +87,35 @@ import Navbar from "../components/Navbar.astro";
     background-size: cover;
     background-position: top;
   }
+  .hero1 {
+    height: 60vh;
+    background-size: cover;
+    background-position: top;
+  }
   .bg-beige-1 {
     background-image: url("/images/bg-beige-1.png");
+    background-size: cover;
+    background-position: center;
+  }
+
+  #boxes div:nth-child(1) {
+    background-image: url("/images/box-1.png");
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+  }
+  #boxes div:nth-child(2) {
+    background-image: url("/images/box-2.png");
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+  }
+  #boxes div:nth-child(3) {
+    background-image: url("/images/box-3.png");
+    width: 300px;
+    height: 200px;
     background-size: cover;
     background-position: center;
   }
