@@ -3,6 +3,29 @@ import Layout from "../layouts/Layout.astro";
 import Navbar from "../components/Navbar.astro";
 import Taller from "../components/Taller.tsx";
 import TallerLeft from "../components/TallerLeft.tsx";
+
+$('.owl-carousel').owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: true,
+    navText: [
+      "<i class='fa fa-caret-left'></i>",
+      "<i class='fa fa-caret-right'></i>"
+    ],
+    autoplay: true,
+    autoplayHoverPause: true,
+    responsive: {
+      0: {
+        items: 1
+      },
+      600: {
+        items: 3
+      },
+      1000: {
+        items: 5
+      }
+    }
+  })
 ---
 
 <Layout title="Aceituna">
@@ -75,7 +98,7 @@ import TallerLeft from "../components/TallerLeft.tsx";
       </div>
     </section>
 
-    <section id="talleres" class="bg-[--beige]">
+    <section id="talleres" class="bg-[--beige] pb-20">
       <h2 class="text-[--brown] text-5xl text-center pt-16">
         TALLERES QUE OFRECEMOS
       </h2>
@@ -84,9 +107,7 @@ import TallerLeft from "../components/TallerLeft.tsx";
       >
         Consulta el calendario de actividades
       </p>
-
       <!-- cuadros -->
-
       <Taller
         imageSrc="/images/imagenes-09.png"
         title="Ver"
@@ -126,6 +147,40 @@ import TallerLeft from "../components/TallerLeft.tsx";
         ]}
       />
     </section>
+
+    <section class="pb-20">
+      <h2 class="text-4xl text-[--brown] text-center pt-16">SUSCRIPCIONES</h2>
+      <div class="flex justify-center flex-wrap gap-20 mt-10">
+        <img class="w-[40vw] h-auto" src="/images/silver.png" alt="" />
+        <img class="w-[40vw] h-auto" src="/images/gold.png" alt="" />
+        <img class="w-[40vw] h-auto" src="/images/VIP.png" alt="" />
+      </div>
+    </section>
+
+    <section class="bg-fundadores pb-16">
+      <h2 class="text-4xl text-[--brown] text-center pt-16 pb-16">FUNDADORES</h2>
+      <div class=" flex justify-around items-center h-full flex-wrap">
+        <img class="w-[30vw]" src="/images/fundador.png" alt="" />
+        <img class="w-[30vw]" src="/images/fundadora.png" alt="" />
+      </div>
+    </section>
+
+    <div class="carousel-wrap">
+      <div class="owl-carousel">
+        <div class="item"><img src="http://placehold.it/150x150" /></div>
+        <div class="item"><img src="http://placehold.it/150x150" /></div>
+        <div class="item"><img src="http://placehold.it/150x150" /></div>
+        <div class="item"><img src="http://placehold.it/150x150" /></div>
+        <div class="item"><img src="http://placehold.it/150x150" /></div>
+        <div class="item"><img src="http://placehold.it/150x150" /></div>
+        <div class="item"><img src="http://placehold.it/150x150" /></div>
+        <div class="item"><img src="http://placehold.it/150x150" /></div>
+        <div class="item"><img src="http://placehold.it/150x150" /></div>
+        <div class="item"><img src="http://placehold.it/150x150" /></div>
+        <div class="item"><img src="http://placehold.it/150x150" /></div>
+        <div class="item"><img src="http://placehold.it/150x150" /></div>
+      </div>
+    </div>
   </main>
 </Layout>
 
@@ -177,5 +232,46 @@ import TallerLeft from "../components/TallerLeft.tsx";
     height: 200px;
     background-size: cover;
     background-position: center;
+  }
+
+  .bg-fundadores{
+    background-image: url("/images/bg-founders.png");
+    background-size: cover;
+    background-position: bottom;
+  }
+
+   /* owl */
+ .carousel-wrap {
+    margin: 90px auto;
+    padding: 0 5%;
+    width: 80%;
+    position: relative;
+  }
+  
+  /* fix blank or flashing items on carousel */
+  .owl-carousel .item {
+    position: relative;
+    z-index: 100; 
+    -webkit-backface-visibility: hidden; 
+  }
+  
+  /* end fix */
+  .owl-nav > div {
+    margin-top: -26px;
+    position: absolute;
+    top: 50%;
+    color: #cdcbcd;
+  }
+  
+  .owl-nav i {
+    font-size: 52px;
+  }
+  
+  .owl-nav .owl-prev {
+    left: -30px;
+  }
+  
+  .owl-nav .owl-next {
+    right: -30px;
   }
 </style>
