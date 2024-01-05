@@ -313,6 +313,3 @@ const calendarioActividades = {
     pilatesBarreBajaIntensidad: "Muy pronto",
   },
 };
-
-// Puedes acceder a la información de la siguiente manera:
-console.log(calendarioActividades.enero2024.cine[0].pelicula); // Imprime "Vertigo 1958"
