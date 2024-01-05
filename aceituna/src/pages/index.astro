@@ -4,6 +4,8 @@ import Navbar from "../components/Navbar.astro";
 import Taller from "../components/Taller.tsx";
 import TallerLeft from "../components/TallerLeft.tsx";
 import Carousel from "../components/Carousel.astro";
+// import Calendario from "../components/Calendar/Calendario.tsx";
+import Agendar from "../components/Agendar.jsx"
 ---
 
 <Layout title="Aceituna">
@@ -160,6 +162,11 @@ import Carousel from "../components/Carousel.astro";
         </div>
       </div>
     </section>
+
+    <!-- calendario -->
+    <!-- <Calendario eventos={calendarioActividades.enero2024} /> -->
+    <Agendar />
+
 
     <div class="w-full h-16"></div>
     <!-- contact -->
