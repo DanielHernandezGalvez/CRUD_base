@@ -4,7 +4,15 @@ const developer = () => {
 
 developer();
 
+const banner = () => {
+  img1 = document.getElementById("banner1")
+  
+}
+
 document.addEventListener("DOMContentLoaded", function () {
+
+  
+
   // Ruta de la carpeta del catálogo
   var catalogoPath = "./catalogo/";
 

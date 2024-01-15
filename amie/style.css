@@ -471,7 +471,13 @@ input[type="email"] {
     font-size: 1.7rem !important;
   }
 
-  /* .iconos_footer{
-    margin: 2rem 0;
-  } */
+  .carousel{
+    height: 50vh;
+    overflow: hidden;
+  }
+
+   .carousel-item{
+    height: 80vh !important;
+    width: auto !important;
+  } 
 }
