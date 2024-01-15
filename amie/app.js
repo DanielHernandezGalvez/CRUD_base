@@ -83,7 +83,8 @@ document.addEventListener("DOMContentLoaded", function () {
   // Iterar desde 1 hasta 29
   for (var i = 1; i <= 29; i++) {
     // Construir la ruta de la imagen
-    var rutaImagen = catalogoPath + i + ".png";
+    // var rutaImagen = catalogoPath + i + ".png";
+    var rutaImagen = catalogoPath + i + ".svg";
 
     // Crear el elemento del carousel
     var carouselItem = document.createElement("div");
