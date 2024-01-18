@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'FilmotypeMelon';
+    src: url('fonts/FilmotypeMelon.eot');
+    src: url('fonts/FilmotypeMelon.eot?#iefix') format('embedded-opentype'),
+         url('fonts/FilmotypeMelon.woff2') format('woff2'),
+         url('fonts/FilmotypeMelon.woff') format('woff'),
+         url('fonts/FilmotypeMelon.ttf')  format('truetype'),
+         url('fonts/FilmotypeMelon.svg#FilmotypeMelon') format('svg');
+}

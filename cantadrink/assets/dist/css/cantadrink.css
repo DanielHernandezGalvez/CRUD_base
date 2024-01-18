@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'FilmotypeQuartz';
+    src: url('fonts/FilmotypeQuartz.eot');
+    src: url('fonts/FilmotypeQuartz.eot?#iefix') format('embedded-opentype'),
+         url('fonts/FilmotypeQuartz.woff2') format('woff2'),
+         url('fonts/FilmotypeQuartz.woff') format('woff'),
+         url('fonts/FilmotypeQuartz.ttf')  format('truetype'),
+         url('fonts/FilmotypeQuartz.svg#FilmotypeQuartz') format('svg');
+}
+@font-face {
+    font-family: 'FilmotypeMelon';
+    src: url('fonts/FilmotypeMelon.eot');
+    src: url('fonts/FilmotypeMelon.eot?#iefix') format('embedded-opentype'),
+         url('fonts/FilmotypeMelon.woff2') format('woff2'),
+         url('fonts/FilmotypeMelon.woff') format('woff'),
+         url('fonts/FilmotypeMelon.ttf')  format('truetype'),
+         url('fonts/FilmotypeMelon.svg#FilmotypeMelon') format('svg');
+}
+
+html{overflow-x: hidden;}
+body{
+  font-family: FilmotypeMelon, sans-serif;
+  color: #f6dfa4;
+  font-weight: normal;
+  font-size: 32px;
+  overflow-x: hidden;
+}
+
+header{background-color: #d2451e;}
+header div{display: inline-flex;}
+.menu{font-size: 30px; padding:10px 15px; margin: 0 20px}
+.menu a{color: #f6dfa4; text-decoration: none;}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: FilmotypeQuartz, sans-serif;
+  font-weight: normal;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+h1 span,h2 span,h3 span,h4 span,h5 span,h6 span{
+  font-size: 50%;
+}
+
+#cantadrink{
+  background-image: url('../../img/bg/cantadrink.png');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-color:#f6dfa4;
+}
+#cantadrink h1{color:#a1a468;}
+#cantadrink p{color:#d2451e;}
+
+#history{
+  background-image: url('../../img/bg/history.png');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-color: #006450;
+}
+#history h2{color:#a1a468;}
+
+#product{
+  background-image: url('../../img/bg/product.png');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-color: #a1a468;
+}
+#product h3{color:#d2451e;}
+
+#have{
+  background-image: url('../../img/bg/have.png');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-color: #f6dfa4;
+}
+#have h4{color: #006450; text-align: center;}
+
+#find{
+  background-image: url('../../img/bg/find.png');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-color: #d2451e;
+}
+#find h5{color:#a1a468}
+
+#contact{
+  background-image: url('../../img/bg/contact.png');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-color: #f6dfa4;
+}
+#contact h6{color: #006450;}
+
+footer{
+  background-image: url('../../img/bg/find.png');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-color: #d2451e;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.btn-green {
+  background: #006450;
+  opacity: 1;
+  color: #f6dfa4;
+  padding: 0px 40px;
+  text-transform: uppercase;
+  font-size: 40px;
+  border: none;
+  transition: all ease 0.5s;
+  border-radius: 20px;
+}
+
+.btn-orange {
+  background: #d2451e;
+  opacity: 1;
+  color: #f6dfa4;
+  padding: 0px 40px;
+  text-transform: uppercase;
+  font-size: 40px;
+  border: none;
+  transition: all ease 0.5s;
+  border-radius: 20px;
+}
+
+.btn-green:hover{background: #006450; color: #fff;}
+.btn-orange:hover{background: #d2451e; color: #fff;}
+
+@media (max-width: 768px) {
+  .arrow, .menu{display: none!important;}
+  .find{margin-bottom: 20px;}
+  header div {display: block!important;}
+}
