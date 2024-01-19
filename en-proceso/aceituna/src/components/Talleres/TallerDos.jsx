@@ -46,11 +46,11 @@ const TallerDos = ({ isOpenTaller2, onCloseTallerDos }) => {
                 San Luis 1472, col. Mezquitan <br />
                 9. Miércoles 24: de 9/11h00 en ESSENTIAL ATHLETIC CLUB, Av. Plan
                 de San Luis 1472, col. Mezquitan <br />
-                10.Viernes 26: de 9/11h00 en ESSENTIAL ATHLETIC CLUB, Av. Plan
+                10. Viernes 26: de 9/11h00 en ESSENTIAL ATHLETIC CLUB, Av. Plan
                 de San Luis 1472, col. Mezquitan <br />
                 11. Lunes 29: de 9/11h00 en ESSENTIAL ATHLETIC CLUB, Av. Plan de
                 San Luis 1472, col. Mezquitan <br />
-                12.Miércoles 31: de 9/11h00 en ESSENTIAL ATHLETIC CLUB, Av. Plan
+                12. Miércoles 31: de 9/11h00 en ESSENTIAL ATHLETIC CLUB, Av. Plan
                 de San Luis 1472, col. Mezquitan <br /> <br />
                 <span className="text-start text-xl ">
                   {" "}
@@ -84,28 +84,28 @@ const TallerDos = ({ isOpenTaller2, onCloseTallerDos }) => {
                 San Luis 1472, col. Mezquitan
                 <br /> <br />
                 <span className="text-start text-xl ">YOGA:</span> <br /> <br />
-                1. Miércoles 10 : de 11/12h00 en ESSENTIAL ATHLETIC CLUB, Av.
+                1. Miércoles 10: de 11/12h00 en ESSENTIAL ATHLETIC CLUB, Av.
                 Plan de San Luis 1472, col. Mezquitan <br />
-                2. Jueves 11 : de 11/12h00 en ESSENTIAL ATHLETIC CLUB, Av. Plan
+                2. Jueves 11: de 11/12h00 en ESSENTIAL ATHLETIC CLUB, Av. Plan
                 de San Luis 1472, col. Mezquitan <br />
-                3. Viernes 12 : de 11/12h00 en ESSENTIAL ATHLETIC CLUB, Av. Plan
+                3. Viernes 12: de 11/12h00 en ESSENTIAL ATHLETIC CLUB, Av. Plan
                 de San Luis 1472, col. Mezquitan <br />
-                4. Lunes 15 : de 11/12h00 en ESSENTIAL ATHLETIC CLUB, Av. Plan
+                4. Lunes 15: de 11/12h00 en ESSENTIAL ATHLETIC CLUB, Av. Plan
                 de San Luis 1472, col. Mezquitan <br />
-                5. Miércoles 17 : de 11/12h00 en ESSENTIAL ATHLETIC CLUB, Av.
+                5. Miércoles 17: de 11/12h00 en ESSENTIAL ATHLETIC CLUB, Av.
                 Plan de San Luis 1472, col. Mezquitan <br />
-                6. Lunes 22 : de 11/12h00 en ESSENTIAL ATHLETIC CLUB, Av. Plan
+                6. Lunes 22: de 11/12h00 en ESSENTIAL ATHLETIC CLUB, Av. Plan
                 de San Luis 1472, col. Mezquitan <br />
-                7. Miércoles 24 : de 11/12h00 en ESSENTIAL ATHLETIC CLUB, Av.
+                7. Miércoles 24: de 11/12h00 en ESSENTIAL ATHLETIC CLUB, Av.
                 Plan de San Luis 1472, col. Mezquitan <br />
-                8. Viernes 26 : de 11/12h00 en ESSENTIAL ATHLETIC CLUB, Av. Plan
+                8. Viernes 26: de 11/12h00 en ESSENTIAL ATHLETIC CLUB, Av. Plan
                 de San Luis 1472, col. Mezquitan <br />
-                9. Lunes 29 : de 11/12h00 en ESSENTIAL ATHLETIC CLUB, Av. Plan
+                9. Lunes 29: de 11/12h00 en ESSENTIAL ATHLETIC CLUB, Av. Plan
                 de San Luis 1472, col. Mezquitan <br />
-                10. Miércoles 31 : de 11/12h00 en ESSENTIAL ATHLETIC CLUB, Av.
+                10. Miércoles 31: de 11/12h00 en ESSENTIAL ATHLETIC CLUB, Av.
                 Plan de San Luis 1472, col. Mezquitan <br /> <br />
                 <span className="text-start text-xl ">PILATES & BARRE BAJA INTENSIDAD:</span> <br /> <br />
-                 muy pronto...
+                 Muy pronto...
               </p>
               <div className="flex  ">
                 <a
@@ -113,7 +113,7 @@ const TallerDos = ({ isOpenTaller2, onCloseTallerDos }) => {
                   className="text-center bg-[--brown] text-white p-4 mt-16 mb-16"
                   target="_blank"
                 >
-                  Quiero Inscribirme
+                  Quiero inscribirme
                 </a>
               </div>
             </div>

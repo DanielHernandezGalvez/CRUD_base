@@ -43,17 +43,17 @@ const TallerCuatro = ({ isOpenTaller4, onCloseTallerCuatro }) => {
                 <br /> <br />
                 <span className="text-start text-xl "> CATAS VINO: </span>{" "}
                 <br /> <br />
-                1. Miércoles 10: de 19/20h30 en Les Vins de Moliere 59A,  calle Gregorio Davila col. Americana   <br />
-                2. Miércoles 17: de 19/20h30 en Les Vins de Moliere 59A,  calle Gregorio Davila col. Americana <br />
-                3. Miércoles 24: de 19/20h30 en Les Vins de Moliere 59A,  calle Gregorio Davila col. Americana <br />
-                4. Miércoles 31: de 19/20h30 en Les Vins de Moliere 59A,  calle Gregorio Davila col. Americana
+                1. Miércoles 10: de 19/20h30 en Les Vins de Moliere 59A,  calle Gregorio Davila col. Americana.   <br />
+                2. Miércoles 17: de 19/20h30 en Les Vins de Moliere 59A,  calle Gregorio Davila col. Americana. <br />
+                3. Miércoles 24: de 19/20h30 en Les Vins de Moliere 59A,  calle Gregorio Davila col. Americana. <br />
+                4. Miércoles 31: de 19/20h30 en Les Vins de Moliere 59A,  calle Gregorio Davila col. Americana.
                 <br /> <br />
                 <span className="text-start text-xl ">
                   {" "}
-                  ESTILO PERSONAL PARA DAMAS :
+                  ESTILO PERSONAL PARA DAMAS:
                 </span>{" "}
                 <br /> <br />
-                1. Sabado 27: de 12/14h00 en ACEITUNA, Rubens N. 5273, Zapopan.
+                1. Sábado 27 de 12/14h00 en ACEITUNA, Rubens N. 5273, Zapopan.
                 <br /> <br />
                 <span className="text-start text-xl ">
                   {" "}
@@ -63,7 +63,7 @@ const TallerCuatro = ({ isOpenTaller4, onCloseTallerCuatro }) => {
                 1. Lunes 29: 11/13h00 en ACEITUNA, Rubens N. 5273, Zapopan.
                 <br /> <br />
                 <span className="text-start text-xl ">
-                  COMO ACOMODAR MI CASA SEGUN FENG SHUI
+                  CÓMO ACOMODAR MI CASA SEGÚIN FENG SHUI
                 </span>{" "}
                 <br /> <br />
                 1. Viernes 12: de 11/13h00 en ACEITUNA, Rubens N. 5273,
@@ -72,45 +72,45 @@ const TallerCuatro = ({ isOpenTaller4, onCloseTallerCuatro }) => {
                 Zapopan.
                 <br /> <br />
                 <span className="text-start text-xl ">
-                  DEFENSA PERSONAL :
+                  DEFENSA PERSONAL:
                 </span>{" "}
                 <br /> <br />
                 1. Lunes 15: de 16/18h00 en ESSENTIAL ATHLETIC CLUB, Av. Plan
-                de San Luis 1472, col. Mezquitan <br />
+                de San Luis 1472, col. Mezquitan. <br />
                 2. Lunes 22: de 16/18h00 en ESSENTIAL ATHLETIC CLUB, Av. Plan
-                de San Luis 1472, col. Mezquitan <br />
+                de San Luis 1472, col. Mezquitan. <br />
                 3. Lunes 29: de 16/18h00 en ESSENTIAL ATHLETIC CLUB, Av. Plan
-                de San Luis 1472, col. Mezquitan
+                de San Luis 1472, col. Mezquitan.
                 <br /> <br />
                 <span className="text-start text-xl ">
                   FINANZAS PERSONALES:
                 </span>{" "}
                 <br /> <br />
-                1. Miércoles 10: como manejar sus targetas de credito de manera
-                inteligente de16/17h30 en ACEITUNA, Rubens N. 5273, Zapopan.{" "}
+                1. Miércoles 10: Cómo manejar sus tarjetas de crédito de manera
+                inteligente, de 16/17h30 en ACEITUNA, Rubens N. 5273, Zapopan.{" "}
                 <br />
-                2. Miércoles 17: como manejar sus targetas de credito de manera
-                inteligente de16/17h30 en ACEITUNA, Rubens N. 5273, Zapopan.{" "}
+                2. Miércoles 17: Cómo manejar sus tarjetas de crédito de manera
+                inteligente de 16/17h30 en ACEITUNA, Rubens N. 5273, Zapopan.{" "}
                 <br />
-                3. Miércoles 24: como manejar sus targetas de credito de manera
-                inteligente de16/17h30 en ACEITUNA, Rubens N. 5273, Zapopan.{" "}
+                3. Miércoles 24: Cómo manejar sus tarjetas de crédito de manera
+                inteligente de 16/17h30 en ACEITUNA, Rubens N. 5273, Zapopan.{" "}
                 <br />
-                4. Miércoles 31: como manejar sus targetas de credito de manera
-                inteligente de16/17h30 en ACEITUNA, Rubens N. 5273, Zapopan.
+                4. Miércoles 31: Cómo manejar sus tarjetas de crédito de manera
+                inteligente de 16/17h30 en ACEITUNA, Rubens N. 5273, Zapopan.
                 <br /> <br />
                 <span className="text-start text-xl ">
                   HISTORIA:
                 </span> <br /> <br />
-                1. Miércoles 10: el conflicto israeli/palestino desde una
+                1. Miércoles 10: el conflicto israelí/palestino desde una
                 perspectiva histórica de 11/13h00 en ACEITUNA, Rubens N. 5273,
                 Zapopan. <br />
-                2. Domingo 14: el conflicto israeli/palestino desde una
+                2. Domingo 14: el conflicto israelí/palestino desde una
                 perspectiva histórica de 10/12h00 en ACEITUNA, Rubens N. 5273,
                 Zapopan. <br />
-                3. Lunes 22: el conflicto israeli/palestino desde una
+                3. Lunes 22: el conflicto israelí/palestino desde una
                 perspectiva histórica de 11/13h00 en ACEITUNA, Rubens N. 5273,
                 Zapopan. <br />
-                4. Miércoles 31: el conflicto israeli/palestino desde una
+                4. Miércoles 31: el conflicto israelí/palestino desde una
                 perspectiva histórica de 11/13h00 en ACEITUNA, Rubens N. 5273,
                 Zapopan.
                 <br /> <br />
@@ -129,7 +129,7 @@ const TallerCuatro = ({ isOpenTaller4, onCloseTallerCuatro }) => {
                   className="text-center bg-[--brown] text-white p-4 mt-16 mb-16"
                   target="_blank"
                 >
-                  Quiero Inscribirme
+                  Quiero inscribirme
                 </a>
               </div>
             </div>

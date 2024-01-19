@@ -9,7 +9,7 @@ const Modal = ({ isOpen, onClose, children }) => {
             <div className="bg-[--beige-clear] w-[90vw] h-[80vh] monserrat p-12 
                 shadow-2xl text-[--brown] font-bold  text-gray-700 rounded-lg z-10 
                 overflow-y-auto flex flex-col">
-                    <div>
+                    <div >
                 <button className="mb-8 p-2 bg-[--brown] cursor-pointer monserrat 
                 text-white rounded" onClick={onClose}>
                     Volver

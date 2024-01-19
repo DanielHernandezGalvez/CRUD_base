@@ -105,12 +105,19 @@
   }
 
   @media screen and (max-width: 576px) {
+    .secction-p{
+      padding: 0 20px;
+      margin: 20px 0;
+    }
     .hero1 {
       height: 50vh;
    
     }
     #main-hero p{
-      font-size: 12px !important;
+      font-size: 13px !important;
+    }
+    .text-title{
+      font-size: 2.6rem !important;
     }
   }
 

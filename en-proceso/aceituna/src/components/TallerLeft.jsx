@@ -4,10 +4,10 @@ import aceitunas from "../assets/icons/aceitunas-icon.png"
 
 const TallerLeft = ({ title, imageSrc, textItems }) => {
   return (
-    <div className="flex justify-between items-center principal2">
+    <div className="flex justify-between items-center principal2 secction-p">
       <div className="flex w-full py-4 h-100 bg-[--beige-clear]">
         <div className="w-full">
-          <p className="p-6 ps-[10%] text-6xl text-[--brown]">{title}</p>
+          <p className="p-6 ps-[10%] text-6xl text-[--brown] text-title">{title}</p>
           <div className="p-6 ps-[8%] w-full border-t-2 border-[--beige]">
             {textItems.map((item, index) => (
               <span key={index} className="flex items-center text-start monserrat text-2xl text-[--gray]">

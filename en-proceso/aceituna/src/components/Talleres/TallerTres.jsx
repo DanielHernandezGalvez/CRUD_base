@@ -27,29 +27,29 @@ const TallerTres = ({ isOpenTaller3, onCloseTallerTres }) => {
 
               <p className="text-pretty leading-loose">
                 <span className="text-start text-xl ">
-                  DESAROLLO Y BIEN ESTAR PERSONAL:
+                  DESARROLLO Y BIEN ESTAR PERSONAL:
                 </span> <br /> <br />
-                1. sabado 13 : Como reconciliarme con mi cuerpo 11/13H00 en
+                1. Sábado 13: Como reconciliarme con mi cuerpo 11/13H00 en
                 ACEITUNA, Rubens N. 5273, Zapopan.
                 <br />
-                2. Martes 16 : ¿Por qué y para que contactar mi niño interior?
+                2. Martes 16: ¿Por qué y para qué contactar a mi niño interior?
                 11/13h00 en ACEITUNA, Rubens N. 5273, Zapopan. <br />
-                3. Jueves 18 : ¿Cómo desarollar mi inteligencia emocional?
+                3. Jueves 18: ¿Cómo desarrollar mi inteligencia emocional?
                 16/18h00 en ACEITUNA, Rubens N. 5273, Zapopan. <br />
-                4. Sabado 20 : Sindrome del nido vacio 11/13h00 en ACEITUNA,
+                4. Sábado 20: Síndrome del nido vacío 11/13h00 en ACEITUNA,
                 Rubens N. 5273, Zapopan.
                 <br />
-                5. Martes 23 : ¿Cómo re inventar mi vida? 11/13h00 en ACEITUNA,
+                5. Martes 23: ¿Cómo reinventar mi vida? 11/13h00 en ACEITUNA,
                 Rubens N. 5273, Zapopan.
                 <br />
-                6. Sabado 27 : Como reconciliarme con mi cuerpo 11/13h00 en
+                6. Sábado 27: ¿Cómo reconciliarme con mi cuerpo? 11/13h00 en
                 ACEITUNA, Rubens N. 5273, Zapopan.
                 <br /> <br />
                 <span className="text-start text-xl ">
                   {" "}
-                  TERTULIAS DE FILOSOFIA:
+                  TERTULIAS DE FILOSOFÍA:
                 </span>{" "}
-                <br /> <br />a partir de febrero
+                <br /> <br />A partir de febrero.
               </p>
               <div className="flex  ">
                 <a
@@ -57,7 +57,7 @@ const TallerTres = ({ isOpenTaller3, onCloseTallerTres }) => {
                   className="text-center bg-[--brown] text-white p-4 mt-16 mb-16"
                   target="_blank"
                 >
-                  Quiero Inscribirme
+                  Quiero inscribirme
                 </a>
               </div>
             </div>

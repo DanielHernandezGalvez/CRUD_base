@@ -28,11 +28,11 @@ const TallerUno = ({ isOpenTaller1, onCloseTallerUno }) => {
               <p className="text-pretty leading-loose">
                 
                 <span className="text-start text-xl ">CLUB DE CINE:</span> <br /> <br />
-                1. Jueves 11: ciclo Hitchcock "vertigo 1958" 16/19h00 en ACEITUNA, Rubens N. 5273, Zapopan.  <br /> 
-                2. Viernes 12: ciclo cine negro "Doble indemnity 1944" 18/21h00 en ACEITUNA, Rubens N. 5273, Zapopan. <br />
-                3. Jueves 18: ciclo Hitchcock "vertigo 1958" 16/19h00 en ACEITUNA, Rubens N. 5273, Zapopan. <br />
-                4. Domingo 21: ciclo cine negro "Doble indemnity 1944" 14/17h00 en ACEITUNA, Rubens N. 5273, Zapopan. <br />
-                5. Jueves 25: ciclo Hitchcock "vertigo 1958" 16/19h00 en ACEITUNA, Rubens N. 5273, Zapopan. 
+                1. Jueves 11: ciclo Hitchcock "Vértigo 1958" 16/19h00 en ACEITUNA, Rubens N. 5273, Zapopan.  <br /> 
+                2. Viernes 12: ciclo de cine negro "Doble indemnity 1944" 18/21h00 en ACEITUNA, Rubens N. 5273, Zapopan. <br />
+                3. Jueves 18: ciclo Hitchcock "Vértigo 1958" 16/19h00 en ACEITUNA, Rubens N. 5273, Zapopan. <br />
+                4. Domingo 21: ciclo de cine negro "Doble indemnity 1944" 14/17h00 en ACEITUNA, Rubens N. 5273, Zapopan. <br />
+                5. Jueves 25: ciclo Hitchcock "Vértigo 1958" 16/19h00 en ACEITUNA, Rubens N. 5273, Zapopan. 
               </p>
               <div className="flex  ">
                 <a
@@ -40,7 +40,7 @@ const TallerUno = ({ isOpenTaller1, onCloseTallerUno }) => {
                   className="text-center bg-[--brown] text-white p-4 mt-16 mb-16"
                   target="_blank"
                 >
-                  Quiero Inscribirme
+                  Quiero inscribirme
                 </a>
               </div>
             </div>

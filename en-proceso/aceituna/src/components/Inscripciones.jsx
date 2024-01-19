@@ -72,7 +72,7 @@ const Inscripciones = ({ isOpenInscription, onCloseInscription }) => {
                                 1. Mándanos un mensaje Whatsapp o nos marcas al 33 1302 2587 y te apoyamos con mucho gusto.
                             </p>
                     <div className="flex  ">
-                        <a href="https://api.whatsapp.com/send?phone=523313022587&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20talleres%20." className="text-center bg-[--brown] text-white p-4 mt-6 mb-16" target="_blank">Quiero Inscribirme</a>
+                        <a href="https://api.whatsapp.com/send?phone=523313022587&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20talleres." className="text-center bg-[--brown] text-white p-4 mt-6 mb-16" target="_blank">Quiero inscribirme</a>
                         </div>
                         </div>
                     </div>

@@ -156,7 +156,7 @@ function App() {
                 className="flex justify-center items-center text-3xl cursor-pointer"
                 onClick={() =>
                   openModal(
-                    "Con Aceituna, descubrirás que al participar en diversas actividades, ya sean físicas, artísticas, intelectuales, de bien estar, ampliarás tus horizontes y fortalecerás tu conocimiento. Cada experiencia es una oportunidad para aprender y empoderarte, mostrándote que el aprendizaje va más allá de las aulas, se encuentra en cada acción que emprendes."
+                    "Con Aceituna descubrirás que al participar en diversas actividades, ya sean físicas, artísticas, intelectuales y de bien estar, ampliarás tus horizontes y fortalecerás tu conocimiento. Cada experiencia es una oportunidad para aprender y empoderarte, mostrándote que el aprendizaje va más allá de las aulas, se encuentra en cada acción que emprendes."
                   )
                 }
               >
@@ -166,7 +166,7 @@ function App() {
                 className="flex justify-center items-center text-3xl cursor-pointer"
                 onClick={() =>
                   openModal(
-                    "Unete a nuestras emocionantes actividades! Participar te brinda la oportunidad de formar parte de una vibrante comunidad, Aceituna; ampliar tu circulo social y establecer conexiones significativas. Descubre nuevas amistades, comparte experiencias y enriquece tu vida siendo parte activa de nuestro grupo. Te esperamos para crear juntos momentos inolvidables !"
+                    "¡Únete a nuestras emocionantes actividades! Participar te brinda la oportunidad de formar parte de una vibrante comunidad, Aceituna; ampliar tu círculo social y establecer conexiones significativas. Descubre nuevas amistades, comparte experiencias y enriquece tu vida siendo parte activa de nuestro grupo. ¡Te esperamos para crear juntos momentos inolvidables!"
                   )
                 }
               >
@@ -190,7 +190,7 @@ function App() {
         </section>
 
         <div>
-          <section class="flex justify-center py-20">
+          <section class="flex justify-center py-20 secction-p">
             <div className="cursor-pointer" onClick={handleOpenInscription}>
               <img src={inscripcion} class="w-[500px]" alt="" />
             </div>
@@ -310,7 +310,7 @@ function App() {
           )}
         </section>
 
-        <section class="pb-20">
+        <section class="pb-20 secction-p">
           <h2
             class="text-4xl text-[--brown] text-center pt-16"
             id="suscripiones"
@@ -348,7 +348,7 @@ function App() {
           </div>
         </section>
 
-        <section class="bg-fundadores pb-16">
+        <section class="bg-fundadores pb-16 secction-p">
           <h2 class="text-4xl text-[--brown] text-center pt-16 pb-16">
             FUNDADORES
           </h2>
