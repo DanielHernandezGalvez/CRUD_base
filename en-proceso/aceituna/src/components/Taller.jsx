@@ -12,7 +12,7 @@ const Taller = ({
     <>
     <div id='principal' className="flex justify-between items-center principal secction-p">
       <div id='uno' className="p-1 uno">
-        <img src={imageSrc} alt="" className="w-[100%] border-[40px] border-[--brown] rounded-xl" />
+        <img src={imageSrc} alt="Taller" loading="lazy" className="w-[100%] border-[40px] border-[--brown] rounded-xl" />
       </div>
       <div id='dos' className="flex w-full py-4 h-100 bg-[--beige-clear] dos">
         <div className="w-full">

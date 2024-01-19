@@ -1,5 +1,5 @@
 import viteLogo from "/vite.svg";
-import { Children, useState } from "react";
+import { useEffect, useState } from "react";
 import "./App.css";
 import Calendario from "./components/calendar/calendario";
 import Navbar from "./components/Navbar";
@@ -33,6 +33,7 @@ import TallerUno from "./components/Talleres/TallerUno";
 import TallerDos from "./components/Talleres/TallerDos";
 import TallerTres from "./components/Talleres/TallerTres";
 import TallerCuatro from "./components/Talleres/TallerCuatro";
+import Spinner from "./components/Spinner";
 
 function App() {
   const [modalOpen, setModalOpen] = useState(false);
@@ -42,6 +43,18 @@ function App() {
   const [isOpenTaller2, setIsOpenTaller2] = useState(false);
   const [isOpenTaller3, setIsOpenTaller3] = useState(false);
   const [isOpenTaller4, setIsOpenTaller4] = useState(false);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // Simula la carga de datos después de un tiempo
+    const fetchData = async () => {
+      // Hacer algo asíncrono (por ejemplo, una llamada a la API)
+      await new Promise((resolve) => setTimeout(resolve, 2000));
+      setLoading(false);
+    };
+
+    fetchData();
+  }, []);
 
   // seccion de talleres
   const handleOpenTallerUno = () => {
@@ -114,15 +127,21 @@ function App() {
 
   return (
     <>
+      {loading ? (
+        <Spinner />
+      ) : (
+        <>
       <Navbar />
       <a
-        href="https://api.whatsapp.com/send?phone=523313022587&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20talleres%20."
+        href="https://api.whatsapp.com/send?phone=523313022587&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20talleres."
         class="float"
         target="_blank"
       >
         <i class="fa fa-whatsapp my-float"></i>
       </a>
+    
       <main class="bg-[--yellow]">
+   
         <section class="hero">
           <div id="main-hero" class="w-50 bg-beige-1 text-center pt-12 pb-8 lg:px-16 relative top-60  lg:max-w-[85vw] sm:max-w-[95vw] mx-auto">
             <span class="bg-[--beige] px-16 py-2 lg:text-3xl sm:text-1xl text-[--gray] monserrat">
@@ -137,14 +156,13 @@ function App() {
             <br />
             <p class="text-[--gray] lg:text-xl pb-5 px-4 principal">
               “Nunca es tarde para salir de su rutina, se puede vivir una
-              segunda juventud, los hijos se van y estamos libres de ataduras lo
+              segunda juventud, los hijos se van y estamos libres de ataduras, lo
               cual nos permite vivir de nuevo experiencias enriquecedoras.”{" "}
               <br />
               Jean-Christophe Jaunait
             </p>
           </div>
         </section>
-        {/* <section class="hero1"></section> */}
 
         <section class="w-full bg-[--beige-clear] p-10" id="aceituna">
           <div class="mx-auto pb-5">
@@ -215,14 +233,15 @@ function App() {
               adelante...
             </p>
             <a class="mt-10" href="#contacto">
-              <img src={leerMas} class="w-[20vw] " alt="" />
+              <img src={leerMas} class="w-[20vw] " alt="Leer más" loading="lazy" />
             </a>
           </div>
           <div class="">
             <img
               src={comoFunciona}
               class="lg:w-[40vw] lg:h-[60vh] sm:w-[80vw] sm:h-[40vh] object-cover"
-              alt=""
+              alt="Cómo funciona"
+              loading="lazy"
             />
           </div>
         </section>
@@ -319,7 +338,7 @@ function App() {
           </h2>
           <div class="lg:flex justify-center flex-wrap gap-20 mt-10">
             <div className="flex justify-content flex-col">
-              <img src={silver} class="lg:w-[40vw] m-auto h-auto" alt="" />
+              <img src={silver} class="lg:w-[40vw] m-auto h-auto" alt="suscripción silver" loading="lazy" />
               <a
                 href="#contacto"
                 className="text-center underline text-[--brown] my-6 pb-6 cursos-pointer"
@@ -328,7 +347,7 @@ function App() {
               </a>
             </div>
             <div className="flex justify-content flex-col">
-              <img src={gold} class="lg:w-[40vw] m-auto  h-auto" alt="" />
+              <img src={gold} class="lg:w-[40vw] m-auto  h-auto" alt="suscripcion gold" loading="lazy" />
               <a
                 href="#contacto"
                 className="text-center underline text-[--brown] my-6 pb-6 cursos-pointer"
@@ -337,7 +356,7 @@ function App() {
               </a>
             </div>
             <div className="flex justify-content flex-col">
-              <img src={vip} class="lg:w-[40vw] m-auto  h-auto" alt="" />
+              <img src={vip} class="lg:w-[40vw] m-auto  h-auto" alt="suscripción vip" loading="lazy" />
               <a
                 href="#contacto"
                 className="text-center underline text-[--brown] my-6 pb-6 cursos-pointer"
@@ -353,8 +372,8 @@ function App() {
             FUNDADORES
           </h2>
           <div class="lg:flex justify-around items-center h-full flex-wrap">
-            <img src={fundador} class="lg:w-[30vw] m-auto my-12" alt="" />
-            <img src={fundadora} class="lg:w-[30vw] m-auto my-12" alt="" />
+            <img src={fundador} class="lg:w-[30vw] m-auto my-12" alt="fundador" loading="lazy" />
+            <img src={fundadora} class="lg:w-[30vw] m-auto my-12" alt="fundadora" loading="lazy" />
           </div>
         </section>
 
@@ -431,7 +450,7 @@ function App() {
                   alt="correo"
                 />
                   <a
-                  href="https://api.whatsapp.com/send?phone=523313022587&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20por%20favorn."
+                  href="https://api.whatsapp.com/send?phone=523313022587&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20por%20favor."
                   target="_blank"
                 >
                 <img src={whatsRound} width={35} class="me-4" alt="whatsapp" />
@@ -469,6 +488,8 @@ function App() {
           </a>
         </footer>
       </main>
+      </>
+        )}
     </>
   );
 }

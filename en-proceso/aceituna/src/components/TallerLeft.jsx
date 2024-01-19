@@ -19,7 +19,7 @@ const TallerLeft = ({ title, imageSrc, textItems }) => {
         </div>
       </div>
       <div className="p-1">
-        <img src={imageSrc} alt="" className="w-[100%] border-[40px] border-[--brown] rounded-xl" />
+        <img src={imageSrc} alt="taller" loading="lazy" className="w-[100%] border-[40px] border-[--brown] rounded-xl" />
       </div>
     </div>
   );

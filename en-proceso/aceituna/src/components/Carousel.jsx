@@ -48,7 +48,7 @@ const Gallery = () => {
         <img
           class="w-full h-full object-cover"
           src={uno}
-          loading="lazy"
+          // loading="lazy"
         />
       </div>
       <div
@@ -57,7 +57,7 @@ const Gallery = () => {
       <img
       class="w-full h-full object-cover"
       src={dos}
-      loading="lazy"
+      // loading="lazy"
     />
       </div>
       <div
@@ -66,7 +66,7 @@ const Gallery = () => {
       <img
       class="w-full h-full object-cover"
       src={tres}
-      loading="lazy"
+      // loading="lazy"
     />
       </div>
       <div
@@ -75,7 +75,7 @@ const Gallery = () => {
       <img
           class="w-full h-full object-cover"
           src={cuatro}
-          loading="lazy"
+          // loading="lazy"
         />
       </div>
       <div
@@ -84,7 +84,7 @@ const Gallery = () => {
       <img
       class="w-full h-full object-cover"
       src={cinco}
-      loading="lazy"
+      // loading="lazy"
     />
       </div>
       <div
@@ -93,7 +93,7 @@ const Gallery = () => {
       <img
       class="w-full h-full object-cover"
       src={seis}
-      loading="lazy"
+      // loading="lazy"
     />
       </div>
       <div
@@ -102,7 +102,7 @@ const Gallery = () => {
       <img
       class="w-full h-full object-cover"
       src={siete}
-      loading="lazy"
+      // loading="lazy"
     />
       </div>
       <div
@@ -111,7 +111,7 @@ const Gallery = () => {
       <img
       class="w-full h-full object-cover"
       src={ocho}
-      loading="lazy"
+      // loading="lazy"
     />
       </div>
       {/* <div
@@ -120,7 +120,7 @@ const Gallery = () => {
       <img
       class="w-full h-full object-cover"
       src={nueve}
-      loading="lazy"
+      // loading="lazy"
     />
       </div> */}
         </div>
