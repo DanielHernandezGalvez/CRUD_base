@@ -9,7 +9,6 @@ $tour = $_POST['tour'];
 if (empty($nombre) || empty($correo) || empty($tour)) {
     echo '<p class="enviado-correctamente">Enviado correctamente</p>';
     echo '<script type="text/javascript">window.location.href = "index.html?success=correo_enviado";</script>';
-
     exit;
 }
 
