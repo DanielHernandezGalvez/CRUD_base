@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon" />
   <meta name="keywords" content="Agencia viajes Vancouver Canadá mexicanos" />
+  <meta name="description" content="Agencia de viajes en vancouver con diferented tipos de tours">
   <title>Explore Beyond</title>
   <link rel="stylesheet" href="./normalize.css">
   <link rel="stylesheet" href="style.css" />
