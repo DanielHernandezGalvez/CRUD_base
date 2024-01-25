@@ -14,7 +14,6 @@
 
 <body>
   <main>
-    <!-- <section id="uno"></section> -->
 
     <section id="dos">
       <div class="div-logo"><img class="logo" src="./images/logo.png" alt="logo de Explore Beyond" /></div>
