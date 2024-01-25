@@ -23,7 +23,6 @@ if (mail($to, $subject, $body)) {
     echo '<script type="text/javascript">alert("¡Formulario enviado con éxito!");</script>';
 
     header('Location: index.php?success=correo_enviado');
-     // Redireccionar a la página principal con un mensaje de éxito
     exit;
 } else {
     header('Location: index.html?error=correo_no_enviado'); // Redireccionar a la página principal con un mensaje de error
