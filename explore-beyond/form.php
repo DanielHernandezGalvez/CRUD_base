@@ -22,6 +22,7 @@ $body = "Nombre: $nombre\nCorreo: $correo\nTour: $tour";
 if (mail($to, $subject, $body)) {
     echo '<script type="text/javascript">alert("¡Formulario enviado con éxito!");</script>';
 
+    // Redireccionar a la página principal con un mensaje de éxito
     header('Location: index.php?success=correo_enviado');
     exit;
 } else {
