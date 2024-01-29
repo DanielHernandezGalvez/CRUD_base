@@ -70,22 +70,40 @@
   }
 
   .hero {
-    background-image: url("./assets/images/imagenes-07.png");
-    height: 60vh;
+    background-image: url("./assets/images/hero.png");
+    height: 90vh;
     background-size: cover;
     background-position: top;
+    position: relative;
   }
-  .hero1 {
+  /* .hero1 {
     position: relative;
     height: 60vh;
     background-size: cover;
     background-position: top;
+  } */
+
+  @media screen and (max-width: 1024px) {
+    .logo{
+      width: 220px;
+    }
   }
 
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 768px) {
     .hero1 {
       height: 30vh;
    
+    }
+    #main-hero p{
+      font-size: 18px !important;
+    }
+    .logo{
+      width: 180px;
+      padding: 0 20px;
+      margin: 0;
+    }
+    .leer-mas {
+      width: 150px !important;
     }
   }
 
@@ -93,6 +111,12 @@
     .hero1 {
       height: 50vh;
    
+    }
+    #main-hero p{
+      font-size: 12px !important;
+    }
+    .leer-mas {
+      width: 180px !important;
     }
   }
 
@@ -170,6 +194,10 @@
   .principal2 {
     flex-wrap: wrap-reverse;
   }
+}
+@media screen and (max-width: 500px) {
+ 
+ 
 }
 
 ::-webkit-scrollbar {

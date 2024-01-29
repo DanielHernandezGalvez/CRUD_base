@@ -1,13 +1,13 @@
 import React, { useRef } from 'react';
-import uno from "../assets/images/imagenes-15.png"
-import dos from "../assets/images/imagenes-16.png"
-import tres from "../assets/images/imagenes-17.png"
-import cuatro from "../assets/images/imagenes-18.png"
-import cinco from "../assets/images/imagenes-19.png"
-import seis from "../assets/images/imagenes-20.png"
-import siete from "../assets/images/imagenes-21.png"
-import ocho from "../assets/images/imagenes-22.png"
-import nueve from "../assets/images/imagenes-23.png"
+import uno from "../assets/images/carrusel1.jpg"
+import dos from "../assets/images/carrusel2.jpg"
+import tres from "../assets/images/carrusel3.jpg"
+import cuatro from "../assets/images/carrusel4.jpg"
+import cinco from "../assets/images/carrusel5.jpg"
+import seis from "../assets/images/carrusel6.jpg"
+import siete from "../assets/images/carrusel7.jpg"
+import ocho from "../assets/images/carrusel8.jpg"
+// import nueve from "../assets/images/carrusel9.jpg"
 
 const Gallery = () => {
   const slidesContainerRef = useRef(null);
@@ -16,12 +16,14 @@ const Gallery = () => {
   const handleNextClick = () => {
     if (slidesContainerRef.current) {
       slidesContainerRef.current.scrollLeft += slideWidth;
+      console.log("next")
     }
   };
 
   const handlePrevClick = () => {
     if (slidesContainerRef.current) {
       slidesContainerRef.current.scrollLeft -= slideWidth;
+      console.log("prev")
     }
   };
 
@@ -41,86 +43,86 @@ const Gallery = () => {
           className="slides-container h-72 flex snap-x snap-mandatory overflow-hidden overflow-x-auto space-x-2 rounded scroll-smooth before:w-[45vw] before:shrink-0 after:w-[45vw] after:shrink-0 md:before:w-0 md:after:w-0"
         >
           <div
-        class="slide aspect-square h-full flex-shrink-0 snap-center rounded overflow-hidden"
+        className="slide aspect-square h-full flex-shrink-0 snap-center rounded overflow-hidden"
       >
         <img
-          class="w-full h-full object-cover"
+          className="w-full h-full object-cover"
           src={uno}
           loading="lazy"
         />
       </div>
       <div
-        class="slide aspect-square h-full flex-shrink-0 snap-center rounded overflow-hidden"
+        className="slide aspect-square h-full flex-shrink-0 snap-center rounded overflow-hidden"
       >
       <img
-      class="w-full h-full object-cover"
+      className="w-full h-full object-cover"
       src={dos}
       loading="lazy"
     />
       </div>
       <div
-        class="slide aspect-square h-full flex-shrink-0 snap-center rounded overflow-hidden"
+        className="slide aspect-square h-full flex-shrink-0 snap-center rounded overflow-hidden"
       >
       <img
-      class="w-full h-full object-cover"
+      className="w-full h-full object-cover"
       src={tres}
       loading="lazy"
     />
       </div>
       <div
-        class="slide aspect-square h-full flex-shrink-0 snap-center rounded overflow-hidden"
+        className="slide aspect-square h-full flex-shrink-0 snap-center rounded overflow-hidden"
       >
       <img
-          class="w-full h-full object-cover"
+          className="w-full h-full object-cover"
           src={cuatro}
           loading="lazy"
         />
       </div>
       <div
-        class="slide aspect-square h-full flex-shrink-0 snap-center rounded overflow-hidden"
+        className="slide aspect-square h-full flex-shrink-0 snap-center rounded overflow-hidden"
       >
       <img
-      class="w-full h-full object-cover"
+      className="w-full h-full object-cover"
       src={cinco}
       loading="lazy"
     />
       </div>
       <div
-        class="slide aspect-square h-full flex-shrink-0 snap-center rounded overflow-hidden"
+        className="slide aspect-square h-full flex-shrink-0 snap-center rounded overflow-hidden"
       >
       <img
-      class="w-full h-full object-cover"
+      className="w-full h-full object-cover"
       src={seis}
       loading="lazy"
     />
       </div>
       <div
-        class="slide aspect-square h-full flex-shrink-0 snap-center rounded overflow-hidden"
+        className="slide aspect-square h-full flex-shrink-0 snap-center rounded overflow-hidden"
       >
       <img
-      class="w-full h-full object-cover"
+      className="w-full h-full object-cover"
       src={siete}
       loading="lazy"
     />
       </div>
       <div
-        class="slide aspect-square h-full flex-shrink-0 snap-center rounded overflow-hidden"
+        className="slide aspect-square h-full flex-shrink-0 snap-center rounded overflow-hidden"
       >
       <img
-      class="w-full h-full object-cover"
+      className="w-full h-full object-cover"
       src={ocho}
       loading="lazy"
     />
       </div>
-      <div
-        class="slide aspect-square h-full flex-shrink-0 snap-center rounded overflow-hidden"
+      {/* <div
+        className="slide aspect-square h-full flex-shrink-0 snap-center rounded overflow-hidden"
       >
       <img
-      class="w-full h-full object-cover"
+      className="w-full h-full object-cover"
       src={nueve}
       loading="lazy"
     />
-      </div>
+      </div> */}
         </div>
 
         <div className="absolute top-0 -left-4 h-full items-center hidden md:flex">

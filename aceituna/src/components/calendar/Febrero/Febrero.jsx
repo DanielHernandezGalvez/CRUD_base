@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import json from "./enero.json";
+import json from "./febrero.json";
 
-export default function Calendario() {
+export default function Febrero() {
   const [day, setDay] = useState(0);
   const [selectedTaller, setSelectedTaller] = useState("");
   const [selectedHorario, setSelectedHorario] = useState("");
@@ -33,7 +33,7 @@ export default function Calendario() {
       for (let j = 0; j < 7; j++) {
         const dayCounter = i * 7 + j + 1;
 
-        if (dayCounter <= 31) {
+        if (dayCounter <= 29) {
           // Renderizar celdas con contenido hasta 31
           row.push(
             <td
@@ -67,7 +67,7 @@ export default function Calendario() {
 
     const talleresDelDia = json.actividades.filter((taller) => {
       const fechaTaller = new Date(taller.fecha);
-      const fechaComparacion = new Date(`2024/01/${dayNumber}`);
+      const fechaComparacion = new Date(`2024/02/${dayNumber}`); // revisa el mes
 
       // Compara las fechas eliminando las horas, minutos, segundos y milisegundos
       fechaTaller.setHours(0, 0, 0, 0);
@@ -81,6 +81,7 @@ export default function Calendario() {
     if (talleresDelDia.length > 0) {
       const eventosTalleres = talleresDelDia.map((taller) => taller.tipo);
       const talleresUnicos = [...new Set(eventosTalleres)];
+      console.log(talleresUnicos)
       return talleresUnicos;
     } else {
       return ["- -"];
@@ -90,7 +91,7 @@ export default function Calendario() {
   const obtenerHorariosDelTaller = () => {
     const talleresDelDia = json.actividades.filter((taller) => {
       const fechaTaller = new Date(taller.fecha);
-      const fechaComparacion = new Date(`2024/01/${day}`);
+      const fechaComparacion = new Date(`2024/02/${day}`); // revisa el mes
 
       fechaTaller.setHours(0, 0, 0, 0);
       fechaComparacion.setHours(0, 0, 0, 0);
@@ -135,13 +136,13 @@ export default function Calendario() {
         <thead className="bg-[--brown] text-white">
 
           <tr>
-            <th className="border border-[--brown] lg:p-2">Lun</th>
-            <th className="border border-[--brown] lg:p-2">Mar</th>
-            <th className="border border-[--brown] lg:p-2">Miér</th>
-            <th className="border border-[--brown] lg:p-2">Jue</th>
+          <th className="border border-[--brown] lg:p-2">Jue</th>
             <th className="border border-[--brown] lg:p-2">Vier</th>
             <th className="border border-[--brown] lg:p-2">Sáb</th>
             <th className="border border-[--brown] lg:p-1">Dom</th>
+            <th className="border border-[--brown] lg:p-2">Lun</th>
+            <th className="border border-[--brown] lg:p-2">Mar</th>
+            <th className="border border-[--brown] lg:p-2">Miér</th>
           </tr>
         </thead>
         <tbody>{renderCells()}</tbody>
@@ -198,7 +199,7 @@ export default function Calendario() {
 
       <a
         href={`https://wa.me/523313022587?text=Hola, me gustaría inscribirme al
-         taller ${selectedTaller} del ${day} de enero en el horario 
+         taller ${selectedTaller} del ${day} de febrero en el horario 
          de ${selectedHorario} hrs.`}
         target="_blank"
         className="bg-[--yellow] w-[300px] px-4 py-1 text-[--brown] m-5 mt-5 text-xl 

@@ -17,7 +17,7 @@ const Navbar = () => {
             <nav className="flex justify-center w-100 bg-[--yellow] py-10 monserrat">
                 <div className="lg:w-[80%] md:w-[60%] sm:w-[50%]">
                     <a href="#">
-                        <img className="  mt-10 " src={logo} alt="" />
+                        <img className="logo  mt-10 " src={logo} alt="" />
                     </a>
                 </div>
                 <div className="flex flex-wrap items-center justify-evenly py-4 md:py-0 px-2 text-lg text-gray-700">
