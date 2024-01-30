@@ -53,15 +53,15 @@ const TallerDos = ({ isOpenTaller2, onCloseTallerDos }) => {
                 <img className="w-80 h-80 rounded-lg shadow-md object-cover my-auto" src="https://cdn.pixabay.com/photo/2017/03/13/20/02/tyre-push-2140997_1280.jpg" alt="" />
                 <p className="text-pretty font-medium leading-loose ">
 
-                  
-                   1. Miércoles 10: de 10/11h00  <br />
+
+                  1. Miércoles 10: de 10/11h00  <br />
                   2. Jueves 11: de 10/11h00  <br />
                   3. Lunes 15: de 10/11h00 <br />
                   4. Martes 16: de 10/11h00  <br />
                   5. Lunes 22: de 10/11h00  <br />
                   6. Martes 23: de 10/11h00  <br />
                   7. Lunes 29: de 10/11h00 </p>
-             
+
               </div>
               <p className="text-sm font-medium mt-6 mb-12">Dirección: ESSENTIAL ATHLETIC CLUB, Av. Plan
                 de San Luis 1472, col. Mezquitan </p>
@@ -80,31 +80,30 @@ const TallerDos = ({ isOpenTaller2, onCloseTallerDos }) => {
                 de San Luis 1472, col. Mezquitan </p>
 
               <br /> <br />
-              <span className="text-start text-xl ">YOGA:</span> <br /> <br />
-              <p>
-                1. Miércoles 10 : de 11/12h00 en ESSENTIAL ATHLETIC CLUB, Av.
-                Plan de San Luis 1472, col. Mezquitan <br />
-                2. Jueves 11 : de 11/12h00 en ESSENTIAL ATHLETIC CLUB, Av. Plan
-                de San Luis 1472, col. Mezquitan <br />
-                3. Viernes 12 : de 11/12h00 en ESSENTIAL ATHLETIC CLUB, Av. Plan
-                de San Luis 1472, col. Mezquitan <br />
-                4. Lunes 15 : de 11/12h00 en ESSENTIAL ATHLETIC CLUB, Av. Plan
-                de San Luis 1472, col. Mezquitan <br />
-                5. Miércoles 17 : de 11/12h00 en ESSENTIAL ATHLETIC CLUB, Av.
-                Plan de San Luis 1472, col. Mezquitan <br />
-                6. Lunes 22 : de 11/12h00 en ESSENTIAL ATHLETIC CLUB, Av. Plan
-                de San Luis 1472, col. Mezquitan <br />
-                7. Miércoles 24 : de 11/12h00 en ESSENTIAL ATHLETIC CLUB, Av.
-                Plan de San Luis 1472, col. Mezquitan <br />
-                8. Viernes 26 : de 11/12h00 en ESSENTIAL ATHLETIC CLUB, Av. Plan
-                de San Luis 1472, col. Mezquitan <br />
-                9. Lunes 29 : de 11/12h00 en ESSENTIAL ATHLETIC CLUB, Av. Plan
-                de San Luis 1472, col. Mezquitan <br />
-                10. Miércoles 31 : de 11/12h00 en ESSENTIAL ATHLETIC CLUB, Av.
-                Plan de San Luis 1472, col. Mezquitan 
-                <span className="text-start text-xl ">PILATES & BARRE BAJA INTENSIDAD:</span> <br /> <br />
-                muy pronto...
-              </p>
+
+                <span className="text-start text-xl ">YOGA:</span> <br /> <br />
+              <div className="w-full flex justify-around flex-wrap-reverse">
+              <img className="w-80 h-80 rounded-lg shadow-md object-cover my-auto" src="https://cdn.pixabay.com/photo/2019/09/19/14/37/yoga-4489430_1280.jpg" alt="" />
+                <p className="text-pretty my-auto  font-medium leading-loose">
+                  1. Miércoles 10 : de 11/12h00 <br />
+                  2. Jueves 11 : de 11/12h00 <br />
+                  3. Viernes 12 : de 11/12h00 <br />
+                  4. Lunes 15 : de 11/12h00 <br />
+                  5. Miércoles 17 : de 11/12h00 <br />
+                  6. Lunes 22 : de 11/12h00 <br />
+                  7. Miércoles 24 : de 11/12h00 <br />
+                  8. Viernes 26 : de 11/12h00 <br />
+                  9. Lunes 29 : de 11/12h00 <br />
+                  10. Miércoles 31 : de 11/12h00 </p>
+                  </div>
+                  <p className="text-sm font-medium mt-6 mb-12">Dirección: ESSENTIAL ATHLETIC CLUB, Av. Plan
+                de San Luis 1472, col. Mezquitan </p>
+                  
+                  <p>
+                  <span className="text-start text-xl ">PILATES & BARRE BAJA INTENSIDAD:</span> <br /> <br />
+                  muy pronto...
+                </p>
+             
               <div className="flex  ">
                 <a
                   href="https://api.whatsapp.com/send?phone=523313022587&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20talleres%20SENTIR."
