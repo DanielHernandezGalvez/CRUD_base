@@ -18,7 +18,6 @@ import gold from "./assets/images/gold.png";
 import vip from "./assets/images/vip.png";
 import fundador from "./assets/images/fundador.png";
 import fundadora from "./assets/images/fundadora.png";
-
 import terminos from "./assets/pdf/terminos-de-uso.pdf";
 import privacidad from "./assets/pdf/aviso-de-privacidad.pdf";
 import politicas from "./assets/pdf/politicas-de-cancelacion.pdf";
