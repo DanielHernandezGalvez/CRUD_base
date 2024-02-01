@@ -45,40 +45,40 @@
         <div class="section-tours pb">
           <div class="tours">
             <div class="item pb">
-              <img src="./images/city.svg" alt="city" />
-              <p>City Tours</p>
+              <img src="./images/tour1.svg" alt="city" />
+              <!-- <p>City Tours</p> -->
             </div>
             <div class="item pb">
-              <img src="./images/forest.svg" alt="forest" />
-              <p>
+              <img src="./images/tour2.svg" alt="forest" />
+              <!-- <p>
                 North Shore <br />
                 Tours
-              </p>
+              </p> -->
             </div>
             <div class="item pb">
-              <img src="./images/house.svg" alt="house" />
-              <p>
+              <img src="./images/tour3.svg" alt="house" />
+              <!-- <p>
                 Whistler <br />
                 Tours
-              </p>
+              </p> -->
             </div>
             <div class="item">
-              <img src="./images/tours.svg" alt="tours" />
-              <p>
+              <img src="./images/tour4.svg" alt="tours" />
+              <!-- <p>
                 Tours <br />
                 Customizados
-              </p>
+              </p> -->
             </div>
             <div class="item">
-              <img src="./images/car.svg" alt="car" />
-              <p>
+              <img src="./images/tour5.svg" alt="car" />
+              <!-- <p>
                 Servicios <br />
                 de transporte
-              </p>
+              </p> -->
             </div>
             <div class="item">
-              <img src="./images/teleferico.svg" alt="teleferico" />
-              <p>Sea to <br />Sky Tours</p>
+              <img src="./images/tour6.svg" alt="teleferico" />
+              <!-- <p>Sea to <br />Sky Tours</p> -->
             </div>
           </div>
 
