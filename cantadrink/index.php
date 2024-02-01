@@ -11,6 +11,8 @@
     <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/azp7ilp.css">
     <link href="assets/dist/css/cantadrink.css" rel="stylesheet">
+     <!-- Icon -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   </head>
 
   <body>
@@ -29,9 +31,13 @@
       </div>
     </header>
 
+    <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hello%21%20I%20would%20like%20more%20information."
+    class="float2" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i>
+</a>
     <div  class="float">
-      <a href="/spanish.html">ES</a>
-  </div>
+    <a href="/spanish.html">ES</a>
+</div>
 
     <div id="cantadrink" class="container-fluid px-0 py-5">
       <div class="container col-xxl-8 px-4 py-0">
@@ -73,7 +79,7 @@
           <div class="col-md-6">
             <h3>This is<br/>our product</h3>
             <p class="mb-3">Cantarito ﬂavor premixed alcoholic drink.</p>
-            <img src="./assets/img/ingredients-cantadrink.png" class="d-block mx-lg-auto img-fluid" loading="lazy">
+            <img src="./assets/img/ingredientes-en.png" class="d-block mx-lg-auto img-fluid" loading="lazy">
           </div>
           <div class="col-md-6">
             <img src="./assets/img/mexican-coctel-cantadrink.png" class="d-block mx-lg-auto img-fluid" loading="lazy">
@@ -106,10 +112,11 @@
             <h5 class="mb-1 align-center">Find Us</h5>
             <p><img src="./assets/img/hr.png" class="d-block mx-lg-auto img-fluid" loading="lazy"></p>
             <p class="mb-5 align-center">Here is where you can buy Canradrink®</p>
-            <img src="./assets/img/amazon.png" class="find" loading="lazy">
-            <img src="./assets/img/mercado-libre.png" class="find" loading="lazy">
+            <img src="./assets/img/liverpool.png" class="find" loading="lazy">
+            <a href="https://tienda.mercadolibre.com.mx/cantadrink" target="_blank"><img src="./assets/img/mercado-libre.png" class="find" loading="lazy"></a>
             <img src="./assets/img/la-europea.png" class="find" loading="lazy">
-            <img src="./assets/img/la-favorita.png" class="find" loading="lazy">
+            <!-- <img src="./assets/img/la-favorita.png" class="find" loading="lazy"> -->
+            <img src="./assets/img/gomart.png" class="find ms-3" loading="lazy">
           </div>
         </div>
       </div>
@@ -120,19 +127,27 @@
         <div class="row align-items-center g-5 py-5">
           <div class="col-md-6">
             <h6>Contact</h6>
-            <script type="text/javascript" src="https://form.jotform.com/jsform/230915617081050"></script>
-            <!--<div class="mb-3">
-              <input class="form-control mb-2" type="text" placeholder="Name" aria-label="name">
-              <input type="email" class="form-control mb-2" id="email" placeholder="Email">
-              <textarea class="form-control mb-2" id="description" placeholder="Description" rows="3"></textarea>
+            <!-- <script type="text/javascript" src="https://form.jotform.com/jsform/230915617081050"></script> -->
+            <form action="form.php" method="post" class="mb-3">
+              <input class="form-control mb-2" type="text" name="name" placeholder="Name" aria-label="name">
+              <input type="email" class="form-control mb-2" name="email" id="email" placeholder="Email">
+              <textarea class="form-control mb-2" id="description" name="message" placeholder="Message" rows="3"></textarea>
               <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                <a href="#" class="btn btn-green">SEND</a>
+                <input type="submit" class="btn btn-green" value="SUBMIT" />
               </div>
-            </div>-->
+            </form>
           </div>
           <div class="col-md-6">
             <img src="./assets/img/follow-us.png" class="d-block mx-lg-auto img-fluid" loading="lazy">
-            <p class="text-center"><a href="https://www.facebook.com/cantadrinkcantaritos/" target="_blank"><img src="./assets/img/facebook.png"></a> <a href="https://www.instagram.com/cantadrink/" target="_blank"><img src="./assets/img/instagram.png"></a> <a href="#"><img src="./assets/img/tiktok.png"></a></p>
+            <p class="text-center">
+              <a href="https://www.facebook.com/cantadrinkcantaritos/" target="_blank">
+                <img src="./assets/img/facebook.png"></a> 
+              <a href="https://www.instagram.com/cantadrink/" target="_blank">
+                <img src="./assets/img/instagram.png"></a> 
+              <a href="https://www.tiktok.com/@cantadrinkcantari" target="_blank">
+                <img src="./assets/img/tiktok.png">
+              </a>
+            </p>
           </div>
         </div>
       </div>
