@@ -22,14 +22,20 @@ if (empty($nombre) || empty($email) || empty($mensaje)) {
 
   if (mail($destinatario, $asunto, $cuerpo, $headers)) {
     $success = "¡Formulario enviado exitosamente!";
+    header("Location: index.php");
   } else {
     $error = "Error al enviar el correo electrónico.";
+    // Alert
+    header("Location: index.php");
+    echo "<script>alert('$error');</script>";
   }
 }
 
 // Mostrar mensaje de error o éxito
 if (isset($error)) {
   echo "<p class='error'>$error</p>";
+  header("Location: index.php");
+  echo "<script>alert('$error');</script>";
 } else if (isset($success)) {
   echo "<p class='success'>$success</p>";
 }

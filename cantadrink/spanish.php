@@ -37,7 +37,7 @@
     <i class="fa fa-whatsapp my-float"></i>
 </a>
     <div  class="float">
-    <a href="/index.html">EN</a>
+    <a href="/index.php">EN</a>
 </div>
 
     <div id="cantadrink" class="container-fluid px-0 py-5">
@@ -48,7 +48,7 @@
             <p class="mb-3">Una bebida con el sabor de un cantarito de Tequila, Jalisco.<br/>
                 Experimenta la alegría de un cantarito tradicional en cualquier lugar, mientras te unes y te diviertes con tus amigos.</p>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-              <a href="https://tienda.mercadolibre.com.mx/cantadrink" class="btn btn-green">Comprar</a>
+              <a href="https://tienda.mercadolibre.com.mx/cantadrink" target="_blank" class="btn btn-green">Comprar</a>
             </div>
           </div>
           <div class="col-md-6">
@@ -69,7 +69,7 @@
             <p class="mb-3">Este cóctel nació en la Revolución Mexicana, con el fin de saciar la sed de las fatigadas tropas revolucionarias.<br/>
                 Cantadrink® es una bebida fresca, natural y divertida, al igual que la personalidad de un mexicano.</p>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-              <a href="https://tienda.mercadolibre.com.mx/cantadrink" class="btn btn-orange">COMPRAR</a>
+              <a href="https://tienda.mercadolibre.com.mx/cantadrink" target="_blank" class="btn btn-orange">COMPRAR</a>
             </div>
           </div>
         </div>
@@ -132,8 +132,8 @@
             <h6>Contacto</h6>
             <!-- <script type="text/javascript" src="https://form.jotform.com/jsform/230915617081050"></script> -->
             <form action="form.php" method="post" class="mb-3">
-              <input class="form-control mb-2" type="text" name="name" placeholder="Nombre" aria-label="name">
-              <input type="email" class="form-control mb-2" name="email" id="email" placeholder="Correo">
+              <input class="form-control mb-2" type="text" name="name" placeholder="Nombre" aria-label="name" require>
+              <input type="email" class="form-control mb-2" name="email" id="email" placeholder="Correo" require>
               <textarea class="form-control mb-2" id="description" name="message" placeholder="Mensaje" rows="3"></textarea>
               <div class="d-grid gap-2 d-md-flex justify-content-md-start">
                 <input type="submit" class="btn btn-green" value="ENVIAR" />

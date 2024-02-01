@@ -36,7 +36,7 @@
     <i class="fa fa-whatsapp my-float"></i>
 </a>
     <div  class="float">
-    <a href="/spanish.html">ES</a>
+    <a href="/spanish.php">ES</a>
 </div>
 
     <div id="cantadrink" class="container-fluid px-0 py-5">
@@ -46,7 +46,7 @@
             <h1>This is CANTADRINK<span>®</span></h1>
             <p class="mb-3">A drink with the flavor of a cantarito from Tequila, Jalisco.<br/>Experience the joy of a traditional cantarito in any place, while bonding and having fun with your friends.</p>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-              <a href="https://tienda.mercadolibre.com.mx/cantadrink" class="btn btn-green">Shop</a>
+              <a href="https://tienda.mercadolibre.com.mx/cantadrink" target="_blank" class="btn btn-green">Shop</a>
             </div>
           </div>
           <div class="col-md-6">
@@ -66,7 +66,7 @@
             <h2>The History</h2>
             <p class="mb-3">This cocktail was born in the Mexican Revolution, in order to quench the thirst of the tired revolutionary troops.<br/>Cantadrink® a fresh, natural and fun drink like the personality of a mexican.</p>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-              <a href="https://tienda.mercadolibre.com.mx/cantadrink" class="btn btn-orange">SHOP</a>
+              <a href="https://tienda.mercadolibre.com.mx/cantadrink" target="_blank" class="btn btn-orange">SHOP</a>
             </div>
           </div>
         </div>
@@ -129,8 +129,8 @@
             <h6>Contact</h6>
             <!-- <script type="text/javascript" src="https://form.jotform.com/jsform/230915617081050"></script> -->
             <form action="form.php" method="post" class="mb-3">
-              <input class="form-control mb-2" type="text" name="name" placeholder="Name" aria-label="name">
-              <input type="email" class="form-control mb-2" name="email" id="email" placeholder="Email">
+              <input class="form-control mb-2" type="text" name="name" placeholder="Name" aria-label="name" require>
+              <input type="email" class="form-control mb-2" name="email" id="email" placeholder="Email" require>
               <textarea class="form-control mb-2" id="description" name="message" placeholder="Message" rows="3"></textarea>
               <div class="d-grid gap-2 d-md-flex justify-content-md-start">
                 <input type="submit" class="btn btn-green" value="SUBMIT" />
