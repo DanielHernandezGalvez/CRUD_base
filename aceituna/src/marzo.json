@@ -1,0 +1,16 @@
+{
+    "mes": "febrero",
+    "año": 2024,
+    "actividades": [
+        {
+            "tipo": "BIENESTAR PERSONAL: ¿Cómo reconciliarme con mi cuerpo?",
+            "fecha": "2024/03/02",
+            "horario": "11:00-13:00"
+        },
+        {
+            "tipo": "FUNCIONAL",
+            "fecha": "2024/02/05",
+            "horario": "10:00-11:00"
+        }
+    ]
+}
