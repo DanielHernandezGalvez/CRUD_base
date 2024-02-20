@@ -8,9 +8,19 @@
             "horario": "11:00-13:00"
         },
         {
+            "tipo": "POWER ",
+            "fecha": "2024/03/04",
+            "horario": "09:00-11:00"
+        },
+        {
             "tipo": "FUNCIONAL",
-            "fecha": "2024/02/05",
+            "fecha": "2024/03/04",
             "horario": "10:00-11:00"
+        },
+        {
+            "tipo": "TALLER HISTORIA: Conflicto israeli/palestina",
+            "fecha": "2024/03/04",
+            "horario": "11:00-13:00"
         }
     ]
 }
