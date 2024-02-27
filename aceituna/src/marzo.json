@@ -43,7 +43,7 @@
             "horario": "08:00-09:00"
         },
         {
-            "tipo": "FUNCIONAL",
+            "tipo": "POWER",
             "fecha": "2024/03/06",
             "horario": "09:00-11:00"
         },
@@ -65,7 +65,7 @@
         {
             "tipo": "TALLER FENG SHUI",
             "fecha": "2024/03/07",
-            "horario": "19:00"
+            "horario": "16:00-18:00"
         },
         {
             "tipo": "BIENESTAR PERSONAL",
@@ -296,111 +296,6 @@
             "tipo": "TALLER DE COCINA",
             "fecha": "2024/03/27",
             "horario": "17:00"
-        }
-    ]
-}{
-    "mes": "febrero",
-    "año": 2024,
-    "actividades": [
-        {
-            "tipo": "BIENESTAR PERSONAL",
-            "fecha": "2024/03/02",
-            "horario": "11:00-13:00"
-        },
-        {
-            "tipo": "POWER ",
-            "fecha": "2024/03/04",
-            "horario": "09:00-11:00"
-        },
-        {
-            "tipo": "FUNCIONAL",
-            "fecha": "2024/03/04",
-            "horario": "10:00-11:00"
-        },
-        {
-            "tipo": "TALLER HISTORIA",
-            "fecha": "2024/03/04",
-            "horario": "11:00-13:00"
-        },
-        {
-            "tipo": "YOGA",
-            "fecha": "2024/03/05",
-            "horario": "08:00-9:00"
-        },
-        {
-            "tipo": "POWER",
-            "fecha": "2024/03/05",
-            "horario": "09:00-11:00"
-        },
-        {
-            "tipo": "FUNCIONAL",
-            "fecha": "2024/03/05",
-            "horario": "10:00-11:00"
-        },
-        {
-            "tipo": "YOGA",
-            "fecha": "2024/03/06",
-            "horario": "08:00-09:00"
-        },
-        {
-            "tipo": "FUNCIONAL",
-            "fecha": "2024/03/06",
-            "horario": "09:00-11:00"
-        },
-        {
-            "tipo": "TALLER FINANZAS",
-            "fecha": "2024/03/06",
-            "horario": "16:00"
-        },
-        {
-            "tipo": "CATA VINOS",
-            "fecha": "2024/03/06",
-            "horario": "19:00-20:30"
-        },
-        {
-            "tipo": "PINTURA",
-            "fecha": "2024/03/07",
-            "horario": "10:00-13:00"
-        },
-        {
-            "tipo": "TALLER FENG SHUI",
-            "fecha": "2024/03/07",
-            "horario": "19:00"
-        },
-        {
-            "tipo": "BIENESTAR PERSONAL",
-            "fecha": "2024/03/07",
-            "horario": "19:00"
-        },
-        {
-            "tipo": "DEFENSA PERSONAL",
-            "fecha": "2024/03/08",
-            "horario": "17:00-18:00"
-        },
-        {
-            "tipo": "BIENESTAR PERSONAL",
-            "fecha": "2024/03/09",
-            "horario": "11:00-13:00"
-        },
-        {
-            "tipo": "CINE Doble indemnity 1944",
-            "fecha": "2024/03/10",
-            "horario": "14:00-17:00"
-        },
-        {
-            "tipo": "POWER",
-            "fecha": "2024/03/11",
-            "horario": "09:00-11:00"
-        },
-        {
-            "tipo": "FUNCIONAL",
-            "fecha": "2024/03/11",
-            "horario": "10:00-11:00"
-        },
-        {
-            "tipo": "MEDITACIÓN CUÁNTICA",
-            "fecha": "2024/03/11",
-            "horario": "11:00-12:00"
         }
     ]
 }
