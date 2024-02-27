@@ -101,6 +101,306 @@
             "tipo": "MEDITACIÓN CUÁNTICA",
             "fecha": "2024/03/11",
             "horario": "11:00-12:00"
+        },
+        {
+            "tipo":"YOGA",
+            "fecha": "2024/03/12",
+            "horario": "08:00-09:00"
+        },
+        {
+            "tipo": "POWER",
+            "fecha": "2024/03/12",
+            "horario": "09:00-11:00"
+        },
+        {
+            "tipo": "FUNCIONAL",
+            "fecha": "2024/03/12",
+            "horario": "10:00-11:00"
+        },
+        {
+            "tipo": "TALLER HISTORIA DEL ARTE",
+            "fecha": "2024/03/12",
+            "horario": "18:00"
+        },
+        {
+            "tipo": "YOGA",
+            "fecha": "2024/03/13",
+            "horario": "08:00-09:00"
+        },
+        {
+            "tipo": "POWER",
+            "fecha": "2024/03/13",
+            "horario": "09:00-11:00"
+        },
+        {
+            "tipo": "TALLER DE HISTORIA",
+            "fecha": "2024/03/13",
+            "horario": "11:00"
+        },
+        {
+            "tipo": "ESTILO PERSONAL PARA CABALLEROS",
+            "fecha": "2024/03/13",
+            "horario": "18:00-19:30"
+        },
+        {
+            "tipo": "PINTURA",
+            "fecha": "2024/03/14",
+            "horario": "10:00-13:00"
+        },
+        {
+            "tipo": "TALLER DE FILOSOFÍA",
+            "fecha": "2024/03/14",
+            "horario": "19:30-20:30"
+        },
+        {
+            "tipo": "DEFENSA PERSONAL",
+            "fecha": "2024/03/15",
+            "horario": "17:00-18:00"
+        },
+        {
+            "tipo": "CINE North by Northwest 1959",
+            "fecha": "2024/03/15",
+            "horario": "18:30-20:30"
+        },
+        {
+            "tipo": "ESTILO PERSONAL PARA DAMAS",
+            "fecha": "2024/03/16",
+            "horario": "11:00-13:00"
+        },
+        {
+            "tipo": "CINE Laura 1944",
+            "fecha": "2024/03/17",
+            "horario": "14:00-17:00"
+        },
+        {
+            "tipo": "POWER",
+            "fecha": "2024/03/18",
+            "horario": "09:00-11:00"
+        },
+        {
+            "tipo": "FUNCIONAL",
+            "fecha": "2024/03/18",
+            "horario": "10:00-11:00"
+        },
+        {
+            "tipo": "YOGA",
+            "fecha": "2024/03/19",
+            "horario": "08:00-09:00"
+        },
+        {
+            "tipo": "POWER",
+            "fecha": "2024/03/19",
+            "horario": "09:00-11:00"
+        },
+        {
+            "tipo": "FUNCIONAL",
+            "fecha": "2024/03/19",
+            "horario": "10:00-11:00"
+        },
+        {
+            "tipo": "TALLER FENG SHUI",
+            "fecha": "2024/03/19",
+            "horario": "18:00-19:30"
+        },
+        {
+           "tipo": "YOGA",
+           "fecha": "2024/03/20",
+           "horario": "08:00-09:00" 
+        },
+        {
+            "tipo": "POWER",
+            "fecha": "2024/03/20",
+            "horario": "09:00-11:00"
+        },
+        {
+            "tipo": "MEDITACIÓN CUÁNTICA",
+            "fecha": "2024/03/20",
+            "horario": "11:00-12:00"
+        },
+        {
+            "tipo": "FINANZAS",
+            "fecha": "2024/03/20",
+            "horario": "16:00"
+        },
+        {
+            "tipo": "CATA VINOS",
+            "fecha": "2024/03/20",
+            "horario": "19:00"
+        },
+        {
+            "tipo":  "BIENESTAR PERSONAL",
+            "fecha": "2024/03/21",
+            "horario": "19:00-20:30"
+        },
+        {
+            "tipo": "TALLER DE FILOSOFÍA",
+            "fecha": "2024/03/21",
+            "horario": "19:30-20:30"
+        },
+        {
+            "tipo": "DEFENSA PERSONAL",
+            "fecha": "2024/03/22",
+            "horario": "17:00-18:00"
+        },
+        {
+            "tipo": "ESTILO PERSONAL PARA DAMAS",
+            "fecha": "2024/03/23",
+            "horario": "11:00-12:30"
+        },
+        {
+            "tipo": "BIENESTAR PERSONAL",
+            "fecha": "2024/03/23",
+            "horario": "13:00-14:30"
+        },
+        {
+            "tipo": "CINE Vértigo 1958",
+            "fecha": "2024/03/24",
+            "horario": "14:00-17:00"
+        },
+        {
+            "tipo": "POWER",
+            "fecha": "2024/03/25",
+            "horario": "09:00-11:00"
+        },
+        {
+            "tipo": "FUNCIONAL",
+            "fecha": "2024/03/25",
+            "horario": "10:00-11:00"
+        },
+        {
+            "tipo": "YOGA",
+            "fecha": "2024/03/26",
+            "horario": "08:00-09:00"
+        },
+        {
+            "tipo": "POWER",
+            "fecha": "2024/03/26",
+            "horario": "09:00-11:00"
+        },
+        {
+            "tipo": "FUNCIONAL",
+            "fecha": "2024/03/26",
+            "horario": "10:00-11:00"
+        },
+        {
+            "tipo": "YOGA",
+            "fecha": "2024/03/27",
+            "horario": "08:00-09:00"
+        },
+        {
+            "tipo": "POWER",
+            "fecha": "2024/03/27",
+            "horario": "09:00-11:00"
+        },
+        {
+            "tipo": "TALLER DE COCINA",
+            "fecha": "2024/03/27",
+            "horario": "17:00"
+        }
+    ]
+}{
+    "mes": "febrero",
+    "año": 2024,
+    "actividades": [
+        {
+            "tipo": "BIENESTAR PERSONAL",
+            "fecha": "2024/03/02",
+            "horario": "11:00-13:00"
+        },
+        {
+            "tipo": "POWER ",
+            "fecha": "2024/03/04",
+            "horario": "09:00-11:00"
+        },
+        {
+            "tipo": "FUNCIONAL",
+            "fecha": "2024/03/04",
+            "horario": "10:00-11:00"
+        },
+        {
+            "tipo": "TALLER HISTORIA",
+            "fecha": "2024/03/04",
+            "horario": "11:00-13:00"
+        },
+        {
+            "tipo": "YOGA",
+            "fecha": "2024/03/05",
+            "horario": "08:00-9:00"
+        },
+        {
+            "tipo": "POWER",
+            "fecha": "2024/03/05",
+            "horario": "09:00-11:00"
+        },
+        {
+            "tipo": "FUNCIONAL",
+            "fecha": "2024/03/05",
+            "horario": "10:00-11:00"
+        },
+        {
+            "tipo": "YOGA",
+            "fecha": "2024/03/06",
+            "horario": "08:00-09:00"
+        },
+        {
+            "tipo": "FUNCIONAL",
+            "fecha": "2024/03/06",
+            "horario": "09:00-11:00"
+        },
+        {
+            "tipo": "TALLER FINANZAS",
+            "fecha": "2024/03/06",
+            "horario": "16:00"
+        },
+        {
+            "tipo": "CATA VINOS",
+            "fecha": "2024/03/06",
+            "horario": "19:00-20:30"
+        },
+        {
+            "tipo": "PINTURA",
+            "fecha": "2024/03/07",
+            "horario": "10:00-13:00"
+        },
+        {
+            "tipo": "TALLER FENG SHUI",
+            "fecha": "2024/03/07",
+            "horario": "19:00"
+        },
+        {
+            "tipo": "BIENESTAR PERSONAL",
+            "fecha": "2024/03/07",
+            "horario": "19:00"
+        },
+        {
+            "tipo": "DEFENSA PERSONAL",
+            "fecha": "2024/03/08",
+            "horario": "17:00-18:00"
+        },
+        {
+            "tipo": "BIENESTAR PERSONAL",
+            "fecha": "2024/03/09",
+            "horario": "11:00-13:00"
+        },
+        {
+            "tipo": "CINE Doble indemnity 1944",
+            "fecha": "2024/03/10",
+            "horario": "14:00-17:00"
+        },
+        {
+            "tipo": "POWER",
+            "fecha": "2024/03/11",
+            "horario": "09:00-11:00"
+        },
+        {
+            "tipo": "FUNCIONAL",
+            "fecha": "2024/03/11",
+            "horario": "10:00-11:00"
+        },
+        {
+            "tipo": "MEDITACIÓN CUÁNTICA",
+            "fecha": "2024/03/11",
+            "horario": "11:00-12:00"
         }
     ]
 }
