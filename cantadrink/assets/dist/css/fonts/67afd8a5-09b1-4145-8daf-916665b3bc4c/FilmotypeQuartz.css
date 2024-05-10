@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'FilmotypeQuartz';
-    src: url('fonts/FilmotypeQuartz.eot');
-    src: url('fonts/FilmotypeQuartz.eot?#iefix') format('embedded-opentype'),
-         url('fonts/FilmotypeQuartz.woff2') format('woff2'),
-         url('fonts/FilmotypeQuartz.woff') format('woff'),
-         url('fonts/FilmotypeQuartz.ttf')  format('truetype'),
-         url('fonts/FilmotypeQuartz.svg#FilmotypeQuartz') format('svg');
-}
