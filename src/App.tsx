@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet"
 import Header from "./components/Header/Header"
-import Carousel from "./components/Carousel/Carousel"
+import Categoríes from "./components/Categories/Categoríes"
 
 
 function App() {
@@ -14,6 +14,7 @@ function App() {
           <link rel="canonical" href="http://mysite.com/example" />
         </Helmet>
         <Header />
+       <Categoríes />
         {/* <Carousel /> */}
       </>
   )
