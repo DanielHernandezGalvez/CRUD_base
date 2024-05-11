@@ -6,7 +6,7 @@ import departamento from "../../assets/img/departamento.jpg"
 
 const Categoríes = () => {
     return (
-        <div className="px-[15%]">
+        <div className="px-[15%] ">
             <h1 className="text-2xl font-bold text-center text-gray-800">¿Qué es lo que buscas?</h1>
             <div className="flex justify-between items-center flex-wrap my-6">
                 <img className="w-[16vw]  xs:w-[80vw] min-w-[200px] h-[36vh] object-cover rounded-3xl" src={casas} alt="casas" />
