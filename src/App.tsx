@@ -3,16 +3,15 @@ import Header from "./components/Header/Header"
 import Categoríes from "./components/Categories/Categoríes"
 import Spacing from "./components/spacing/Spacing"
 
-
 function App() {
 
   return (
     <>
-        <Helmet>
+      <Helmet>
           <meta charSet="utf-8" />
           <title>Holis</title>
           <link rel="canonical" href="http://mysite.com/example" />
-        </Helmet>
+       </Helmet>
         <Header />
         <Spacing />
        <Categoríes />
