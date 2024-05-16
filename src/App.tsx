@@ -8,7 +8,6 @@ function App() {
 
   return (
     <>
-      
         <Helmet>
           <meta charSet="utf-8" />
           <title>Holis</title>
@@ -17,7 +16,6 @@ function App() {
         <Header />
         <Spacing />
        <Categoríes />
-        {/* <Carousel /> */}
       </>
   )
 }
