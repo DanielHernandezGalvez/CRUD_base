@@ -6,7 +6,7 @@ import { faEnvelope as faSolidEnvelope } from '@fortawesome/free-solid-svg-icons
 
 const Header = () => {
   return (
-    <header className='px-[5%] '>
+    <header className='px-[5%]'>
       <NavBar />
       <div className='flex flex-wrap h-96'>
         <div className='w-1/2  flex justify-center  md:flex-col '>
