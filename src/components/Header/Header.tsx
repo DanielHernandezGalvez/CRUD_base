@@ -25,7 +25,6 @@ const Header = () => {
           
           {/* iconos */}
           <div className='mt-6'>
-            <FontAwesomeIcon icon={faFacebook} className='bg-gray-800 text-xl rounded-full mr-3 p-1 text-white transition hover:scale-110' />
             <FontAwesomeIcon icon={faInstagram} className='bg-gray-800 text-xl mr-3 rounded-full p-1 text-white transition hover:scale-110' />
             <FontAwesomeIcon icon={faSolidEnvelope} className='bg-gray-800 text-xl  rounded-full p-1 text-white transition hover:scale-110' />
           </div>
