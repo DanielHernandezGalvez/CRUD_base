@@ -12,8 +12,7 @@ const Dropdown = () => {
       <button
         onClick={toggleDropdown}
         className="inline-flex justify-center w-full font-medium
-        text-gray-600  "
-          
+        text-gray-600"
       >
         Dropdown
         <svg
