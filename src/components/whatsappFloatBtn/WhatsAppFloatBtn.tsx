@@ -3,9 +3,8 @@ import { faWhatsapp } from "@fortawesome/free-brands-svg-icons"
 
 const WhatsAppFloatBtn = () => {
     return (
-        <a>
+        <a href="https://wa.whatsapp.com/">
             <FontAwesomeIcon icon={faWhatsapp} className='bg-gray-800 rounded-full p-1 text-white' />
-
         </a>
     )
 }
