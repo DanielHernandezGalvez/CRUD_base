@@ -8,10 +8,10 @@ const TransactionItem = ({ transaction }) => {
             <p className="text-sm">{transaction.description}</p>
             <div>
                 <span>$ {transaction.amount}</span>
-                <button onClick={() => {
+                <button className="py-0 ms-3 font-bold px-2 bg-red-700 rounded-full text-white" onClick={() => {
                     deleteTransaction(transaction.id)
                 }}>
-                    x
+                    X
                 </button>
             </div>
         </li>

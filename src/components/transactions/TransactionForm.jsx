@@ -15,7 +15,8 @@ const TransactionForm = () => {
         description,
         amount: +amount // asi lo convierte a número
       })
-    console.log(id, description, amount)
+      setAmount("")
+      setDescription("")
   }
 
   return (
@@ -26,6 +27,7 @@ const TransactionForm = () => {
           type="text"
           onChange={(e) => setDescription(e.target.value)}
           placeholder='descripcion'
+          value={description}
         />
         <input
           className='bg-zinc-600 text-white px-3 py-2 rounded-lg block mb-2 w-full'
@@ -33,6 +35,7 @@ const TransactionForm = () => {
           onChange={(e) => setAmount(e.target.value)}
           step={0.5}
           placeholder='00.00'
+          value={amount}
         />
         <button
           className='bg-indigo-700 text-white px-3 py-2 rounded-lg block mb-2 w-full'>
