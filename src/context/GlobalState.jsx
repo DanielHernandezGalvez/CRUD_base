@@ -1,4 +1,4 @@
-import { Children, createContext, useContext, useReducer} from "react";
+import { Children, createContext, useContext, useReducer } from "react";
 import AppReducer from "./AppReducer";
 
 const initialState = {
@@ -13,10 +13,27 @@ export const useGlobalState = () => {
 }
 
 export const GlobalProvider = ({ children }) => {
-    const [state, setState] = useReducer( AppReducer, initialState)
+    const [state, dispatch] = useReducer(AppReducer, initialState)
+
+    const addTransaction = (transaction) => {
+        dispatch({
+            type: "ADD_TRANSACTION",
+            payload: transaction
+        })
+        console.log("add transaction")
+    }
+
+    const deleteTransaction = (id) => {
+        dispatch({
+            type: "DELETE_TRANSACTION",
+            payload: id
+        })
+        console.log("add transaction")
+    }
+
     return (
 
-        <Context.Provider value={{ total: 100 }}>
+        <Context.Provider value={{ transactions: state.transactions, addTransaction, deleteTransaction }}>
             {children}
         </Context.Provider>
     )
