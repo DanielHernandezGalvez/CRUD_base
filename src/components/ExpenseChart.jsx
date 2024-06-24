@@ -5,17 +5,12 @@ const ExpenseChart = () => {
   const { transactions } = useGlobalState()
 
   const total = transactions.reduce((acc, transaction) => (acc += transaction.amount), 0)
-
   const totalIncome = transactions.filter(transaction => transaction.amount > 0)
     .reduce((acc, transaction) => (acc += transaction.amount), 0)
-
   const totalExpense = transactions.filter(transaction => transaction.amount < 0)
     .reduce((acc, transaction) => (acc += transaction.amount), 0) * -1
-
   const totalExpensesPercentage = Math.round((totalExpense / totalIncome) * 100)
-
   const totalIncomePercentage = 100 - totalExpensesPercentage
-
 
   return (
     <VictoryPie
