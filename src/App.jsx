@@ -17,10 +17,8 @@ const App = () => {
               <IncomeExpenses />
               <Balance />
               <TransactionForm />
-
             </div>
             <div className='flex flex-col flex-1 overflow-y-auto scrollbar-hide'>
-              {/* <ExpenseChart /> */}
               <TransactionList />
             </div>
           </div>
