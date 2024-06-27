@@ -13,7 +13,7 @@ const TransactionForm = () => {
       {
         id: window.crypto.randomUUID(),
         description,
-        amount: +amount // asi lo convierte a número
+        amount: +amount // another way to become to number
       })
       setAmount("")
       setDescription("")
