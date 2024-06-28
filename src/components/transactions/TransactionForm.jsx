@@ -8,15 +8,20 @@ const TransactionForm = () => {
   let id = ""
 
   const onSubmit = (e) => {
-    e.preventDefault()
-    addTransaction(
-      {
-        id: window.crypto.randomUUID(),
-        description,
-        amount: +amount // another way to become to number
-      })
-      setAmount("")
-      setDescription("")
+    e.preventDefault() // Prevents default form submission behavior
+
+    // Generate a unique ID using window.crypto.randomUUID() (if available)
+    const newId = window.crypto?.randomUUID() || Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15)
+
+    addTransaction({ // Calls the addTransaction function with transaction details
+      id: newId,
+      description,
+      amount: +amount, // Converts amount string to a number
+    })
+
+    // Reset form fields after successful submission
+    setAmount('')
+    setDescription('')
   }
 
   return (
